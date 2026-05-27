@@ -23,22 +23,10 @@ function patchTailwindResolver(): void {
 
 	let text = readFileSync(resolverFile, 'utf8');
 	const replacements: Array<[string, string]> = [
-		[
-			'conditionNames:["style"],modules:De});async function ii',
-			'conditionNames:["style"],modules:De,symlinks:!1});async function ii',
-		],
-		[
-			'conditionNames:["style"],modules:Le});async function nn',
-			'conditionNames:["style"],modules:Le,symlinks:!1});async function nn',
-		],
-		[
-			'conditionNames:["node","import"],modules:De}),oi',
-			'conditionNames:["node","import"],modules:De,symlinks:!1}),oi',
-		],
-		[
-			'conditionNames:["node","import"],modules:Le}),ln',
-			'conditionNames:["node","import"],modules:Le,symlinks:!1}),ln',
-		],
+		['conditionNames:["style"],modules:De});async function ii', 'conditionNames:["style"],modules:De,symlinks:!1});async function ii'],
+		['conditionNames:["style"],modules:Le});async function nn', 'conditionNames:["style"],modules:Le,symlinks:!1});async function nn'],
+		['conditionNames:["node","import"],modules:De}),oi', 'conditionNames:["node","import"],modules:De,symlinks:!1}),oi'],
+		['conditionNames:["node","import"],modules:Le}),ln', 'conditionNames:["node","import"],modules:Le,symlinks:!1}),ln'],
 		[
 			'conditionNames:["node","require"],modules:De});async function Ct',
 			'conditionNames:["node","require"],modules:De,symlinks:!1});async function Ct',
@@ -68,10 +56,7 @@ async function getProcessors() {
 	patchTailwindResolver();
 
 	if (!_postcss || !_tailwindcss) {
-		const [postcssModule, tailwindModule] = await Promise.all([
-			import('postcss'),
-			import('@tailwindcss/postcss'),
-		]);
+		const [postcssModule, tailwindModule] = await Promise.all([import('postcss'), import('@tailwindcss/postcss')]);
 		_postcss = postcssModule.default;
 		_tailwindcss = tailwindModule.default;
 	}
