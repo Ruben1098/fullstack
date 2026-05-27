@@ -1,0 +1,721 @@
+{
+	"slug": "limiti-notevoli-tabella-formule",
+	"title": "Limiti Notevoli: Tabella Completa, Formule e Esempi",
+	"excerpt": "La guida definitiva ai Limiti Notevoli: tabella riassuntiva (trigonometrici, esponenziali, logaritmici), spiegazione del metodo di generalizzazione ed esercizi svolti.",
+	"category": "lezioni",
+	"school": "liceo",
+	"class": "5",
+	"course": "analisi-1",
+	"argument": "limiti",
+	"featuredImage": "/limiti_notevoli_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Limiti Notevoli: Tabella Completa e Metodo di Risoluzione]\n:P[Cosa sono i Limiti Notevoli? I limiti notevoli sono limiti specifici, solitamente forme indeterminate ]:MathML[\\frac{0}{0}]:P[ oppure ]:MathML[1^\\infty]:P[, di cui già si conosce il loro risultato. Sono delle \"formule già pronte\" che possiamo usare come dei mattoncini. Basta soltanto capire come riconoscere ed utilizzare questi mattoncini!]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella dei Limiti Notevoli"
+			},
+			"Questa tabella riassume tutti i limiti notevoli utili per risolvere gli esercizi."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		[
+			{
+				"name": "Slide",
+				"type": "open"
+			},
+			[
+				{
+					"name": "Box",
+					"type": "open",
+					"props": {
+						"className": "pt-0 pb-3",
+						"variant": "intro"
+					}
+				},
+				[
+					{
+						"name": "Table",
+						"type": "open",
+						"props": {
+							"className": "mt-7"
+						}
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Funzione",
+						{
+							"name": "P",
+							"type": "close"
+						},
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Limite Notevole",
+						{
+							"name": "P",
+							"type": "close"
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Table",
+						"type": "close"
+					},
+					"::YSeparator[]{className='my-4'}",
+					{
+						"name": "Table",
+						"type": "open"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Seno",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Tangente",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{\\tan x}{x} = 1",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Coseno (1)",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{1 - \\cos x}{x} = 0",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Coseno (2)",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2} = \\frac{1}{2}",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Nepero",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to \\infty} (1 + \\frac{1}{x}) ^x = e",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Esponenziale (base e)",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Esponenziale (base a)",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Logaritmo",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x} = 1",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Binomiale",
+							"props": {
+								"className": "text-xl"
+							}
+						},
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to 0} \\frac{(1+x)^k - 1}{x} = k",
+							"props": {
+								"className": "text-xl"
+							}
+						}
+					],
+					{
+						"name": "Row",
+						"type": "close"
+					},
+					{
+						"name": "Table",
+						"type": "close"
+					},
+					{
+						"name": "Table",
+						"type": "open"
+					}
+				],
+				{
+					"name": "Box",
+					"type": "close"
+				}
+			],
+			{
+				"name": "Slide",
+				"type": "close"
+			}
+		],
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Come applicare i limiti notevoli"
+			},
+			"Ora che abbiamo visto la tabella dei limiti notevoli, vediamo come usarli per risolvere gli esercizi.",
+			"[[br]]",
+			"[[br]]",
+			"Tuttavia, i limiti notevoli non si possono applicare in modo diretto in qualsiasi situazione. È necessario in primis manipolare l'espressione, e solo a quel punto possiamo sostituire con il valore noto."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"type": "open"
+			},
+			[
+				"Metodo"
+			],
+			{
+				"name": "H3",
+				"type": "close"
+			},
+			"Risolviamo insieme questo esercizio, in modo da capire il metodo di applicazione dei limiti notevoli:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\lim_{x\\to 0}\\frac{e^{x^2}-1}{\\sin x^2}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Applicando il limite direttamente, otteniamo la forma indeterminata ",
+			{
+				"name": "MathML",
+				"text": "\\frac{0}{0}"
+			},
+			", perciò l'idea è di applicare i limiti notevoli.",
+			"[[br]]",
+			"[[br]]",
+			"Possiamo notare che il numeratore ci suggerisce di applicare il limite notevole esponenziale, che ci dice che"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1,"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"mentre il denominatore ci suggerisce di usare il limite notevole trigonometrico, che ci dice che"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1."
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Tuttavia, per due ragioni distinte, non possiamo ancora applicarli direttamente: "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Attenzione",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "UL",
+				"type": "open"
+			},
+			[
+				{
+					"name": "P",
+					"text": "Non abbiamo "
+				},
+				{
+					"name": "MathML",
+					"text": "x"
+				},
+				{
+					"name": "P",
+					"text": ", ma"
+				},
+				{
+					"name": "MathML",
+					"text": "x^2."
+				}
+			],
+			{
+				"name": "UL",
+				"type": "close"
+			},
+			{
+				"name": "UL",
+				"type": "open"
+			},
+			[
+				{
+					"name": "P",
+					"text": "I limiti notevoli ancora :Bold[\"non esistono\"] nella frazione"
+				}
+			],
+			{
+				"name": "UL",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Per prima cosa, moltiplichiamo per",
+			{
+				"name": "MathML",
+				"text": "\\frac{x^2}{x^2}"
+			},
+			"la frazione, in modo da riscriverla in modo equivalente."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\lim_{x\\to 0}\\frac{e^{x^2}-1}{\\sin x^2}\\cdot\\frac{x^2}{x^2}=\\lim_{x\\to 0}\\frac{\\displaystyle\\frac{e^{x^2}-1}{x^2}}{\\displaystyle\\frac{\\sin x^2}{x^2}}"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Ricordiamoci che, per applicare il limite notevole, :Bold[anche l'argomento della funzione deve tendere allo stesso valore] a cui tende la ",
+			{
+				"name": "MathML",
+				"text": "x."
+			},
+			"[[br]]",
+			"[[br]]",
+			"In questo caso, ",
+			{
+				"name": "MathML",
+				"text": "x^2\\to 0"
+			},
+			"quando ",
+			{
+				"name": "MathML",
+				"text": "x\\to 0"
+			},
+			"? Si! e quindi si può applicare!"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Regola di generalizzazione dei limiti notevoli",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"In questo stiamo applicando questa regola per entrambi i limiti notevoli:"
+			],
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "\\lim_{\\red{f(x)} \\to 0} \\frac{e^{\\red{f(x)}} - 1}{\\red{f(x)}} = 1"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "MathML",
+				"text": "\\lim_{\\red{f(x)} \\to 0} \\frac{\\sin \\red{f(x)}}{\\red{f(x)}} = 1"
+			},
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"Ricordati che i :Bold[\"pezzi rossi\"] devono essere uguali per applicare il limite notevole! Questa regola vale per :Bold[qualsiasi] limite notevole e per qualsiasi funzione."
+			],
+			{
+				"name": "P",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Grazie a questa regola, possiamo applicare i limiti notevoli, ottenendo che il :Bold[numeratore tende a 1] e il :Bold[denominatore tende a 1]."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\lim_{\\red{x^2} \\to 0} \\frac{\\overbrace{\\displaystyle\\frac{e^{\\red{x^2}}-1}{\\red{x^2}}}^{\\to 1 }}{\\underbrace{\\displaystyle\\frac{\\sin(\\red{x^2})}{\\red{x^2}}}_{\\to 1 }} = \\frac{1}{1} = 1"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/limiti_notevoli_grafico_esempio.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "\\lim_{x\\to 0}\\frac{e^{x^2}-1}{\\sin x^2}=1"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

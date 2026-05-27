@@ -1,0 +1,17 @@
+@import "katex/dist/katex.min.css";
+
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@import "../styles/layout.css" layer(base);
+@import "../styles/vars.css" layer(utility);
+@import "../styles/utility.css" layer(utility);
+
+
+@custom-variant dark (&:where(.dark, [data-theme=dark], .dark *, [data-theme=dark] *));
+
+* {
+      body {
+		@apply font-round text-base;
+	}
+}

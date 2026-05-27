@@ -1,0 +1,315 @@
+{
+	"slug": "come-fare-parentesi-graffe-tastiera-windows-mac",
+	"title": "Come Fare le Parentesi Graffe sulla Tastiera: Windows, Mac e Linux",
+	"excerpt": "Guida rapida alle scorciatoie da tastiera per fare le parentesi graffe { }. Scopri tutte le combinazioni di tasti corrette per Windows, macOS e Linux.",
+	"category": "Informatica",
+	"school": "Liceo",
+	"class": "Primo",
+	"course": "Informatica",
+	"argument": "Basi del Computer e Programmazione",
+	"featuredImage": "/parentesi_graffe_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Come Fare le Parentesi Graffe sulla Tastiera]\n:P[Tutte le combinazioni di tasti e le scorciatoie veloci per aprire e chiudere le parentesi graffe su Windows, macOS e Linux.]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Parentesi graffa su Windows e Linux."
+			},
+			"Vediamo nel dettaglio quali sono le combinazioni di tasti da utilizzare per aprire e chiudere le parentesi graffe sui sistemi operativi Windows e Linux."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "div",
+				"type": "open",
+				"props": {
+					"className": "inline-block relative mx-auto *:m-0!"
+				}
+			},
+			{
+				"name": "P",
+				"text": "Alt Gr",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "Shift",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "è",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "div",
+				"type": "close"
+			},
+			{
+				"name": "div",
+				"type": "open",
+				"props": {
+					"className": "inline-block relative mx-auto *:m-0!"
+				}
+			},
+			{
+				"name": "P",
+				"text": "Alt Gr",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "Shift",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "+",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "div",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/tastiera_windows_GRAFFA.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Parentesi graffa su Mac"
+			},
+			"Invece, su Mac la combinazione di tasti è anche più semplice, perché la graffa è direttamente visibile anche sul tasto! ;)"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "div",
+				"type": "open",
+				"props": {
+					"className": "inline-block relative mx-auto *:m-0!"
+				}
+			},
+			{
+				"name": "P",
+				"text": "Alt",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "Shift",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "\\[",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "div",
+				"type": "close"
+			},
+			{
+				"name": "div",
+				"type": "open",
+				"props": {
+					"className": "inline-block relative mx-auto *:m-0!"
+				}
+			},
+			{
+				"name": "P",
+				"text": "Alt",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "Shift",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "P",
+				"text": " + ",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+				}
+			},
+			{
+				"name": "P",
+				"text": "\\]",
+				"props": {
+					"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+				}
+			},
+			{
+				"name": "div",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/tastiera_mac_GRAFFA.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

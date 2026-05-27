@@ -1,0 +1,1066 @@
+{
+	"slug": "derivate-fondamentali-tabella-formule",
+	"title": "Tabella Derivate Fondamentali e Casi Particolari | Analisi 1",
+	"excerpt": "L'elenco completo delle derivate elementari da sapere a memoria, con i trucchi per risolvere i casi più ostici e gli esercizi svolti passo dopo passo.",
+	"category": "Analisi1",
+	"school": "liceo",
+	"class": "5",
+	"course": "Matematica",
+	"argument": "Derivate",
+	"featuredImage": "/derivate_fondamentali_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Derivate Fondamentali ed Elementari: Tabella Completa e Metodi di Risoluzione]\n:P[Le Derivate Fondamentali sono una serie di formule molto semplici da ricordare per poter affrontare qualsiasi esercizio di calcolo sulle derivate.]\n:P[Non serve ricalcolare ogni volta il limite del rapporto incrementale, queste formule sono pronte all'uso ogni volta che si ripresenta una funzione di un certo tipo.]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella delle Derivate Fondamentali"
+			},
+			"In questa tabella è riportata la lista completa delle :Bold[derivate per le funzioni elementari].",
+			"[[br]]",
+			"[[br]]",
+			"È importante imparare ad usare bene queste formule, perché ogni volta che ci troviamo di fronte ad una funzione da derivare dobbiamo essere in grado di riconoscere a quale di queste formule corrisponde."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		[
+			{
+				"name": "Box",
+				"type": "open",
+				"props": {
+					"className": "pt-0 pb-3",
+					"variant": "intro"
+				}
+			},
+			[
+				{
+					"name": "Table",
+					"type": "open",
+					"props": {
+						"className": "mt-7"
+					}
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg opacity-100 mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890]"
+						}
+					},
+					"Funzione",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Derivata",
+					{
+						"name": "P",
+						"type": "close"
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{
+					"name": "Table",
+					"type": "open"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "k",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "0",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "x^\\alpha",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\alpha \\cdot x^{\\alpha-1}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\frac{1}{x}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "-\\frac{1}{x^2}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\sqrt{x}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\frac{1}{2\\sqrt{x}}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "e^x",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "e^x",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "a^x",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "a^x \\cdot \\ln(a)",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\ln(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\frac{1}{x}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\log_a(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\frac{1}{x \\ln(a)}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\sin(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\cos(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\cos(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "-\\sin(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\tan(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\frac{1}{\\cos^2(x)}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\arctan(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\frac{1}{1+x^2}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\arcsin(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\frac{1}{\\sqrt{1-x^2}}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\arccos(x)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "-\\frac{1}{\\sqrt{1-x^2}}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "e^{x^2}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "2xe^{x^2}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				}
+			],
+			{
+				"name": "Box",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Alcune funzioni elementari sono :Bold[\"nascoste\"]. A primo occhio sembrano non rientrare in nessuna delle derivate fondamentali, ma è sufficiente riscriverle :Bold[in modo equivalente], utilizzando le proprietà delle potenze."
+		],
+		"[[br]]",
+		"[[br]]",
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Proprietà delle Potenze",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"La radice con un qualsiasi indice e un qualsiasi esponente diventa :Bold[una potenza che ha una frazione ad esponente]. L'esponente diventa il numeratore, l'indice diventa il denominatore."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\root{a}{x^b} = x^{\\frac{b}{a}}"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Quando troviamo invece la",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			"a denominatore con un certo esponente, possiamo :Bold[portare tutto a numeratore], a patto di cambiare segno all'esponente."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{1}{x^m} = x^{-m}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Esempio 1"
+			},
+			"Vediamo un esempio in cui la ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" con un certo :Bold[esponente] compare sotto una :Bold[radice]. Calcoliamo:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\root{4}{x^3})"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In primis, applichiamo la proprietà per riscrivere la funzione in forma di potenza:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\root{4}{x^3} = x^{\\frac{3}{4}}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Ci accorgiamo che la nostra funzione ricade nella categoria ",
+			{
+				"name": "MathML",
+				"text": "x^{\\alpha}"
+			},
+			", quindi possiamo applicare :Bold[la derivata della potenza]:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(x^\\alpha) = \\alpha x^{\\alpha -1}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"in cui ",
+			{
+				"name": "MathML",
+				"text": "\\alpha = \\frac{3}{4}"
+			},
+			". Svolgiamo i calcoli:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\root{4}{x^3}) = \\frac{d}{dx}x^{\\frac{3}{4}} = \\frac{3}{4}x^{\\frac{3}{4} -1}="
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": " = \\frac{3}{4}x^{\\frac{3}{4} -\\frac{4}{4}} = \\frac{3}{4}x^{-\\frac{1}{4}} = \\frac{3}{4\\root{4}{x}}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": " \\frac{d}{dx}(\\root{4}{x^3})=\\frac{3}{4\\root{4}{x}}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Esempio 2"
+			},
+			"Vediamo insieme un altro caso molto frequente. Calcoliamo: "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\frac{1}{x^5})"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Troviamo un altro esempio in cui la ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			"con un certo esponente compare al :Bold[denominatore]. Utilizzando la proprietà delle potenze, possiamo riscrivere la funzione in questo modo:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{1}{x^5} = x^{-5}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In questo caso ",
+			{
+				"name": "MathML",
+				"text": "\\alpha = -5"
+			},
+			". Possiamo applicare la stessa formula vista precedentemente."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\frac{1}{x^5}) = \\frac{d}{dx}(x^{-5}) = -5 x^{-5-1}= "
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": " = -5 x^{-6} = -\\frac{5}{x^6}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": " \\frac{d}{dx}(\\frac{1}{x^5})=-\\frac{5}{x^6}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		{
+			"name": "H3",
+			"text": "Esempio 3",
+			"props": {
+				"className": "italic"
+			}
+		},
+		[
+			"Calcoliamo la derivata:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}  (\\frac{5}{3\\root{3}{x^4}})"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Questo è un esempio in cui si trovano :Bold[contemporaneamente] entrambi i casi visti in precedenza: la ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" compare sia sotto una radice che al denominatore."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{5}{3\\root{3}{x^4}} = \\frac{5}{3}x^{-\\frac{4}{3}}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Applichiamo quindi la formula precedente, questa volta con",
+			{
+				"name": "MathML",
+				"text": "\\alpha = -\\frac{4}{3}"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(\\frac{5}{3}x^{-\\frac{4}{3}}) = -\\frac{4}{3}\\cdot\\frac{5}{3}x^{-\\frac{4}{3}-1} = -\\frac{20}{9}x^{-\\frac{7}{3}}"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Come ultimo passaggio, possiamo :Bold[riportare giù al denominatore] ",
+			{
+				"name": "MathML",
+				"text": "x^{-\\frac{7}{3}}"
+			},
+			"e riscriverlo sotto forma di radice:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "-\\frac{20}{9}x^{-\\frac{7}{3}} = -\\frac{20}{9\\root{3}{x^7}}"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\frac{5}{3\\root{3}{x^4}}) = -\\frac{20}{9\\root{3}{x^7}}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Errori comuni"
+			},
+			"Nei compiti in classe è molto frequente confondere le funzioni :Bold[costanti] con le :Bold[potenze]. In questi casi viene spontaneo applicare la formula di derivazione della potenza (come abbiamo visto negli esempi precedenti), ma è importante prestare attenzione e leggere bene la funzione che si ha davanti. ",
+			"[[br]]",
+			"[[br]]",
+			"Molto spesso i professori tendono delle trappole, come in questi due esempi:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\pi^3)\\quad\\vert\\quad\\frac{d}{dx}(e^5)"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In entrambi, andando di fretta, potremmo essere indotti a scrivere:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "alert"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#D90429] opacity-100"
+			}
+		},
+		"Sbagliato!",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\pi^3) = 3\\pi^2\\quad\\vert\\quad\\frac{d}{dx}(e^5) = 5e^4"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Ma questo è un errore grave! Ed il motivo è molto semplice: :Bold[non c'è la variabile!] La ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			"infatti non compare da nessuna parte! Non stiamo derivando rispetto a nulla.",
+			"[[br]]",
+			"[[br]]",
+			"Queste funzioni sono semplicemente delle :Bold[costanti]. E la derivata di una costante è sempre :Bold[ZERO!] Quindi il risultato corretto è:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2] opacity-100"
+			}
+		},
+		"Corretto",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}(\\pi^3) = 0\\quad\\vert\\quad\\frac{d}{dx}(e^5) = 0"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

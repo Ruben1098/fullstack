@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react-jsx",
+		"allowJs": true,
+
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM"],
+
+		// Bundler mode
+		"moduleResolution": "bundler",
+		"module": "Preserve",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
+
+		"baseUrl": ".",
+		"paths": {
+			"$/*": ["./.framework/*"],
+			"@/*": ["./*"],
+			"~/*": ["./vendors/*"]
+		}
+	},
+	"include": ["**/*.ts", "**/*.tsx", "tailwind.config.ts", ".framework/starter/vendors/router.tsx", ".framework/starter/vendors/react.tsx"],
+	"exclude": ["dist", "node_modules"]
+}

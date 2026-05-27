@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "titolo": "Il Fantasma Raffreddato",
+    "testo": "Il fantasma Gaspare ha il raffreddore. Starnutisce 8 volte ogni ora. Quante volte starnutisce in 2 ore?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "16 starnuti"
+  },
+  {
+    "id": 2,
+    "titolo": "La Strega Distratta",
+    "testo": "La strega Clotilde vuole trasformare 3 principi in ranocchi. Per ogni principe servono 4 peli di baffi di gatto. Quanti peli deve strappare al suo povero gatto Fuffi?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "12 peli"
+  },
+  {
+    "id": 3,
+    "titolo": "L'Alieno Affamato",
+    "testo": "L'alieno Zogzog atterra in una pizzeria e ordina 25 pizze ai bulloni. Ne mangia 13 in un sol boccone e poi fa un rutto galattico. Quante pizze gli restano per la cena?",
+    "operazione": "Sottrazione",
+    "soluzione": "12 pizze"
+  },
+  {
+    "id": 4,
+    "titolo": "I Pidocchi Saltatori",
+    "testo": "Sulla testa del maestro Severino ci sono 40 pidocchi che fanno ginnastica. Se fanno squadre da 10 per giocare a calcio, quante squadre formano?)",
+    "operazione": "Divisione",
+    "soluzione": "4 squadre"
+  },
+  {
+    "id": 5,
+    "titolo": "Il Pirata Senza Denti",
+    "testo": "Il Pirata Barbagrigia ha trovato 50 monete d'oro. Vuole dividerle equamente tra i suoi 5 pappagalli perché non si fida della ciurma. Quante monete becca ogni pappagallo?",
+    "operazione": "Divisione",
+    "soluzione": "10 monete"
+  },
+  {
+    "id": 6,
+    "titolo": "La Gallina Cubista",
+    "testo": "La gallina Genoveffa fa solo uova quadrate. Lunedì ne fa 5, martedì ne fa 6 e mercoledì sciopera. Quante uova strane ha fatto in tutto?",
+    "operazione": "Addizione",
+    "soluzione": "11 uova"
+  },
+  {
+    "id": 7,
+    "titolo": "Il Vampiro Vegetariano",
+    "testo": "Il Conte Vlad ha deciso di diventare vegetariano. Invece di mordere colli, morde pomodori. Se morde 3 pomodori a colazione, 3 a pranzo e 3 a cena, quanti pomodori 'uccide' in un giorno?",
+    "operazione": "Moltiplicazione/Addizione",
+    "soluzione": "9 pomodori"
+  },
+  {
+    "id": 8,
+    "titolo": "Le Mutande del Gigante",
+    "testo": "Il Gigante Golia deve stendere il bucato. Ha lavato 12 paia di mutande enormi. Se ogni paio di mutande ha bisogno di 3 mollette per non volare via, quante mollette servono?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "36 mollette"
+  },
+  {
+    "id": 9,
+    "titolo": "La Gara di Lumache",
+    "testo": "Alla gara di Formula Lumaca, la pilota Lenta-Lenta percorre 2 metri al minuto. La gara dura 10 minuti. Quanti metri ha percorso? (Attento a non addormentarti mentre calcoli!)",
+    "operazione": "Moltiplicazione",
+    "soluzione": "20 metri"
+  },
+  {
+    "id": 10,
+    "titolo": "La Tartaruga Jet",
+    "testo": "La tartaruga Ruga ha messo i pattini a rotelle. Di solito fa 1 metro all'ora, ma con i pattini ne fa 10 all'ora! Quanti metri fa in 3 ore con i pattini?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "30 metri"
+  },
+  {
+    "id": 11,
+    "titolo": "La Nonna Karateka",
+    "testo": "Nonna Tecla spacca 4 tavolette di legno con un colpo solo. Se vuole allenarsi per 5 volte, quante tavolette ridurrà in briciole?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "20 tavolette"
+  },
+  {
+    "id": 12,
+    "titolo": "I Calzini Spaiati",
+    "testo": "Nel cassetto di Pierino ci sono 24 calzini, ma il mostro mangia-calzini ne ha rubati la metà. Quanti calzini sono rimasti?",
+    "operazione": "Divisione",
+    "soluzione": "12 calzini"
+  },
+  {
+    "id": 13,
+    "titolo": "Il Mago Smemorato",
+    "testo": "Il Mago Merlino ha 30 bacchette magiche, ma ne perde sempre 5 ogni secolo. Quante bacchette ha perso negli ultimi 2 secoli?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "10 bacchette"
+  },
+  {
+    "id": 14,
+    "titolo": "Le Puzze del Drago",
+    "testo": "Il Drago  Pof-Pof sputa fuoco 3 volte al giorno e fa puzzette 4 volte al giorno. Quanti 'eventi gassosi' fa in totale in una settimana (7 giorni)?",
+    "operazione": "Logica/Moltiplicazione",
+    "soluzione": "49 eventi (3+4=7 al giorno, 7x7=49)"
+  },
+  {
+    "id": 15,
+    "titolo": "La Principessa Rock",
+    "testo": "La Principessa Smeralda ha rotto 3 chitarre elettriche durante il concerto. Se ogni chitarra aveva 6 corde, quante corde ha rotto in totale?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "18 corde"
+  },
+  {
+    "id": 16,
+    "titolo": "Il Pagliaccio Triste",
+    "testo": "Il pagliaccio Bobo ha 15 torte in faccia. Ne toglie 7 con un asciugamano. Quante torte ha ancora appiccicate sulla faccia?",
+    "operazione": "Sottrazione",
+    "soluzione": "8 torte"
+  },
+  {
+    "id": 17,
+    "titolo": "I Denti dello Squalo",
+    "testo": "Lo squalo Lillo ha 100 denti. Va dal dentista e si fa togliere 2 denti cariati perché ha mangiato troppe caramelle. Quanti denti gli restano per sorridere?",
+    "operazione": "Sottrazione",
+    "soluzione": "98 denti"
+  },
+  {
+    "id": 18,
+    "titolo": "Le Formiche Palestrate",
+    "testo": "Una formica solleva 10 briciole. Se arrivano 5 formiche amiche che vanno in palestra, quante briciole sollevano tutte insieme?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "50 briciole"
+  },
+  {
+    "id": 19,
+    "titolo": "Il Cane Astronauta",
+    "testo": "Il cane Laika rincorre 4 stelle cadenti ogni notte. Dopo 5 notti nello spazio, quante stelle ha rincorso? (Bau spaziale!)",
+    "operazione": "Moltiplicazione",
+    "soluzione": "20 stelle"
+  },
+  {
+    "id": 20,
+    "titolo": "La Mummia Srotolata",
+    "testo": "La mummia Tutankhamon è avvolta in 50 metri di bende. Il gatto del museo ci gioca e ne srotola 15 metri. Quanti metri di bende coprono ancora la mummia?",
+    "operazione": "Sottrazione",
+    "soluzione": "35 metri"
+  },
+  {
+    "id": 21,
+    "titolo": "Il Robot Ballerino",
+    "testo": "Il robot R2-D2 fa 3 passi avanti e 1 passo indietro quando balla. Se ripete questo ballo per 4 volte, quanti passi ha fatto in totale (avanti + indietro)?",
+    "operazione": "Logica/Addizione",
+    "soluzione": "16 passi totali (4 passi a volta x 4 volte)"
+  },
+  {
+    "id": 22,
+    "titolo": "I Capelli di Raperonzolo",
+    "testo": "I capelli di Raperonzolo sono lunghi 20 metri. Il parrucchiere reale ne taglia la metà perché ci inciampava sempre. Quanto sono lunghi ora i capelli?",
+    "operazione": "Divisione",
+    "soluzione": "10 metri"
+  },
+  {
+    "id": 23,
+    "titolo": "Le Mosche Fastidiose",
+    "testo": "Nella stanza ci sono 12 mosche. Il camaleonte Pasquale ne mangia un terzo con la sua lingua appiccicosa. Quante mosche ha mangiato Pasquale?",
+    "operazione": "Frazioni/Divisione",
+    "soluzione": "4 mosche"
+  },
+  {
+    "id": 24,
+    "titolo": "Il Ciclope Miope",
+    "testo": "Il ciclope Polifemo deve comprare gli occhiali. Se compra 3 paia di occhiali da sole (e ricorda che lui ha un occhio solo!), quante lenti ci sono in tutto?",
+    "operazione": "Logica",
+    "soluzione": "3 lenti (una per paio)"
+  },
+  {
+    "id": 25,
+    "titolo": "I Nani da Giardino",
+    "testo": "Nel giardino di zia Gertrude ci sono 7 nani. Ogni nano ha la barba lunga. Se arrivano altri 8 nani per una festa, quante barbe ci sono in totale?",
+    "operazione": "Addizione",
+    "soluzione": "15 barbe"
+  },
+  {
+    "id": 26,
+    "titolo": "Il Cavaliere di Latta",
+    "testo": "Il Cavaliere Lancillotto arrugginisce se piove. Ha 14 pezzi di armatura. Oggi piove e si sono arrugginiti 6 pezzi. Quanti pezzi sono ancora lucidi?",
+    "operazione": "Sottrazione",
+    "soluzione": "8 pezzi"
+  },
+  {
+    "id": 27,
+    "titolo": "La Befana Motorizzata",
+    "testo": "La Befana ha montato un motore turbo sulla scopa. Ora consegna 100 regali all'ora. Quanti regali consegna in 3 ore? (Attenti al carbone!)",
+    "operazione": "Moltiplicazione",
+    "soluzione": "300 regali"
+  },
+  {
+    "id": 28,
+    "titolo": "Il Polpo Batterista",
+    "testo": "Il polpo Otto suona la batteria. Ha 8 tentacoli. Usa 2 tentacoli per le bacchette e 1 per grattarsi la testa. Quanti tentacoli gli restano liberi?",
+    "operazione": "Sottrazione",
+    "soluzione": "5 tentacoli"
+  },
+  {
+    "id": 29,
+    "titolo": "L'Orco Pasticcere",
+    "testo": "L'orco Shrek prepara dei muffin al gusto di fango. Ne cucina 24 e li vuole mettere in scatole da 6. Quante scatole gli servono?",
+    "operazione": "Divisione",
+    "soluzione": "4 scatole"
+  },
+  {
+    "id": 30,
+    "titolo": "Le Scarpe del Ragno",
+    "testo": "Il ragno Ugo ha 8 zampe. Vuole comprare le scarpe da ginnastica. Le scarpe sono vendute a coppie (2 per scatola). Quante scatole deve comprare?",
+    "operazione": "Divisione",
+    "soluzione": "4 scatole"
+  },
+  {
+    "id": 31,
+    "titolo": "Il Genio della Lampada",
+    "testo": "Il Genio può esaudire 3 desideri. Se trova 5 padroni diversi e li esaudisce tutti, quanti desideri ha realizzato in totale?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "15 desideri"
+  },
+  {
+    "id": 32,
+    "titolo": "La Sirena Raffinata",
+    "testo": "La sirena Ariel colleziona forchette (lei le chiama arricciaspiccia). Ne ha 42 d'argento e 18 d'oro. Quante forchette ha in tutto?",
+    "operazione": "Addizione",
+    "soluzione": "60 forchette"
+  },
+  {
+    "id": 33,
+    "titolo": "Il Cowboy Senza Cavallo",
+    "testo": "Bill il Cowboy ha perso il cavallo. Deve camminare per 10 km. Ne fa 3 al mattino e 4 al pomeriggio. Quanto gli manca per arrivare?",
+    "operazione": "Sottrazione sequenziale",
+    "soluzione": "3 km"
+  },
+  {
+    "id": 34,
+    "titolo": "Lo Zombie Ballerino",
+    "testo": "Al ballo degli Zombie ci sono 20 partecipanti. Durante la canzone 'Thriller', a 4 zombie cade un braccio. Quanti zombie sono rimasti interi?",
+    "operazione": "Sottrazione",
+    "soluzione": "16 zombie"
+  },
+  {
+    "id": 35,
+    "titolo": "Il Supereroe Maldestro",
+    "testo": "Super-Tizio inciampa nel mantello 5 volte al giorno. Quante volte inciampa in una settimana intera?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "35 volte"
+  },
+  {
+    "id": 36,
+    "titolo": "Le Caramelle Magiche",
+    "testo": "Harry compra delle caramelle 'Tutti i Gusti + 1'. Nel sacchetto ce ne sono 30. Un terzo sanno di cerume. Quante caramelle al cerume ci sono?",
+    "operazione": "Divisione",
+    "soluzione": "10 caramelle"
+  },
+  {
+    "id": 37,
+    "titolo": "Il Pinguino Freddoloso",
+    "testo": "Pino il Pinguino ha freddo e si mette 3 sciarpe, 2 cappelli e 4 paia di calzini. Quanti indumenti ha addosso in totale?",
+    "operazione": "Addizione",
+    "soluzione": "9 indumenti"
+  },
+  {
+    "id": 38,
+    "titolo": "La Giraffa Curiosa",
+    "testo": "Gelsomina la giraffa ha il collo lungo 2 metri. Se sale su uno sgabello alto 1 metro, quanto arriva in alto la sua testa?",
+    "operazione": "Addizione",
+    "soluzione": "3 metri"
+  },
+  {
+    "id": 39,
+    "titolo": "Il Dinosauro Vegetariano",
+    "testo": "Un Diplodoco mangia 100 kg di foglie a pranzo. Ne ha già mangiati 40 kg. Quanto deve ancora mangiare per essere sazio?",
+    "operazione": "Sottrazione",
+    "soluzione": "60 kg"
+  },
+  {
+    "id": 40,
+    "titolo": "Il Ninja Invisibile",
+    "testo": "In una stanza ci sono 10 ninja. 8 diventano invisibili. Quanti ninja riesci ancora a vedere? (Fai finta di vederci benissimo!)",
+    "operazione": "Sottrazione",
+    "soluzione": "2 ninja"
+  },
+  {
+    "id": 41,
+    "titolo": "La Scimmia Dispettosa",
+    "testo": "La scimmia Bubu ruba 3 banane a Luca, 2 a Marco e 4 a Giulia. Quante banane ha rubato quella ladruncola?",
+    "operazione": "Addizione",
+    "soluzione": "9 banane"
+  },
+  {
+    "id": 42,
+    "titolo": "Il Pesce Rosso Smemorato",
+    "testo": "Il pesce rosso Bubi fa un giro della boccia ogni 10 secondi. Quanti giri fa in 60 secondi (un minuto)?",
+    "operazione": "Divisione",
+    "soluzione": "6 giri"
+  },
+  {
+    "id": 43,
+    "titolo": "La Pianta Carnivora",
+    "testo": "La pianta carnivora Camilla mangia 5 mosche a colazione. Oggi però è a dieta e ne ha mangiata solo 1. Quante mosche ha risparmiato?",
+    "operazione": "Sottrazione",
+    "soluzione": "4 mosche"
+  },
+  {
+    "id": 44,
+    "titolo": "Il Castoro Dentista",
+    "testo": "Il castoro Dente-Duro rosicchia 4 tronchi al giorno. Quanti tronchi rosicchia in 5 giorni?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "20 tronchi"
+  },
+  {
+    "id": 45,
+    "titolo": "L'Orso Dormiglione",
+    "testo": "L'orso Baloo dorme per 6 mesi l'anno (letargo). Quanti mesi rimane sveglio a cercare miele?",
+    "operazione": "Sottrazione",
+    "soluzione": "6 mesi (12-6)"
+  },
+  {
+    "id": 46,
+    "titolo": "Il Canguro Postino",
+    "testo": "Il canguro Saltello porta la posta nel marsupio. Ha 15 lettere. Ne consegna 3 alla signora Koala e 4 al signor Emù. Quante lettere ha ancora nel marsupio?",
+    "operazione": "Sottrazione",
+    "soluzione": "8 lettere"
+  },
+  {
+    "id": 47,
+    "titolo": "Le Pecore Insonni",
+    "testo": "Pierino non riesce a dormire e conta le pecore. Ne conta 25 che saltano la staccionata, ma 5 inciampano e cadono. Quante pecore hanno saltato bene?",
+    "operazione": "Sottrazione",
+    "soluzione": "20 pecore"
+  },
+  {
+    "id": 48,
+    "titolo": "Il Mago della Pioggia",
+    "testo": "Il Mago Pluvius fa piovere per 3 ore al giorno. Se siamo in vacanza per una settimana (7 giorni), quante ore di pioggia ci becchiamo?",
+    "operazione": "Moltiplicazione",
+    "soluzione": "21 ore"
+  },
+  {
+    "id": 49,
+    "titolo": "I Fantasmi nel Castello",
+    "testo": "Nel castello infestato ci sono 100 fantasmi. 10 sono in cucina a rubare biscotti, 10 sono in soffitta. Tutti gli altri sono in cantina a giocare a carte. Quanti sono in cantina?",
+    "operazione": "Sottrazione",
+    "soluzione": "80 fantasmi"
+  },
+  {
+    "id": 50,
+    "titolo": "Il Millepiedi Pigro",
+    "testo": "Il millepiedi Geremia deve mettersi le scarpe per uscire. Ha 1000 piedi, ma è così pigro che ha messo solo 150 scarpe. Quanti piedi scoperti ha ancora Geremia?",
+    "operazione": "Sottrazione",
+    "soluzione": "850 piedi"
+  }
+]

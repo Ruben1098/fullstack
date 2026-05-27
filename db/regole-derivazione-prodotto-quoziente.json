@@ -1,0 +1,961 @@
+{
+	"slug": "regole-derivazione-prodotto-quoziente",
+	"title": "Regole di Derivazione: Somma, Prodotto e Quoziente | Esempi",
+	"excerpt": "Impara a calcolare le derivate con la tabella delle regole fondamentali: prodotto, quoziente, somma e costante. Spiegazioni chiare ed esempi svolti.",
+	"category": "Analisi1",
+	"school": "liceo",
+	"class": "5",
+	"course": "Matematica",
+	"argument": "Derivate",
+	"featuredImage": "/regole_derivazione_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Le Regole di Derivazione: Come Calcolare Somma, Prodotto e Quoziente (con Esempi)]\n:P[Le Regole di Derivazione sono un insieme di formule che possiamo usare come scorciatoie per calcolare la derivata di funzioni molto elaborate. Spesso le funzioni sono composte a loro volta da delle altre funzioni tenute insieme dalle operazioni elementari: somma, differenza, prodotto e quoziente.]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella delle regole di derivazione"
+			},
+			"Molto spesso, quando ci troviamo a dover calcolare la derivata di una funzione che comprende delle operazioni complesse, è possibile scomporla in blocchi più semplici, e applicare le regole di derivazione per calcolare la derivata di ogni blocco.",
+			"[[br]]",
+			"[[br]]",
+			"Questa tabella riassume tutte le regole principali. Consideriamo due funzioni ",
+			{
+				"name": "MathML",
+				"text": "f"
+			},
+			" e ",
+			{
+				"name": "MathML",
+				"text": "g"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"className": "pt-0 pb-3",
+				"variant": "intro"
+			}
+		},
+		{
+			"name": "Table",
+			"type": "open",
+			"props": {
+				"className": "mt-7"
+			}
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+				}
+			},
+			"Operazione",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+				}
+			},
+			"Formula",
+			{
+				"name": "P",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Table",
+			"type": "close"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "Table",
+			"type": "open"
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"text": "Prodotto",
+				"props": {
+					"className": "text-xl"
+				}
+			},
+			{
+				"name": "MathML",
+				"text": "D(f \\cdot g) = f' \\cdot g + f \\cdot g'",
+				"props": {
+					"className": "text-xl"
+				}
+			}
+		],
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"text": "Quoziente",
+				"props": {
+					"className": "text-xl"
+				}
+			},
+			{
+				"name": "MathML",
+				"text": "D(\\frac{f}{g}) = \\frac{f' \\cdot g - f \\cdot g'}{g^2}",
+				"props": {
+					"className": "text-xl"
+				}
+			}
+		],
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"text": "Somma",
+				"props": {
+					"className": "text-xl"
+				}
+			},
+			{
+				"name": "MathML",
+				"text": "D(f + g) = f' + g'",
+				"props": {
+					"className": "text-xl"
+				}
+			}
+		],
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"text": "Costante",
+				"props": {
+					"className": "text-xl"
+				}
+			},
+			{
+				"name": "MathML",
+				"text": "D(k \\cdot f) = k \\cdot f'",
+				"props": {
+					"className": "text-xl"
+				}
+			}
+		],
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Table",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "La Derivata del Prodotto"
+			},
+			"La derivata del prodotto è :Bold[la somma di due blocchi].",
+			"[[br]]",
+			"[[br]]",
+			"Nel primo blocco si moltiplica ",
+			{
+				"name": "MathML",
+				"text": "f'"
+			},
+			"(ovvero la derivata di ",
+			{
+				"name": "MathML",
+				"text": "f"
+			},
+			") per la ",
+			{
+				"name": "MathML",
+				"text": "g"
+			},
+			". Nel secondo pezzo si fa il viceversa: si moltiplica la",
+			{
+				"name": "MathML",
+				"text": "g'"
+			},
+			"(la derivata di ",
+			{
+				"name": "MathML",
+				"text": "g"
+			},
+			") per la",
+			{
+				"name": "MathML",
+				"text": "f"
+			},
+			". "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Definizione",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "D(f \\cdot g) = f' \\cdot g + f \\cdot g'"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Istintivamente verrebbe da fare :Bold[\"derivata per derivata\"], ma ovviamente è sbagliato. Quindi, ricordarsi sempre :Bold[la derivata del prodotto è diversa dal prodotto delle derivate]."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "alert"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#D90429] opacity-100"
+			}
+		},
+		"Sbagliato!",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "D(f \\cdot g) \\neq f' \\cdot g'"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		"Ad esempio, calcoliamo la derivata della seguente funzione, che contiene il prodotto di una funzione quadratica e di una funzione trigonometrica: ",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "h(x) = x^2 \\cdot \\sin x"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Calcoliamo separatamente le derivate delle due funzioni:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx} (x^2) = 2x"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx} (\\sin x) = \\cos x"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Applichiamo la formula della :Bold[Derivata del Prodotto]:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "h'(x) = (2x) \\cdot \\sin x + (x^2) \\cdot \\cos x"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In questo caso, non sono necessari ulteriori passaggi. Il risultato è già semplificato, quindi possiamo lasciarlo così com'è."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "h'(x) = 2x \\cdot \\sin x + x^2 \\cdot \\cos x"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/regole_derivazione_prodotto.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "La Derivata del Quoziente"
+			},
+			"La derivata del quoziente ricorda molto la regola della derivata del prodotto, ma leggermente diversa. La regola si scrive come la :Bold[la differenza di due blocchi].",
+			"[[br]]",
+			"[[br]]",
+			"Nel primo blocco si moltiplica ",
+			{
+				"name": "MathML",
+				"text": "f'"
+			},
+			" (ovvero la derivata di ",
+			{
+				"name": "MathML",
+				"text": "f"
+			},
+			") per la ",
+			{
+				"name": "MathML",
+				"text": "g"
+			},
+			". Nel secondo blocco si fa il viceversa: si moltiplica la ",
+			{
+				"name": "MathML",
+				"text": "g'"
+			},
+			" (la derivata di ",
+			{
+				"name": "MathML",
+				"text": "g"
+			},
+			") per la ",
+			{
+				"name": "MathML",
+				"text": "f"
+			},
+			". :Bold[ATTENZIONE: per definizione c'è il segno meno!]",
+			"[[br]]",
+			"[[br]]",
+			"Il tutto viene poi diviso per ",
+			{
+				"name": "MathML",
+				"text": "g^2"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Definizione",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "D(\\frac{f}{g}) = \\frac{f' \\cdot g - f \\cdot g'}{g^2}"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Vediamo un altro esempio calcolando la derivata della seguente funzione: "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "k(x) = \\frac{\\ln(x)}{x}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Anche qui, deriviamo a parte le due funzioni: "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx} \\ln (x) = \\frac{1}{x}"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx} (x) = 1 "
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Applichiamo la formula della :Bold[Derivata del Quoziente] e svolgiamo i calcoli:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "k'(x) = \\frac{(\\frac{1}{x}) \\cdot x - (\\ln x) \\cdot 1}{(x)^2}= \\frac{\\frac{x}{x} - \\ln x }{x^2}="
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": " = \\frac{1 - \\ln(x)}{x^2} "
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "k'(x) = \\frac{1 - \\ln(x)}{x^2}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/regole_derivazione_quoziente.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "La Derivata della somma"
+			},
+			"Quando abbiamo una funzione che è composta a sua volta da una somma di funzioni, :Bold[possiamo derivare ogni pezzo separatamente e poi sommare i risultati].",
+			"[[br]]",
+			"[[br]]",
+			"In altre parole, :Bold[la derivata della somma è uguale alla somma delle derivate]."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Definizione",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "D(f + g) = f' + g'"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Un esempio molto semplice è il seguente:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "r(x) = x^3 + \\cos(x)"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Deriviamo pezzo per pezzo le singole funzioni:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}x^3 = 3x^2"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{d}{dx}\\cos(x) = -\\sin(x)"
+		},
+		{
+			"name": "P",
+			"text": "Infine, molto semplicemente sommiamo algebricamente le due derivate per ottenere la derivata della funzione di partenza."
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "r'(x) = 3x^2 - \\sin(x)"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/regole_derivazione_somma.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "La Derivata di una funzione moltiplicata per una costante"
+			},
+			"Quando una funzione è moltiplicata per una costante, la derivata si calcola :Bold[moltiplicando la costante per la derivata della funzione].",
+			"[[br]]",
+			"[[br]]",
+			"In questi casi, è come se inizialmente :Bold[la costante restasse a guardare]. Viene applicata la derivata :Bold[solo alla funzione] e alla fine si applica :Bold[la moltiplicazione] per la costante stessa."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Definizione",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "D(k \\cdot f) = k \\cdot f'"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Un esempio di derivata di una costante che moltiplica una funzione:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "s(x) = 5 x^4"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Il numero ",
+			{
+				"name": "MathML",
+				"text": "5"
+			},
+			"è una costante moltiplicativa, perciò esce fuori dall'operazione di derivata e :Bold[deriviamo solo la potenza]:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "5 \\cdot \\frac{d}{dx}(x^4) = 5 \\cdot (4x^3) "
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Compare una nuova costante moltiplicativa, che proviene dall'operazione di derivazione di:",
+			{
+				"name": "MathML",
+				"text": "x^4"
+			},
+			", quindi molto semplicemente :Bold[possiamo moltiplicare le due costanti tra loro]."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/regole_derivazione_costante.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "s'(x) = 20x^3"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

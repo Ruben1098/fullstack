@@ -1,0 +1,552 @@
+{
+	"slug": "calore-specifico-acqua-legge-calorimetria",
+	"title": "Calore Specifico e Legge della Calorimetria: Spiegazione ed Esempi",
+	"excerpt": "Guida completa al calore specifico dell'acqua e alla Legge della Calorimetria. Scopri le unità di misura (Joule e Calorie), le formule e un esempio pratico di calcolo.",
+	"category": "Fisica",
+	"school": "Liceo",
+	"class": "Terzo",
+	"course": "Termodinamica",
+	"argument": "Calorimetria",
+	"featuredImage": "/calore_specifico_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Calore Specifico e Legge della Calorimetria]\n:P[Il calore specifico dell'acqua è la quantità di calore necessaria per far aumentare di ]:MathML[1°C]:P[(oppure di ]:MathML[1K]:P[) un grammo di acqua. Il suo valore è di ]:MathML[c=4186\\frac{J}{kg\\cdot K}]:P[. Il calore specifico si applica nella legge della calorimetria:]:MathML[Q=m \\cdot c \\cdot\\Delta T]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella dei valori del Calore Specifico"
+			},
+			"Vediamo in questa tabella tutti i possibili valori del calore specifico, a seconda del contesto e delle unità di misura. ",
+			"[[br]]",
+			"[[br]]",
+			"Le unità di misura più comuni per il calore specifico sono i Joule (Sistema Internazionale - S.I.) e le Calorie (unità di misura più usata in ambito alimentare)"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		[
+			{
+				"name": "Box",
+				"type": "open",
+				"props": {
+					"className": "pt-0 pb-3",
+					"variant": "intro"
+				}
+			},
+			[
+				{
+					"name": "Table",
+					"type": "open",
+					"props": {
+						"className": "mt-7"
+					}
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"In Joule (S.I.)",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"In Calorie",
+					{
+						"name": "P",
+						"type": "close"
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{
+					"name": "Table",
+					"type": "open"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "c = 4186 \\frac{J}{kg\\cdot K}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "c = 1 \\frac{kcal}{kg\\cdot K}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "c = 4,186 \\frac{J}{g\\cdot K}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "c = 1 \\frac{cal}{g\\cdot K}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				}
+			],
+			{
+				"name": "Box",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Significato di Calore Specifico"
+			},
+			"Leggiamo insieme la definizione di calore specifico, per capire cosa rappresenta e come si usa nella pratica.",
+			"[[br]]",
+			"[[br]]",
+			"Il calore specifico è una grandezza fisica che indica quanto :Bold[calore] è necessario per far aumentare la :Bold[temperatura] di un certo materiale.",
+			"[[br]]",
+			"[[br]]",
+			"In particolare, il calore specifico dell'acqua è molto alto, e questo è il motivo per cui l'acqua viene usata come refrigerante in molti processi industriali: :Bold[assorbe molto calore senza aumentare troppo la sua temperatura]."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Definizione",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Il calore specifico è :Bold[la quantità di calore] necessaria per far aumentare la temperatura di ",
+			{
+				"name": "MathML",
+				"text": "1K"
+			},
+			"(o di",
+			{
+				"name": "MathML",
+				"text": "1 ^\\circ C"
+			},
+			") ad",
+			{
+				"name": "MathML",
+				"text": "1 kg"
+			},
+			"d'acqua."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#FFB703] text-[#FFB703] bg-transparent"
+			}
+		},
+		"Significato pratico",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Se abbiamo in una pentola esattamente ",
+			{
+				"name": "MathML",
+				"text": "1kg"
+			},
+			"di acqua e misuriamo  con un termometro che la sua temperatura sta a ",
+			{
+				"name": "MathML",
+				"text": "25 ^\\circ"
+			},
+			", se gli forniamo",
+			{
+				"name": "MathML",
+				"text": "4186J"
+			},
+			"di calore, vedremo che il termometro arriverà a ",
+			{
+				"name": "MathML",
+				"text": "26 ^\\circ"
+			},
+			". La temperatura si è innalzata di",
+			{
+				"name": "MathML",
+				"text": "1 ^\\circ."
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Nella seguente griglia vediamo i valori di calore specifico per diversi materiali: come possiamo notare, il calore specifico dell'acqua è molto più alto rispetto a quello di tanti altri materiali.",
+			"[[br]]",
+			"[[br]]",
+			"Tutti i valori sono espressi in ",
+			{
+				"name": "MathML",
+				"text": "\\frac{J}{kg\\cdot K}"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/calore_specifico_griglia_materiali.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Il calore specifico è una grandezza fondamentale per applicare la :Bold[Legge della Calorimetria], che ci permette di calcolare la quantità di calore necessaria per far compiere una certa variazione di temperatura ad una certa massa di materiale."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Formula della Calorimetria",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "Q = m\\cdot c \\cdot \\Delta T"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#FFB703] text-[#FFB703] bg-transparent"
+			}
+		},
+		"Significato pratico",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"\"Quanto calore",
+			{
+				"name": "MathML",
+				"text": "Q"
+			},
+			"è necessario per far compiere un salto di temperatura",
+			{
+				"name": "MathML",
+				"text": "\\Delta T"
+			},
+			"ad una massa",
+			{
+				"name": "MathML",
+				"text": "m"
+			},
+			"di materiale?\""
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Esempio: ebollizione dell'acqua"
+			},
+			"Calcoliamo quanto calore è necessario per portare ad ebollizione ",
+			{
+				"name": "MathML",
+				"text": "(100 ^\\circ C)"
+			},
+			"una quantità d'acqua di",
+			{
+				"name": "MathML",
+				"text": "2kg"
+			},
+			"che sta a temperatura ambiente",
+			{
+				"name": "MathML",
+				"text": "(25 ^\\circ C)"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/calore_specifico_esercizio.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In primis, calcoliamo il",
+			{
+				"name": "MathML",
+				"text": "\\Delta T"
+			},
+			", la quale è definita come la :Bold[differenza tra la temperatura finale e la temperatura iniziale]:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\Delta T =T_2 - T_1 =100^\\circ C - 25 ^\\circ C = 75 ^\\circ C"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Adesso che conosciamo la differenza di temperatura, possiamo applicare la :Bold[Legge della Calorimetria], dato che il testo ci fornisce direttamente i valori di massa, calore specifico:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "Q = m\\cdot c\\cdot \\Delta T = 2kg\\cdot4186 \\frac{J}{kg\\cdot ^\\circ C   }\\cdot75 ^\\circ C= 627,9kJ"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "Q = 627,9kJ"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

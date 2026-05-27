@@ -1,0 +1,5 @@
+{
+	"MODE": "dev",
+	"SERVER_URL": "http://localhost:4001",
+	"ASSETS_URL": "http://localhost:5001"
+}

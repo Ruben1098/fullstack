@@ -1,0 +1,718 @@
+{
+	"slug": "gerarchia-infiniti",
+	"title": "Gerarchia degli Infiniti: Tabella e Confronto tra Funzioni",
+	"excerpt": "Scopri l'ordine in cui prevalgono le funzioni nei limiti. Tabella della gerarchia degli infiniti e metodi per confrontare funzioni della stessa classe.",
+	"category": "Analisi1",
+	"school": "liceo",
+	"class": "5",
+	"course": "Matematica",
+	"argument": "Limiti",
+	"featuredImage": "/gerarchia_infiniti_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[La Gerarchia degli Infiniti: Come Capire Quale Funzione Prevale nei Limiti]\n:P[La gerarchia degli infiniti è il criterio con il quale le varie classi di funzioni vengono ordinate in base alla velocità con la quale tendono all'infinito quando] :MathML[x\\to\\infty.]:P[Sono molto utili e rapide per risolvere le forme indeterminate come ]:MathML[\\frac{\\infty}{\\infty}]:P[ e ]:MathML[\\frac{0}{0}]:P[.] \n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella della Gerarchia degli Infiniti"
+			},
+			"In questa tabella ordiniamo dall'alto verso il basso le funzioni seguendo la gerarchia. Le funzioni che si trovano più in alto prevalgono su quelle che si trovano più in basso."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		[
+			{
+				"name": "Box",
+				"type": "open",
+				"props": {
+					"className": "pt-0 pb-3",
+					"variant": "intro"
+				}
+			},
+			[
+				{
+					"name": "Table",
+					"type": "open",
+					"props": {
+						"className": "mt-7"
+					}
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Funzione",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Esempi",
+					{
+						"name": "P",
+						"type": "close"
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{
+					"name": "Table",
+					"type": "open"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "f(x)^{g(x)}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "x^x",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "f(x)!",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "x!",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "a^{f(x)}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "2^x, e^x, 10^x",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "f(x)^b",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "x^2, x^3, \\sqrt{x}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\log_c{f(x)}",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\ln x, \\log_5{x}, \\log{x}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				},
+				"::YSeparator[]{className='mt-4'}",
+				{
+					"name": "Table",
+					"type": "open"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-1 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "a>0, b>0, c>0 \\land c\\neq 1"
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close",
+					"props": {
+						"className": "mt-7"
+					}
+				}
+			],
+			{
+				"name": "Box",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Confronto all'interno delle classi"
+			},
+			"Anche all'interno di una stessa classe di funzioni è possibile individuare delle funzioni che vanno all'infinito più velocemente di altre, quando",
+			{
+				"name": "MathML",
+				"text": "x\\to\\infty."
+			},
+			"Esistono dei criteri specifici per confrontare funzioni della stessa classe. Vediamoli uno per uno."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"props": {
+				"type": "open"
+			}
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Esponenziale-Potenza"
+			},
+			"Nel caso dell'Esponenziale-Potenza si hanno :Bold[due criteri]. A parità di esponente vince chi ha la :Bold[base più grande]. Similmente, a parità di base vince chi ha :Bold[l'esponente più grande]."
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/gerarchia_esponenziale_potenza.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"props": {
+				"type": "open"
+			}
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Fattoriale"
+			},
+			"Per la funzione fattoriale,:Bold[ maggiore è il suo argomento] e più la funzione cresce velocemente."
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/gerarchia_fattoriale.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"props": {
+				"type": "open"
+			}
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Esponenziale"
+			},
+			"Se la base della funzione esponenziale è un numero maggiore di ",
+			{
+				"name": "MathML",
+				"text": "1,"
+			},
+			" allora cresce più velocemente la funzione con la :Bold[base più grande]."
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/gerarchia_esponenziale.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"props": {
+				"type": "open"
+			}
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Potenza"
+			},
+			"Per quanto riguarda la funzione potenza, a parità di base prevale la funzione con :Bold[l'esponente più grande]."
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/gerarchia_potenza.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"props": {
+				"type": "open"
+			}
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Logaritmo"
+			},
+			"Il caso del logaritmo fa eccezione rispetto a tutti gli altri: :Bold[tutti i logaritmi hanno lo stesso ordine di infinito].",
+			"[[br]]",
+			"[[br]]",
+			" Il motivo risiede nel fatto che, utilizzando le proprietà dei logaritmi, è sempre possibile ricondursi allo stesso logaritmo. "
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/gerarchia_logaritmo.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Proprietà dei Logaritmi",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "\\log_a(x) = \\frac{\\ln(x)}{\\ln(a)}"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "MathML",
+				"text": "\\ln(x^a) = a\\ln(x)"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "MathML",
+				"text": "\\ln(ax) = \\ln(a) + \\ln(x)"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Come applicare la gerarchia degli infiniti"
+			},
+			"Vediamo un esempio di funzione che apparentemente sembra molto difficile da affrontare, ma che invece si risolve in modo semplicissimo con la gerarchia degli infiniti:"
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "MathML",
+			"text": "\\lim_{x\\to + \\infty}\\frac{x^4+\\ln x+3^x}{x^6+4^x}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Sia a numeratore che a denominatore troviamo una somma di termini, ognuno dei quali appartiene ad una classe diversa di funzioni.",
+			"[[br]]",
+			"[[br]]",
+			"A numeratore abbiamo",
+			{
+				"name": "MathML",
+				"text": "x^4"
+			},
+			"è una potenza, ",
+			{
+				"name": "MathML",
+				"text": "\\ln x"
+			},
+			"è una funzione logaritmica e ",
+			{
+				"name": "MathML",
+				"text": "3^x"
+			},
+			"è una funzione esponenziale.",
+			"[[br]]",
+			"[[br]]",
+			"A denominatore invece abbiamo ",
+			{
+				"name": "MathML",
+				"text": "x^6 "
+			},
+			", un'altra potenza e ",
+			{
+				"name": "MathML",
+				"text": "4^x"
+			},
+			", un'altra funzione esponenziale.",
+			"[[br]]",
+			"[[br]]",
+			"Sia a numeratore che a denominatore :Bold[prevalgono entrambe le funzioni esponenziali], perciò possiamo riscrivere il limite in questo modo:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\lim_{x\\to + \\infty}\\frac{x^4+\\ln x+3^x}{x^6+4^x} \\approx \\lim_{x\\to + \\infty}\\frac{3^x}{4^x}"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"A questo punto, possiamo ripetere il confronto anche tra numeratore e denominatore.",
+			"[[br]]",
+			"[[br]]",
+			"Nonostante entrambe le funzioni siano esponenziali, :Bold[l'esponenziale a denominatore va all'infinito più velocemente, perché la base è maggiore].",
+			"[[br]]",
+			"[[br]]",
+			"Quindi possiamo trattare l'esponenziale a numeratore :Bold[come se fosse una costante].",
+			"[[br]]",
+			"[[br]]",
+			"Applicando il limite di una frazione che ha a numeratore una costante e a denominatore una funzione che va all'infinito il risultato è",
+			{
+				"name": "MathML",
+				"text": "0."
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\lim_{x\\to + \\infty}\\frac{3^x}{4^x} \\approx \\frac{cost}{\\infty} = 0"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/gerarchia_funzione_esempio.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "\\lim_{x\\to + \\infty}\\frac{x^4+\\ln x+3^x}{x^6+4^x} = 0"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

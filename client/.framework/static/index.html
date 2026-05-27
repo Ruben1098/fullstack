@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instanswer — Matematica e Fisica spiegate semplice</title>
+  <meta name="description" content="Guide pratiche di matematica, fisica e informatica con formule, esempi svolti e spiegazioni chiare." />
+  
+  
+  <meta property="og:title" content="Instanswer — Matematica e Fisica spiegate semplice" />
+  <meta property="og:description" content="Guide pratiche di matematica, fisica e informatica con formule, esempi svolti e spiegazioni chiare." />
+  <meta property="og:type" content="article" />
+
+  <style>
+    :root {
+      --logo-primary: #fcd272;
+      --logo-secondary: #86e0ff;
+      --p: clamp(0.6rem, 1vw, 0.85rem);
+      --round: .935rem;
+      --maxwidth: clamp(56rem, calc(95vw - var(--p) * 2), 65rem);
+    }
+    @font-face {
+      font-family: "Instanswer";
+      src: url("http://localhost:5001/fonts/logo.ttf") format("truetype");
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "round";
+      src: url("http://localhost:5001/fonts/round.ttf") format("truetype");
+      font-display: swap;
+    }
+  </style>
+
+  <link rel="preload" href="http://localhost:3001/styles/globals.css" as="style" type="text/css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="http://localhost:3001/styles/globals.css" crossorigin="anonymous" /></noscript>
+  
+
+  <!-- KaTeX interactive accordion — minimal vanilla JS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('[data-faq-btn]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var panel = document.getElementById(btn.getAttribute('aria-controls'));
+          var expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!expanded));
+          if (panel) panel.hidden = expanded;
+          var icon = btn.querySelector('[data-faq-icon]');
+          if (icon) icon.style.transform = expanded ? '' : 'rotate(180deg)';
+        });
+      });
+
+      // Fallback: normalize SSR flat table content into semantic tr/td rows
+      // when the browser reparses invalid table children as sibling nodes.
+      document.querySelectorAll('table.w-full.grid.grid-cols-1').forEach(function (table) {
+        if (table.querySelector('tr')) return;
+
+        var parent = table.parentElement;
+        if (!parent) return;
+
+        var collected = [];
+        var isHeaderTable = table.classList.contains('mt-7');
+
+        if (isHeaderTable) {
+          var scanPrev = table.previousElementSibling;
+          while (scanPrev && scanPrev.tagName === 'P') {
+            collected.unshift(scanPrev);
+            scanPrev = scanPrev.previousElementSibling;
+          }
+
+          collected.forEach(function (node) {
+            node.className = 'inline m-0 text-left text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100';
+          });
+        } else {
+          var scanPrevGeneric = table.previousElementSibling;
+          while (scanPrevGeneric) {
+            if (scanPrevGeneric.tagName === 'TABLE') break;
+            if (scanPrevGeneric.classList && scanPrevGeneric.classList.contains('border-t')) break;
+            collected.unshift(scanPrevGeneric);
+            scanPrevGeneric = scanPrevGeneric.previousElementSibling;
+          }
+
+          if (collected.length === 0) {
+            var scanNext = table.nextElementSibling;
+            while (scanNext) {
+              if (scanNext.tagName === 'TABLE') break;
+              if (scanNext.classList && scanNext.classList.contains('border-t')) break;
+              collected.push(scanNext);
+              scanNext = scanNext.nextElementSibling;
+            }
+          }
+        }
+
+        if (collected.length === 0) return;
+
+        table.textContent = '';
+
+        var cols = collected.length > 1 && collected.length % 2 === 0 ? 2 : 1;
+        var rowClass = cols === 2
+          ? 'grid-rows-1 auto-cols-fr grid-flow-col grid grid-cols-2 items-center w-full px-6 text-center'
+          : 'grid-rows-1 auto-cols-fr grid-flow-col grid grid-cols-1 items-center w-full px-6 text-center';
+
+        for (var i = 0; i < collected.length; i += cols) {
+          var tr = document.createElement('tr');
+          tr.className = rowClass;
+
+          for (var j = 0; j < cols && i + j < collected.length; j++) {
+            var td = document.createElement('td');
+            td.className = 'col-span-1';
+            td.appendChild(collected[i + j]);
+            tr.appendChild(td);
+          }
+
+          table.appendChild(tr);
+        }
+      });
+    });
+  </script>
+</head>
+<body class="font-round text-base">
+  <div id="content">
+    <div id="entry">
+      <div id="firstPaint" class="contents"><div class="flex flex-col"><nav id="brand" class="sticky top-p z-50 row-span-1 col-span-full shrink-0 h-fit flex flex-row items-center w-full max-w-maxwidth"><a href="/" class="font-logo text-6xl mx-auto rounded-full backdrop-blur-lg border border-white/65 bg-white/30 px-6 pt-2 pb-3 leading-7 shadow-black/35 shadow-[0_0_8px_-1px]">instanswer</a></nav></div></div>
+      <div id="middle" class="contents"><div class="flex flex-col">
+    <div class="w-full max-w-maxwidth px-4 py-10">
+      <div class="text-center mb-12">
+        <h1 class="text-4xl lg:text-5xl font-bold text-brand mb-4">Studia in modo intelligente</h1>
+        <p class="text-lg text-gray-500 max-w-xl mx-auto">
+          Guide pratiche, formule e spiegazioni chiare per matematica, fisica e informatica.
+        </p>
+      </div>
+
+      
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">Derivate</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/analisi1/derivate-fondamentali-tabella-formule"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/derivate_fondamentali_island1.webp"
+        alt="Tabella Derivate Fondamentali e Casi Particolari | Analisi 1"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Matematica</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Tabella Derivate Fondamentali e Casi Particolari | Analisi 1</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">L'elenco completo delle derivate elementari da sapere a memoria, con i trucchi per risolvere i casi più ostici e gli esercizi svolti passo dopo passo.</p>
+      </div>
+    </a>
+
+    <a
+      href="/analisi1/regole-derivazione-prodotto-quoziente"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/regole_derivazione_island1.webp"
+        alt="Regole di Derivazione: Somma, Prodotto e Quoziente | Esempi"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Matematica</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Regole di Derivazione: Somma, Prodotto e Quoziente | Esempi</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Impara a calcolare le derivate con la tabella delle regole fondamentali: prodotto, quoziente, somma e costante. Spiegazioni chiare ed esempi svolti.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">Limiti</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/analisi1/gerarchia-infiniti"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/gerarchia_infiniti_island1.webp"
+        alt="Gerarchia degli Infiniti: Tabella e Confronto tra Funzioni"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Matematica</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Gerarchia degli Infiniti: Tabella e Confronto tra Funzioni</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Scopri l'ordine in cui prevalgono le funzioni nei limiti. Tabella della gerarchia degli infiniti e metodi per confrontare funzioni della stessa classe.</p>
+      </div>
+    </a>
+
+    <a
+      href="/analisi1/concetto-limite-definizione-esempi"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/limiti_definizione_island1.webp"
+        alt="Il Concetto di Limite: Spiegazione Completa, Definizioni ed Esempi"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Matematica</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Il Concetto di Limite: Spiegazione Completa, Definizioni ed Esempi</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Guida introduttiva ai limiti in Analisi Matematica: i 4 casi di limite (finito e infinito), teoria semplice e come capire se un limite esiste o meno.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">limiti</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/lezioni/limiti-notevoli-tabella-formule"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/limiti_notevoli_island1.webp"
+        alt="Limiti Notevoli: Tabella Completa, Formule e Esempi"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">analisi-1</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Limiti Notevoli: Tabella Completa, Formule e Esempi</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">La guida definitiva ai Limiti Notevoli: tabella riassuntiva (trigonometrici, esponenziali, logaritmici), spiegazione del metodo di generalizzazione ed esercizi svolti.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">Calorimetria</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/fisica/calore-specifico-acqua-legge-calorimetria"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/calore_specifico_island1.webp"
+        alt="Calore Specifico e Legge della Calorimetria: Spiegazione ed Esempi"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Termodinamica</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Calore Specifico e Legge della Calorimetria: Spiegazione ed Esempi</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Guida completa al calore specifico dell'acqua e alla Legge della Calorimetria. Scopri le unità di misura (Joule e Calorie), le formule e un esempio pratico di calcolo.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">Disequazioni</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/matematica/disequazioni-secondo-grado-tabella-esercizi"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/diseq_II_grado_island1.webp"
+        alt="Disequazioni di Secondo Grado: Tabella dei Segni e Risoluzione"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Algebra</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Disequazioni di Secondo Grado: Tabella dei Segni e Risoluzione</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Guida pratica alle disequazioni di secondo grado. Consulta la tabella dei segni in base al Delta e impara a risolverle con i nostri esercizi svolti passo passo.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">Il Piano Cartesiano</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/matematica/distanza-due-punti-piano-cartesiano-formule"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/distanza_island1.webp"
+        alt="Distanza Tra Due Punti: Formule ed Esercizi Svolti"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Geometria Analitica</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Distanza Tra Due Punti: Formule ed Esercizi Svolti</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Impara a calcolare la distanza tra due punti nel piano cartesiano. Consulta la tabella delle formule per segmenti obliqui, orizzontali e verticali con esempi pratici.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">Esponenziali e Logaritmi</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/matematica/proprieta-dei-logaritmi-tabella-esercizi"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/prop_logaritmi_island1.webp"
+        alt="Proprietà dei Logaritmi: Tabella, Formule ed Esercizi Svolti"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Algebra</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Proprietà dei Logaritmi: Tabella, Formule ed Esercizi Svolti</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Scopri tutte le proprietà dei logaritmi con la nostra tabella riassuntiva. Impara la definizione, le formule principali e come semplificare le espressioni passo dopo passo.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-xl font-bold text-gray-800 mb-4 border-l-4 border-brand pl-3">Basi del Computer e Programmazione</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      
+    <a
+      href="/informatica/come-fare-parentesi-graffe-tastiera-windows-mac"
+      class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
+    >
+      
+      <img
+        src="/parentesi_graffe_island1.webp"
+        alt="Come Fare le Parentesi Graffe sulla Tastiera: Windows, Mac e Linux"
+        class="w-full h-36 object-cover"
+        loading="lazy"
+      />
+      <div class="p-4 flex flex-col gap-1 flex-1">
+        <span class="text-xs font-semibold text-brand uppercase tracking-wide">Informatica</span>
+        <h3 class="text-sm font-bold leading-snug text-gray-900 line-clamp-2">Come Fare le Parentesi Graffe sulla Tastiera: Windows, Mac e Linux</h3>
+        <p class="text-xs text-gray-500 line-clamp-2 flex-1">Guida rapida alle scorciatoie da tastiera per fare le parentesi graffe { }. Scopri tutte le combinazioni di tasti corrette per Windows, macOS e Linux.</p>
+      </div>
+    </a>
+    </div>
+  </section>
+    </div>
+  </div></div>
+      <div id="root-3" class="contents">
+  <footer class="bg-slate-50 text-slate-600 border-t-2 border-[#115eeb] w-full bottom-0 left-0" style="z-index: 10;">
+    <div class="max-w-5xl mx-auto px-4 py-10 flex flex-col md:flex-row md:justify-between gap-8 text-center md:text-left">
+      <div class="md:w-1/3 flex flex-col items-center md:items-start">
+        <div class="font-bold text-lg text-[#115eeb]">Instanswer</div>
+        <div class="text-sm mt-1">La matematica spiegata semplice.</div>
+      </div>
+      <nav class="flex flex-col gap-2 md:w-1/3 items-center md:items-start">
+        <span class="font-semibold mb-1">Navigazione</span>
+        <a href="/" class="hover:underline">Home</a>
+        <a href="/chi-siamo" class="hover:underline">Chi Siamo</a>
+        <a href="/contatti" class="hover:underline">Contatti</a>
+      </nav>
+      <nav class="flex flex-col gap-2 md:w-1/3 items-center md:items-start">
+        <span class="font-semibold mb-1">Legale</span>
+        <a href="/privacy-policy" class="hover:underline">Privacy Policy</a>
+        <a href="/cookie-policy" class="hover:underline">Cookie Policy</a>
+        <a href="/termini-condizioni" class="hover:underline">Termini e Condizioni</a>
+      </nav>
+    </div>
+    <div class="border-t border-brand text-xs text-center py-4 px-2 bg-slate-50">
+      <div>© 2026 Instanswer. Tutti i diritti riservati.</div>
+      <div class="mt-1 text-[11px] text-slate-500 max-w-2xl mx-auto">
+        Questo sito partecipa a programmi di affiliazione e riceve una commissione per gli acquisti idonei effettuati tramite i link forniti, senza alcun costo aggiuntivo.
+      </div>
+    </div>
+  </footer></div>
+    </div>
+  </div>
+</body>
+</html>

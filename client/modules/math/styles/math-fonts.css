@@ -1,0 +1,220 @@
+/**
+ * Math fonts - Font-face declarations
+ * Optimized for modern browsers using woff2 format only
+ */
+
+/* Main math font family */
+@font-face {
+  font-family: 'Math_Main';
+  src: url('../fonts/math-main-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Math_Main';
+  src: url('../fonts/math-main-bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Math_Main';
+  src: url('../fonts/math-main-italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Math_Main';
+  src: url('../fonts/math-main-bolditalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Symbol font family */
+@font-face {
+  font-family: 'Math_Symbol';
+  src: url('../fonts/math-symbol-italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Math_Symbol';
+  src: url('../fonts/math-symbol-bolditalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* AMS-style symbol family */
+@font-face {
+  font-family: 'Math_AMS';
+  src: url('../fonts/math-ams-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* MathML Styling */
+math {
+  font-family: 'Math_Main', 'Cambria Math', 'Latin Modern Math', 'STIX Two Math', serif;
+  font-size: 1.05em; /* leggermente più piccolo inline */
+  line-height: 1;
+  display: inline-block;
+  text-indent: 0;
+  vertical-align: middle;
+}
+
+math[display="block"] {
+  display: block;
+  text-align: center;
+  margin: 1.2em auto 1.2em auto;
+  font-size: 1.45em; /* più grande per block */
+  line-height: 1.25;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-line;
+}
+
+/* Forza centratura e a capo per MathML block */
+.math-block, .math-block math[display="block"] {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  white-space: pre-line;
+}
+
+/* Riduci leggermente la matematica inline */
+.math-container, .math-auto span math:not([display="block"]) {
+  font-size: 0.98em !important;
+  vertical-align: middle;
+}
+/* Identifiers (variables) */
+mi {
+  font-family: 'Math_Symbol', 'Math_Main', 'Cambria Math', serif;
+  font-style: italic;
+}
+
+/* Numbers */
+mn {
+  font-family: 'Math_Main', 'Cambria Math', serif;
+  font-style: normal;
+}
+
+/* Operators */
+mo {
+  font-family: 'Math_Main', 'Math_AMS', 'Cambria Math', serif;
+  font-style: normal;
+}
+
+/* Text */
+mtext {
+  font-family: 'Math_Main', sans-serif;
+  font-style: normal;
+}
+
+/* Fractions */
+mfrac {
+  display: inline-block;
+  vertical-align: -0.5em;
+  text-align: center;
+}
+
+mfrac > * {
+  display: block;
+}
+
+/* Square roots */
+msqrt, mroot {
+  display: inline-block;
+  padding: 0.1em 0.3em 0 0.5em;
+}
+
+/* Subscripts and superscripts */
+msub, msup, msubsup {
+  display: inline-block;
+}
+
+/* Spaces */
+mspace {
+  display: inline-block;
+}
+
+/* Styling support */
+mstyle[mathvariant="bold"] {
+  font-weight: bold;
+}
+
+mstyle[mathvariant="bold-italic"] {
+  font-weight: bold;
+  font-style: italic;
+}
+
+mstyle[mathvariant="italic"] {
+  font-style: italic;
+}
+
+mstyle[mathvariant="normal"] {
+  font-style: normal;
+}
+
+/* Color support */
+mstyle[mathcolor] {
+  color: attr(mathcolor);
+}
+
+
+.math-overline, .custom-overline {
+  display: inline-block;
+  position: relative;
+}
+
+.math-overline::after, .custom-overline::after {
+  content: "";
+  display: block;
+  border-top: 1.5px solid currentColor;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-0.2em);
+  pointer-events: none;
+}
+
+/* Forza il layout su una singola riga usando flexbox per impedire i ritorni a capo sugli operatori (+, -) */
+math munderover > mrow,
+math msubsup > mrow,
+math munder > mrow,
+math mover > mrow,
+math msub > mrow,
+math msup > mrow {
+    display: inline-flex !important;
+    flex-wrap: nowrap !important;
+    align-items: baseline;
+    white-space: nowrap !important;
+}
+
+/* Impedisce esplicitamente agli operatori interni di suggerire un punto di rottura */
+math munderover > mrow > mo,
+math msubsup > mrow > mo,
+math munder > mrow > mo,
+math mover > mrow > mo,
+math msub > mrow > mo,
+math msup > mrow > mo {
+    white-space: nowrap !important;
+    line-break: strict;
+}

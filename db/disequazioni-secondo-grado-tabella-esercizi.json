@@ -1,0 +1,975 @@
+{
+	"slug": "disequazioni-secondo-grado-tabella-esercizi",
+	"title": "Disequazioni di Secondo Grado: Tabella dei Segni e Risoluzione",
+	"excerpt": "Guida pratica alle disequazioni di secondo grado. Consulta la tabella dei segni in base al Delta e impara a risolverle con i nostri esercizi svolti passo passo.",
+	"category": "Matematica",
+	"school": "Liceo",
+	"class": "Secondo",
+	"course": "Algebra",
+	"argument": "Disequazioni",
+	"featuredImage": "/diseq_II_grado_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Disequazioni di Secondo Grado: Guida Pratica e Tabella Completa]:P[Le disequazioni di secondo grado sono uno strumento matematico fondamentale per studiare il segno di un polinomio in cui l'incognita ha come grado massimo il] :MathML[2] :P[.]:P[La forma normale del trinomio è] :MathML[ax^2 + bx + c] :P[, e la disequazione ci permette di scoprire per quali valori esso risulta maggiore o minore di] :MathML[0] :P[.]",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella delle Disequazioni di Secondo Grado"
+			},
+			"Il numero di soluzioni che può ammettere una disequazione dipende unicamente dal :Bold[segno del discriminante], che è definito come: "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\Delta = b^2 -4ac"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		[
+			{
+				"name": "Box",
+				"type": "open",
+				"props": {
+					"className": "pt-0 pb-3",
+					"variant": "intro"
+				}
+			},
+			[
+				{
+					"name": "Table",
+					"type": "open",
+					"props": {
+						"className": "mt-7"
+					}
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": "grid grid-cols-4 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Disequazione",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Δ > 0",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Δ = 0",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Δ < 0",
+					{
+						"name": "P",
+						"type": "close"
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{
+					"name": "Table",
+					"type": "open"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "ax^2 + bx + c>0",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Valori esterni",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "x \\neq x_1",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Sempre",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "ax^2 + bx + c\\geq 0",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Valori esterni (inclusi)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Sempre",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Sempre",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "ax^2 + bx + c<0",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Valori interni",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Mai",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Mai",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "ax^2 + bx + c\\leq0",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Valori interni (inclusi)",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "x = x_1",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Mai",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				}
+			],
+			{
+				"name": "Box",
+				"type": "close"
+			},
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"Questo criterio di classificazione risiede nella :Bold[formula risolutiva delle equazioni]. Ogni disequazione ha la propria :Bold[EQUAZIONE ASSOCIATA] che si ottiene semplicemente sostituendo il segno di disuguaglianza presente con il simbolo di UGUALE ",
+				{
+					"name": "MathML",
+					"text": "(=)"
+				},
+				"."
+			],
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "Box",
+				"type": "open",
+				"props": {
+					"variant": "theory"
+				}
+			},
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Formula Risolutiva",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"Avendo l'equazione ",
+				{
+					"name": "MathML",
+					"text": "ax^2 + bx + c = 0"
+				},
+				"si può applicare la formula:"
+			],
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "x_{1,2} = \\frac{-b\\pm\\sqrt{\\Delta}}{2a}"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"dove ",
+				{
+					"name": "MathML",
+					"text": "\\Delta = b^2 -4ac"
+				},
+				"."
+			],
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "Box",
+				"type": "close"
+			},
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"Come possiamo vedere, la formula prevede il segno di",
+				{
+					"name": "MathML",
+					"text": "(\\pm)"
+				},
+				", ciò vuol dire che se",
+				{
+					"name": "MathML",
+					"text": "\\Delta > 0"
+				},
+				"il risultato si sdoppia in due valori distinti. ",
+				"[[br]]",
+				"[[br]]",
+				"Se invece ",
+				{
+					"name": "MathML",
+					"text": "\\Delta = 0"
+				},
+				"è come se il simbolo",
+				{
+					"name": "MathML",
+					"text": "(\\pm)"
+				},
+				"perdesse di significato, e quindi quel \"doppio\" valore in realtà è uno solo (due soluzioni coincidenti). ",
+				"[[br]]",
+				"[[br]]",
+				"Infine, se ",
+				{
+					"name": "MathML",
+					"text": "\\Delta < 0"
+				},
+				", dato che sta sotto radice quadrata, non si può fare la radice di un numero negativo, altrimenti non siamo più nell'insieme dei numeri reali",
+				{
+					"name": "MathML",
+					"text": "(\\mathbb{R})"
+				},
+				"ma entriamo nel campo dei numeri complessi",
+				{
+					"name": "MathML",
+					"text": "(\\mathbb{C})"
+				},
+				". Quindi in questo caso :Bold[non esistono] soluzioni reali.",
+				"[[br]]",
+				"[[br]]",
+				"Possiamo meglio visualizzare questi concetti con il :Bold[METODO DELLA PARABOLA]."
+			],
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "div",
+				"type": "open",
+				"props": {
+					"className": "w-full h-auto"
+				}
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/diseq_II_grado_metodo_parabola.webp"
+				}
+			],
+			{
+				"name": "div",
+				"type": "close"
+			},
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"[[br]]",
+				"[[br]]",
+				"Nel primo caso vediamo che la parabola interseca :Bold[DUE] volte l'asse ",
+				{
+					"name": "MathML",
+					"text": "x"
+				},
+				", nel secondo caso lo interseca solo :Bold[UNA] volta, mentre nel terzo caso la parabola :Bold[NESSUNA].",
+				"[[br]]",
+				"[[br]]",
+				"Come interpretiamo il risultato? Dipende dal :Bold[segno della disequazione].",
+				"[[br]]",
+				"[[br]]",
+				"A questo punto, se il segno è ",
+				{
+					"name": "MathML",
+					"text": "(>)"
+				},
+				"dobbiamo scegliere tutte le parti di parabola che stanno :Bold[SOLO SOPRA] l'asse delle",
+				{
+					"name": "MathML",
+					"text": "x"
+				},
+				", quindi è verificata per valori esterni a quelli trovati nell'equazione associata.",
+				"[[br]]",
+				"[[br]]",
+				"Se il segno invece è ",
+				{
+					"name": "MathML",
+					"text": "(<)"
+				},
+				" scegliamo tutte le porzioni di parabola che stanno ",
+				{
+					"name": "Bold",
+					"text": "SOLO SOTTO"
+				},
+				", quindi la disequazione è verificata per valori interni.",
+				"[[br]]",
+				"[[br]]",
+				"Se i simboli sono invece ",
+				{
+					"name": "MathML",
+					"text": "(\\geq)"
+				},
+				" o ",
+				{
+					"name": "MathML",
+					"text": "(\\leq)"
+				},
+				" il discorso si può ripetere allo stesso modo, soltanto che :Bold[si devono includere anche gli estremi degli intervalli], ovvero le soluzioni dell'equazione associata."
+			],
+			{
+				"name": "P",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Risoluzione"
+			},
+			"Risolviamo insieme una disequazione che comprenda tutti i possibili passaggi che potrebbero capitare durante un compito in classe."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{15}{2}-3x<\\frac{x^2}{2}-2x"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 1: Eliminare tutte le frazioni"
+			},
+			"Per prima cosa possiamo eliminare tutti i fastidiosi denominatori facendo il :Bold[m.c.m.] tra i denominatori a sinistra e a destra:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\frac{15 -6x}{2}<\\frac{x^2 - 4x}{2}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Per evitare di commettere errori dobbiamo assicurarci che IL :Bold[NUMERO AL DENOMINATORE SIA POSITIVO], perché altrimenti, dato che stiamo risolvendo una disequazione, dovremmo invertire il segno della disuguaglianza.",
+			"[[br]]",
+			"[[br]]",
+			"Per sicurezza lavoriamo soltanto con numeri positivi. In questo caso possiamo semplificare senza problemi."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "15-6x < x^2 - 4x"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 2: Portare a sinistra tutti i termini"
+			},
+			"Per applicare la formula dobbiamo avere :Bold[tutti i termini a sinistra]. Invece, a destra non deve esserci nulla. Portiamo quindi",
+			{
+				"name": "MathML",
+				"text": "x^2 - 4x"
+			},
+			"a sinistra cambiando i segni:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "15-6x -x^2 + 4x < 0"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 3: Unire tutti i termini simili"
+			},
+			"Come possiamo vedere",
+			{
+				"name": "MathML",
+				"text": "-6x"
+			},
+			"e",
+			{
+				"name": "MathML",
+				"text": "+4x"
+			},
+			"sono simili, perché hanno la :Bold[stessa parte letterale]. Quindi possiamo sommarli"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "15-2x -x^2 < 0"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 4: Riordinare la disequazione"
+			},
+			"Scritta in questo modo potrebbe indurci nuovamente in errore. Perciò, per nostra comodità è sempre bene scrivere i termini in :Bold[questo ordine]:",
+			{
+				"name": "MathML",
+				"text": "ax^2"
+			},
+			",",
+			{
+				"name": "MathML",
+				"text": "bx"
+			},
+			"e poi",
+			{
+				"name": "MathML",
+				"text": "c."
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "-x^2 -2x + 15<0"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 5: Rendere positivo il termine quadratico"
+			},
+			"Sicuramente la disequazione è risolvibile anche così, ma per ulteriore comodità è opportuno far si che il termine in ",
+			{
+				"name": "MathML",
+				"text": "x^2"
+			},
+			"sia positivo. Quindi :Bold[cambiamo segno a tutti i termini], ma [ATTENZIONE!] Per poterlo fare dobbiamo ricordarci di :Bold[GIRARE IL SEGNO DI DISUGUAGLIANZA!]"
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "x^2 +2x - 15>0"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 6: Calcolare il Delta"
+			},
+			"Finalmente siamo arrivati alla forma che ci interessa. Notiamo che",
+			{
+				"name": "MathML",
+				"text": "a=1"
+			},
+			", ",
+			{
+				"name": "MathML",
+				"text": "b=2"
+			},
+			"e",
+			{
+				"name": "MathML",
+				"text": "c=-15."
+			},
+			"Possiamo applicare la :Bold[formula del Delta]."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\Delta = (2)^2-4(1)(-15) = 4+60 = 64"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 7: Applicare la formula risolutiva"
+			},
+			"Adesso che abbiamo trovato il Delta possiamo applicare la formula risolutiva come se fosse un'equazione normale.",
+			"[[br]]",
+			"[[br]]",
+			"Applichiamo la formula risolutiva alla nostra :Bold[equazione associata]:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "x_{1,2} = \\frac{-2\\pm\\sqrt{64}}{2\\cdot 1} = \\frac{-2\\pm8}{2}"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "P",
+				"text": "Quindi le :Bold[due soluzioni reali e distinte] sono:"
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "x_1=\\frac{-2+8}{2} = \\frac{6}{2} = 3"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": "x_2=\\frac{-2-8}{2} = \\frac{-10}{2} = -5"
+		},
+		{
+			"name": "box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Ora che abbiamo trovato le radici, dobbiamo determinare l'intervallo delle soluzioni. Poiché il segno della disequazione è :Bold[maggiore] di zero",
+			{
+				"name": "MathML",
+				"text": "(>)"
+			},
+			", dobbiamo prendere :Bold[i valori esterni] alle soluzioni trovate:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "x < -5 \\land x > 3."
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Questo significa che la disequazione è verificata per tutti i numeri più piccoli di ",
+			{
+				"name": "MathML",
+				"text": "-5"
+			},
+			"e per tutti i numeri più grandi di ",
+			{
+				"name": "MathML",
+				"text": "3"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			"Visualizziamo il risultato finale con il metodo della parabola."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/diseq_II_grado_metodo_parabola_esempio.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "\\frac{15}{2}-3x<\\frac{x^2}{2}-2x \\implies x < -5 \\land x > 3"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+      <meta charset="utf-8" />
+      <meta name="color-scheme" content="light" />
+      <meta name="referrer" content="origin-when-cross-origin" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+
+      <link rel="icon" href="http://localhost:5001/assets/favicon.svg" />
+
+      {{ $PRELOADS }}
+
+
+      <link rel="preload" href="http://localhost:3001/globals.css" as="style"
+            onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous" />
+
+      <noscript>
+            <link rel="stylesheet" href="http://localhost:3001/globals.css" />
+      </noscript>
+</head>
+
+<style>
+      bun-hmr {
+            display: none !important;
+      }
+   
+</style>
+
+<body>
+      <div id="content">
+            <div id="entry">
+                  {{ $ROOTS }}
+            </div>
+      </div>
+</body>
+<script>
+      // Ignora errori specifici
+      window.addEventListener("error", (event) => {
+            if (event.message.includes("Failed to construct 'URL'")) {
+                  event.preventDefault(); // blocca log in console
+                  return;
+            }
+      });
+      window.addEventListener("unhandledrejection", (event) => {
+            if (String(event.reason).includes("Invalid URL")) {
+                  event.preventDefault();
+            }
+      });
+
+</script>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "/_shared/react.js",
+    "react-dom": "/_shared/react-dom.js"
+  }
+}
+</script>
+
+{{ $MODULES }}
+
+</html>

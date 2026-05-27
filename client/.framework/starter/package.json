@@ -1,0 +1,23 @@
+{
+  "name": "framework",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/chokidar": "^2.1.7",
+    "autoprefixer": "^10.4.23",
+    "chokidar": "^5.0.0",
+    "cssnano": "^7.1.2",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.18"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ]
+}

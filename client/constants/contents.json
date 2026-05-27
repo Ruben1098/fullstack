@@ -1,0 +1,4759 @@
+[
+	{
+		"slug": "derivate-fondamentali-tabella-formule",
+		"title": "Tabella Derivate Fondamentali e Casi Particolari | Analisi 1",
+		"excerpt": "L'elenco completo delle derivate elementari da sapere a memoria, con i trucchi per risolvere i casi più ostici e gli esercizi svolti passo dopo passo.",
+		"category": "Analisi1",
+		"school": "liceo",
+		"class": "5",
+		"course": "Matematica",
+		"argument": "Derivate",
+		"featuredImage": "/derivate_fondamentali_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Derivate Fondamentali ed Elementari: Tabella Completa e Metodi di Risoluzione]\n:P[Le Derivate Fondamentali sono una serie di formule molto semplici da ricordare per poter affrontare qualsiasi esercizio di calcolo sulle derivate.]\n:P[Non serve ricalcolare ogni volta il limite del rapporto incrementale, queste formule sono pronte all'uso ogni volta che si ripresenta una funzione di un certo tipo.]\n",
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella delle Derivate Fondamentali" },
+
+				"In questa tabella è riportata la lista completa delle :Bold[derivate per le funzioni elementari].",
+				"[[br]]",
+				"[[br]]",
+				"È importante imparare ad usare bene queste formule, perché ogni volta che ci troviamo di fronte ad una funzione da derivare dobbiamo essere in grado di riconoscere a quale di queste formule corrisponde."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			[
+				{
+					"name": "Box",
+					"type": "open",
+					"props": { "className": "pt-0 pb-3", "variant": "intro" }
+				},
+				[
+					{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg opacity-100 mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890]"
+							}
+						},
+						"Funzione",
+						{ "name": "P", "type": "close" },
+
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Derivata",
+						{ "name": "P", "type": "close" }
+					],
+					{ "name": "Row", "type": "close" },
+					{ "name": "Table", "type": "close" },
+					"::YSeparator[]{className='my-4'}",
+					{ "name": "Table", "type": "open" },
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "k",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "0",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "x^\\alpha",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\alpha \\cdot x^{\\alpha-1}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\frac{1}{x}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "-\\frac{1}{x^2}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\sqrt{x}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\frac{1}{2\\sqrt{x}}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "e^x",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "e^x",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "a^x",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "a^x \\cdot \\ln(a)",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\ln(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\frac{1}{x}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\log_a(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\frac{1}{x \\ln(a)}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\sin(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\cos(x)",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\cos(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "-\\sin(x)",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\tan(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\frac{1}{\\cos^2(x)}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\arctan(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\frac{1}{1+x^2}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\arcsin(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\frac{1}{\\sqrt{1-x^2}}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\arccos(x)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "-\\frac{1}{\\sqrt{1-x^2}}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "e^{x^2}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "2xe^{x^2}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{ "name": "Table", "type": "close" }
+				],
+				{ "name": "Box", "type": "close" }
+			],
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Alcune funzioni elementari sono :Bold[\"nascoste\"]. A primo occhio sembrano non rientrare in nessuna delle derivate fondamentali, ma è sufficiente riscriverle :Bold[in modo equivalente], utilizzando le proprietà delle potenze."
+			],
+			"[[br]]",
+			"[[br]]",
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Proprietà delle Potenze",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"La radice con un qualsiasi indice e un qualsiasi esponente diventa :Bold[una potenza che ha una frazione ad esponente]. L'esponente diventa il numeratore, l'indice diventa il denominatore."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\root{a}{x^b} = x^{\\frac{b}{a}}" },
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "P", "type": "open" },
+			[
+				"Quando troviamo invece la",
+				{ "name": "MathML", "text": "x" },
+				"a denominatore con un certo esponente, possiamo :Bold[portare tutto a numeratore], a patto di cambiare segno all'esponente."
+			],
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "\\frac{1}{x^m} = x^{-m}" },
+
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "Esempio 1"
+				},
+				"Vediamo un esempio in cui la ",
+				{ "name": "MathML", "text": "x" },
+				" con un certo :Bold[esponente] compare sotto una :Bold[radice]. Calcoliamo:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\frac{d}{dx}(\\root{4}{x^3})" },
+
+			{ "name": "P", "type": "open" },
+			["In primis, applichiamo la proprietà per riscrivere la funzione in forma di potenza:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\root{4}{x^3} = x^{\\frac{3}{4}}" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Ci accorgiamo che la nostra funzione ricade nella categoria ",
+				{ "name": "MathML", "text": "x^{\\alpha}" },
+				", quindi possiamo applicare :Bold[la derivata della potenza]:"
+			],
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(x^\\alpha) = \\alpha x^{\\alpha -1}"
+			},
+
+			{ "name": "P", "type": "open" },
+			["in cui ", { "name": "MathML", "text": "\\alpha = \\frac{3}{4}" }, ". Svolgiamo i calcoli:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(\\root{4}{x^3}) = \\frac{d}{dx}x^{\\frac{3}{4}} = \\frac{3}{4}x^{\\frac{3}{4} -1}="
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "MathML",
+				"text": " = \\frac{3}{4}x^{\\frac{3}{4} -\\frac{4}{4}} = \\frac{3}{4}x^{-\\frac{1}{4}} = \\frac{3}{4\\root{4}{x}}"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": " \\frac{d}{dx}(\\root{4}{x^3})=\\frac{3}{4\\root{4}{x}}"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "Esempio 2"
+				},
+				"Vediamo insieme un altro caso molto frequente. Calcoliamo: "
+			],
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "\\frac{d}{dx}(\\frac{1}{x^5})" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Troviamo un altro esempio in cui la ",
+				{ "name": "MathML", "text": "x" },
+				"con un certo esponente compare al :Bold[denominatore]. Utilizzando la proprietà delle potenze, possiamo riscrivere la funzione in questo modo:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\frac{1}{x^5} = x^{-5}" },
+
+			{ "name": "P", "type": "open" },
+			["In questo caso ", { "name": "MathML", "text": "\\alpha = -5" }, ". Possiamo applicare la stessa formula vista precedentemente."],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(\\frac{1}{x^5}) = \\frac{d}{dx}(x^{-5}) = -5 x^{-5-1}= "
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "MathML",
+				"text": " = -5 x^{-6} = -\\frac{5}{x^6}"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": " \\frac{d}{dx}(\\frac{1}{x^5})=-\\frac{5}{x^6}"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			{
+				"name": "H3",
+				"text": "Esempio 3",
+				"props": { "className": "italic" }
+			},
+
+			["Calcoliamo la derivata:"],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}  (\\frac{5}{3\\root{3}{x^4}})"
+			},
+
+			{ "name": "P", "type": "open" },
+			[
+				"Questo è un esempio in cui si trovano :Bold[contemporaneamente] entrambi i casi visti in precedenza: la ",
+				{ "name": "MathML", "text": "x" },
+				" compare sia sotto una radice che al denominatore."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\frac{5}{3\\root{3}{x^4}} = \\frac{5}{3}x^{-\\frac{4}{3}}"
+			},
+
+			{ "name": "P", "type": "open" },
+			["Applichiamo quindi la formula precedente, questa volta con", { "name": "MathML", "text": "\\alpha = -\\frac{4}{3}" }, "."],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\frac{d}{dx}(\\frac{5}{3}x^{-\\frac{4}{3}}) = -\\frac{4}{3}\\cdot\\frac{5}{3}x^{-\\frac{4}{3}-1} = -\\frac{20}{9}x^{-\\frac{7}{3}}"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Come ultimo passaggio, possiamo :Bold[riportare giù al denominatore] ",
+				{ "name": "MathML", "text": "x^{-\\frac{7}{3}}" },
+				"e riscriverlo sotto forma di radice:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "-\\frac{20}{9}x^{-\\frac{7}{3}} = -\\frac{20}{9\\root{3}{x^7}}"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(\\frac{5}{3\\root{3}{x^4}}) = -\\frac{20}{9\\root{3}{x^7}}"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Errori comuni" },
+				"Nei compiti in classe è molto frequente confondere le funzioni :Bold[costanti] con le :Bold[potenze]. In questi casi viene spontaneo applicare la formula di derivazione della potenza (come abbiamo visto negli esempi precedenti), ma è importante prestare attenzione e leggere bene la funzione che si ha davanti. ",
+				"[[br]]",
+				"[[br]]",
+				"Molto spesso i professori tendono delle trappole, come in questi due esempi:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(\\pi^3)\\quad\\vert\\quad\\frac{d}{dx}(e^5)"
+			},
+
+			{ "name": "P", "type": "open" },
+			["In entrambi, andando di fretta, potremmo essere indotti a scrivere:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "alert" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#D90429] opacity-100"
+				}
+			},
+			"Sbagliato!",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(\\pi^3) = 3\\pi^2\\quad\\vert\\quad\\frac{d}{dx}(e^5) = 5e^4"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Ma questo è un errore grave! Ed il motivo è molto semplice: :Bold[non c'è la variabile!] La ",
+				{ "name": "MathML", "text": "x" },
+				"infatti non compare da nessuna parte! Non stiamo derivando rispetto a nulla.",
+				"[[br]]",
+				"[[br]]",
+				"Queste funzioni sono semplicemente delle :Bold[costanti]. E la derivata di una costante è sempre :Bold[ZERO!] Quindi il risultato corretto è:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2] opacity-100"
+				}
+			},
+			"Corretto",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\frac{d}{dx}(\\pi^3) = 0\\quad\\vert\\quad\\frac{d}{dx}(e^5) = 0"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "regole-derivazione-prodotto-quoziente",
+		"title": "Regole di Derivazione: Somma, Prodotto e Quoziente | Esempi",
+		"excerpt": "Impara a calcolare le derivate con la tabella delle regole fondamentali: prodotto, quoziente, somma e costante. Spiegazioni chiare ed esempi svolti.",
+		"category": "Analisi1",
+		"school": "liceo",
+		"class": "5",
+		"course": "Matematica",
+		"argument": "Derivate",
+		"featuredImage": "/regole_derivazione_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Le Regole di Derivazione: Come Calcolare Somma, Prodotto e Quoziente (con Esempi)]\n:P[Le Regole di Derivazione sono un insieme di formule che possiamo usare come scorciatoie per calcolare la derivata di funzioni molto elaborate. Spesso le funzioni sono composte a loro volta da delle altre funzioni tenute insieme dalle operazioni elementari: somma, differenza, prodotto e quoziente.]\n",
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella delle regole di derivazione" },
+				"Molto spesso, quando ci troviamo a dover calcolare la derivata di una funzione che comprende delle operazioni complesse, è possibile scomporla in blocchi più semplici, e applicare le regole di derivazione per calcolare la derivata di ogni blocco.",
+				"[[br]]",
+				"[[br]]",
+				"Questa tabella riassume tutte le regole principali. Consideriamo due funzioni ",
+				{ "name": "MathML", "text": "f" },
+				" e ",
+				{ "name": "MathML", "text": "g" },
+				"."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{
+				"name": "Box",
+				"type": "open",
+				"props": { "className": "pt-0 pb-3", "variant": "intro" }
+			},
+
+			{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+					}
+				},
+				"Operazione",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+					}
+				},
+				"Formula",
+				{ "name": "P", "type": "close" }
+			],
+			{ "name": "Row", "type": "close" },
+			{ "name": "Table", "type": "close" },
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "Table", "type": "open" },
+
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+			[
+				{
+					"name": "P",
+					"text": "Prodotto",
+					"props": { "className": "text-xl" }
+				},
+				{
+					"name": "MathML",
+					"text": "D(f \\cdot g) = f' \\cdot g + f \\cdot g'",
+					"props": { "className": "text-xl" }
+				}
+			],
+			{ "name": "Row", "type": "close" },
+
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+			[
+				{
+					"name": "P",
+					"text": "Quoziente",
+					"props": { "className": "text-xl" }
+				},
+				{
+					"name": "MathML",
+					"text": "D(\\frac{f}{g}) = \\frac{f' \\cdot g - f \\cdot g'}{g^2}",
+					"props": { "className": "text-xl" }
+				}
+			],
+			{ "name": "Row", "type": "close" },
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+			[
+				{
+					"name": "P",
+					"text": "Somma",
+					"props": { "className": "text-xl" }
+				},
+				{
+					"name": "MathML",
+					"text": "D(f + g) = f' + g'",
+					"props": { "className": "text-xl" }
+				}
+			],
+			{ "name": "Row", "type": "close" },
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+			[
+				{
+					"name": "P",
+					"text": "Costante",
+					"props": { "className": "text-xl" }
+				},
+				{
+					"name": "MathML",
+					"text": "D(k \\cdot f) = k \\cdot f'",
+					"props": { "className": "text-xl" }
+				}
+			],
+			{ "name": "Row", "type": "close" },
+
+			{ "name": "Table", "type": "close" },
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "La Derivata del Prodotto" },
+				"La derivata del prodotto è :Bold[la somma di due blocchi].",
+				"[[br]]",
+				"[[br]]",
+				"Nel primo blocco si moltiplica ",
+				{ "name": "MathML", "text": "f'" },
+				"(ovvero la derivata di ",
+				{ "name": "MathML", "text": "f" },
+				") per la ",
+				{ "name": "MathML", "text": "g" },
+				". Nel secondo pezzo si fa il viceversa: si moltiplica la",
+				{ "name": "MathML", "text": "g'" },
+				"(la derivata di ",
+				{ "name": "MathML", "text": "g" },
+				") per la",
+				{ "name": "MathML", "text": "f" },
+				". "
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Definizione",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "D(f \\cdot g) = f' \\cdot g + f \\cdot g'"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Istintivamente verrebbe da fare :Bold[\"derivata per derivata\"], ma ovviamente è sbagliato. Quindi, ricordarsi sempre :Bold[la derivata del prodotto è diversa dal prodotto delle derivate]."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "alert" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#D90429] opacity-100"
+				}
+			},
+			"Sbagliato!",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "D(f \\cdot g) \\neq f' \\cdot g'" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+
+			"Ad esempio, calcoliamo la derivata della seguente funzione, che contiene il prodotto di una funzione quadratica e di una funzione trigonometrica: ",
+
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "h(x) = x^2 \\cdot \\sin x" },
+
+			{ "name": "P", "type": "open" },
+			["Calcoliamo separatamente le derivate delle due funzioni:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\frac{d}{dx} (x^2) = 2x" },
+
+			{ "name": "MathML", "text": "\\frac{d}{dx} (\\sin x) = \\cos x" },
+
+			{ "name": "P", "type": "open" },
+			["Applichiamo la formula della :Bold[Derivata del Prodotto]:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "h'(x) = (2x) \\cdot \\sin x + (x^2) \\cdot \\cos x"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			["In questo caso, non sono necessari ulteriori passaggi. Il risultato è già semplificato, quindi possiamo lasciarlo così com'è."],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+					}
+				},
+				"Risultato Finale",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "h'(x) = 2x \\cdot \\sin x + x^2 \\cdot \\cos x"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/regole_derivazione_prodotto.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "La Derivata del Quoziente" },
+				"La derivata del quoziente ricorda molto la regola della derivata del prodotto, ma leggermente diversa. La regola si scrive come la :Bold[la differenza di due blocchi].",
+				"[[br]]",
+				"[[br]]",
+				"Nel primo blocco si moltiplica ",
+				{ "name": "MathML", "text": "f'" },
+				" (ovvero la derivata di ",
+				{ "name": "MathML", "text": "f" },
+				") per la ",
+				{ "name": "MathML", "text": "g" },
+				". Nel secondo blocco si fa il viceversa: si moltiplica la ",
+				{ "name": "MathML", "text": "g'" },
+				" (la derivata di ",
+				{ "name": "MathML", "text": "g" },
+				") per la ",
+				{ "name": "MathML", "text": "f" },
+				". :Bold[ATTENZIONE: per definizione c'è il segno meno!]",
+				"[[br]]",
+				"[[br]]",
+				"Il tutto viene poi diviso per ",
+				{ "name": "MathML", "text": "g^2" },
+				"."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Definizione",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "D(\\frac{f}{g}) = \\frac{f' \\cdot g - f \\cdot g'}{g^2}"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			["Vediamo un altro esempio calcolando la derivata della seguente funzione: "],
+
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "k(x) = \\frac{\\ln(x)}{x}" },
+
+			{ "name": "P", "type": "open" },
+			["Anche qui, deriviamo a parte le due funzioni: "],
+
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\frac{d}{dx} \\ln (x) = \\frac{1}{x}" },
+
+			{ "name": "MathML", "text": "\\frac{d}{dx} (x) = 1 " },
+			{ "name": "P", "type": "open" },
+			["Applichiamo la formula della :Bold[Derivata del Quoziente] e svolgiamo i calcoli:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			{
+				"name": "MathML",
+				"text": "k'(x) = \\frac{(\\frac{1}{x}) \\cdot x - (\\ln x) \\cdot 1}{(x)^2}= \\frac{\\frac{x}{x} - \\ln x }{x^2}="
+			},
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "MathML", "text": " = \\frac{1 - \\ln(x)}{x^2} " },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "k'(x) = \\frac{1 - \\ln(x)}{x^2}" },
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/regole_derivazione_quoziente.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "La Derivata della somma" },
+				"Quando abbiamo una funzione che è composta a sua volta da una somma di funzioni, :Bold[possiamo derivare ogni pezzo separatamente e poi sommare i risultati].",
+				"[[br]]",
+				"[[br]]",
+				"In altre parole, :Bold[la derivata della somma è uguale alla somma delle derivate]."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Definizione",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "D(f + g) = f' + g'"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			["Un esempio molto semplice è il seguente:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			{ "name": "MathML", "text": "r(x) = x^3 + \\cos(x)" },
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "P",
+				"type": "open"
+			},
+			["Deriviamo pezzo per pezzo le singole funzioni:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\frac{d}{dx}x^3 = 3x^2" },
+
+			{ "name": "MathML", "text": "\\frac{d}{dx}\\cos(x) = -\\sin(x)" },
+
+			{
+				"name": "P",
+				"text": "Infine, molto semplicemente sommiamo algebricamente le due derivate per ottenere la derivata della funzione di partenza."
+			},
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "r'(x) = 3x^2 - \\sin(x)" },
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/regole_derivazione_somma.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "La Derivata di una funzione moltiplicata per una costante"
+				},
+				"Quando una funzione è moltiplicata per una costante, la derivata si calcola :Bold[moltiplicando la costante per la derivata della funzione].",
+				"[[br]]",
+				"[[br]]",
+				"In questi casi, è come se inizialmente :Bold[la costante restasse a guardare]. Viene applicata la derivata :Bold[solo alla funzione] e alla fine si applica :Bold[la moltiplicazione] per la costante stessa."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Definizione",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "D(k \\cdot f) = k \\cdot f'"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			["Un esempio di derivata di una costante che moltiplica una funzione:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "s(x) = 5 x^4" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Il numero ",
+				{ "name": "MathML", "text": "5" },
+				"è una costante moltiplicativa, perciò esce fuori dall'operazione di derivata e :Bold[deriviamo solo la potenza]:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			{
+				"name": "MathML",
+				"text": "5 \\cdot \\frac{d}{dx}(x^4) = 5 \\cdot (4x^3) "
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Compare una nuova costante moltiplicativa, che proviene dall'operazione di derivazione di:",
+				{ "name": "MathML", "text": "x^4" },
+				", quindi molto semplicemente :Bold[possiamo moltiplicare le due costanti tra loro]."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/regole_derivazione_costante.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "s'(x) = 20x^3" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "gerarchia-infiniti",
+		"title": "Gerarchia degli Infiniti: Tabella e Confronto tra Funzioni",
+		"excerpt": "Scopri l'ordine in cui prevalgono le funzioni nei limiti. Tabella della gerarchia degli infiniti e metodi per confrontare funzioni della stessa classe.",
+		"category": "Analisi1",
+		"school": "liceo",
+		"class": "5",
+		"course": "Matematica",
+		"argument": "Limiti",
+		"featuredImage": "/gerarchia_infiniti_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[La Gerarchia degli Infiniti: Come Capire Quale Funzione Prevale nei Limiti]\n:P[La gerarchia degli infiniti è il criterio con il quale le varie classi di funzioni vengono ordinate in base alla velocità con la quale tendono all'infinito quando] :MathML[x\\to\\infty.]:P[Sono molto utili e rapide per risolvere le forme indeterminate come ]:MathML[\\frac{\\infty}{\\infty}]:P[ e ]:MathML[\\frac{0}{0}]:P[.] \n",
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella della Gerarchia degli Infiniti" },
+				"In questa tabella ordiniamo dall'alto verso il basso le funzioni seguendo la gerarchia. Le funzioni che si trovano più in alto prevalgono su quelle che si trovano più in basso."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			[
+				{
+					"name": "Box",
+					"type": "open",
+					"props": { "className": "pt-0 pb-3", "variant": "intro" }
+				},
+				[
+					{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Funzione",
+						{ "name": "P", "type": "close" },
+
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Esempi",
+						{ "name": "P", "type": "close" }
+					],
+					{ "name": "Row", "type": "close" },
+					{ "name": "Table", "type": "close" },
+					"::YSeparator[]{className='my-4'}",
+					{ "name": "Table", "type": "open" },
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "f(x)^{g(x)}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "x^x",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "f(x)!",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "x!",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "a^{f(x)}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "2^x, e^x, 10^x",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "f(x)^b",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "x^2, x^3, \\sqrt{x}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\log_c{f(x)}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\ln x, \\log_5{x}, \\log{x}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+					{ "name": "Table", "type": "close" },
+					"::YSeparator[]{className='mt-4'}",
+					{ "name": "Table", "type": "open" },
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-1 items-center w-full px-6 text-center"
+						}
+					},
+
+					[{ "name": "MathML", "text": "a>0, b>0, c>0 \\land c\\neq 1" }],
+					{ "name": "Row", "type": "close" },
+
+					{ "name": "Table", "type": "close", "props": { "className": "mt-7" } }
+				],
+				{ "name": "Box", "type": "close" }
+			],
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Confronto all'interno delle classi" },
+				"Anche all'interno di una stessa classe di funzioni è possibile individuare delle funzioni che vanno all'infinito più velocemente di altre, quando",
+				{ "name": "MathML", "text": "x\\to\\infty." },
+				"Esistono dei criteri specifici per confrontare funzioni della stessa classe. Vediamoli uno per uno."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{ "name": "P", "props": { "type": "open" } },
+			[
+				{
+					"name": "H3",
+					"text": "Esponenziale-Potenza"
+				},
+				"Nel caso dell'Esponenziale-Potenza si hanno :Bold[due criteri]. A parità di esponente vince chi ha la :Bold[base più grande]. Similmente, a parità di base vince chi ha :Bold[l'esponente più grande]."
+			],
+
+			{ "name": "P", "props": { "type": "close" } },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/gerarchia_esponenziale_potenza.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "props": { "type": "open" } },
+			[
+				{
+					"name": "H3",
+					"text": "Fattoriale"
+				},
+				"Per la funzione fattoriale,:Bold[ maggiore è il suo argomento] e più la funzione cresce velocemente."
+			],
+			{ "name": "P", "props": { "type": "close" } },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/gerarchia_fattoriale.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "props": { "type": "open" } },
+
+			[
+				{
+					"name": "H3",
+					"text": "Esponenziale"
+				},
+				"Se la base della funzione esponenziale è un numero maggiore di ",
+				{ "name": "MathML", "text": "1," },
+				" allora cresce più velocemente la funzione con la :Bold[base più grande]."
+			],
+
+			{ "name": "P", "props": { "type": "close" } },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/gerarchia_esponenziale.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "props": { "type": "open" } },
+			[
+				{
+					"name": "H3",
+					"text": "Potenza"
+				},
+				"Per quanto riguarda la funzione potenza, a parità di base prevale la funzione con :Bold[l'esponente più grande]."
+			],
+			{ "name": "P", "props": { "type": "close" } },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/gerarchia_potenza.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "props": { "type": "open" } },
+
+			[
+				{
+					"name": "H3",
+					"text": "Logaritmo"
+				},
+				"Il caso del logaritmo fa eccezione rispetto a tutti gli altri: :Bold[tutti i logaritmi hanno lo stesso ordine di infinito].",
+				"[[br]]",
+				"[[br]]",
+				" Il motivo risiede nel fatto che, utilizzando le proprietà dei logaritmi, è sempre possibile ricondursi allo stesso logaritmo. "
+			],
+			{ "name": "P", "props": { "type": "close" } },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/gerarchia_logaritmo.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Proprietà dei Logaritmi",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "\\log_a(x) = \\frac{\\ln(x)}{\\ln(a)}"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{ "name": "MathML", "text": "\\ln(x^a) = a\\ln(x)" },
+				"::YSeparator[]{className='my-4'}",
+				{ "name": "MathML", "text": "\\ln(ax) = \\ln(a) + \\ln(x)" }
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Come applicare la gerarchia degli infiniti" },
+				"Vediamo un esempio di funzione che apparentemente sembra molto difficile da affrontare, ma che invece si risolve in modo semplicissimo con la gerarchia degli infiniti:"
+			],
+			{ "name": "P", "props": { "type": "close" } },
+			{ "name": "Slide", "type": "open" },
+
+			{
+				"name": "MathML",
+				"text": "\\lim_{x\\to + \\infty}\\frac{x^4+\\ln x+3^x}{x^6+4^x}"
+			},
+
+			{ "name": "P", "type": "open" },
+			[
+				"Sia a numeratore che a denominatore troviamo una somma di termini, ognuno dei quali appartiene ad una classe diversa di funzioni.",
+				"[[br]]",
+				"[[br]]",
+				"A numeratore abbiamo",
+				{ "name": "MathML", "text": "x^4" },
+				"è una potenza, ",
+				{ "name": "MathML", "text": "\\ln x" },
+				"è una funzione logaritmica e ",
+				{ "name": "MathML", "text": "3^x" },
+				"è una funzione esponenziale.",
+				"[[br]]",
+				"[[br]]",
+				"A denominatore invece abbiamo ",
+				{ "name": "MathML", "text": "x^6 " },
+				", un'altra potenza e ",
+				{ "name": "MathML", "text": "4^x" },
+				", un'altra funzione esponenziale.",
+				"[[br]]",
+				"[[br]]",
+				"Sia a numeratore che a denominatore :Bold[prevalgono entrambe le funzioni esponenziali], perciò possiamo riscrivere il limite in questo modo:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\lim_{x\\to + \\infty}\\frac{x^4+\\ln x+3^x}{x^6+4^x} \\approx \\lim_{x\\to + \\infty}\\frac{3^x}{4^x}"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"A questo punto, possiamo ripetere il confronto anche tra numeratore e denominatore.",
+				"[[br]]",
+				"[[br]]",
+				"Nonostante entrambe le funzioni siano esponenziali, :Bold[l'esponenziale a denominatore va all'infinito più velocemente, perché la base è maggiore].",
+				"[[br]]",
+				"[[br]]",
+				"Quindi possiamo trattare l'esponenziale a numeratore :Bold[come se fosse una costante].",
+				"[[br]]",
+				"[[br]]",
+				"Applicando il limite di una frazione che ha a numeratore una costante e a denominatore una funzione che va all'infinito il risultato è",
+				{ "name": "MathML", "text": "0." }
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\lim_{x\\to + \\infty}\\frac{3^x}{4^x} \\approx \\frac{cost}{\\infty} = 0"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/gerarchia_funzione_esempio.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+					}
+				},
+				"Risultato Finale",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "\\lim_{x\\to + \\infty}\\frac{x^4+\\ln x+3^x}{x^6+4^x} = 0"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "concetto-limite-definizione-esempi",
+		"title": "Il Concetto di Limite: Spiegazione Completa, Definizioni ed Esempi",
+		"excerpt": "Guida introduttiva ai limiti in Analisi Matematica: i 4 casi di limite (finito e infinito), teoria semplice e come capire se un limite esiste o meno.",
+		"category": "Analisi1",
+		"school": "liceo",
+		"class": "5",
+		"course": "Matematica",
+		"argument": "Limiti",
+		"featuredImage": "/limiti_definizione_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Introduzione ai Limiti: Cos'è un Limite, i 4 Casi Possibili e le Condizioni di Esistenza]\n:P[Il limite è un'operazione che descrive il comportamento di una funzione quando la variabile ]:MathML[x]:P[ si avvicina a un certo valore ]:MathML[x_0]:P[ Calcolare un limite significa rispondere alla domanda: \"A quale valore si avvicina la y mentre la x si avvicina a un certo punto?\"]\n",
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella dei tipi di Limite" },
+
+				{
+					"name": "P",
+					"text": "Nella tabella seguente sono riportati i 4 casi principali di limite."
+				}
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			[
+				{
+					"name": "Box",
+					"type": "open",
+					"props": { "className": "pt-0 pb-3", "variant": "intro" }
+				},
+				[
+					{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Limite",
+						{ "name": "P", "type": "close" },
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Grafico",
+						{ "name": "P", "type": "close" }
+					],
+					{ "name": "Row", "type": "close" },
+					{ "name": "Table", "type": "close" },
+					"::YSeparator[]{className='my-4'}",
+					{ "name": "Table", "type": "open" },
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to x_0} f(x) = l",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Continuità o \"buco\".",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to x_0} f(x) = \\infty",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Asintoto Verticale.",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to \\infty} f(x) = l",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Asintoto Orizzontale.",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "\\lim_{x \\to \\infty} f(x) = \\infty",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Crescita illimitata.",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{ "name": "Table", "type": "close" }
+				],
+				{ "name": "Box", "type": "close" }
+			],
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "A - Limite Finito per x finita"
+				},
+				"Immaginiamo di scegliere un ",
+				{ "name": "MathML", "text": "\\varepsilon" },
+				" piccolo a piacere, che definisce un intervallo attorno a ",
+				{ "name": "MathML", "text": "l" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				" Sull'asse ",
+				{ "name": "MathML", "text": "y" },
+				" si definisce un intervallo che va da ",
+				{ "name": "MathML", "text": "l - \\varepsilon" },
+				" a ",
+				{ "name": "MathML", "text": "l + \\varepsilon" },
+				". Ricaviamo i corrispettivi valori di ",
+				{ "name": "MathML", "text": "x" },
+				".",
+				"[[br]]",
+				"[[br]]",
+
+				" In generale, le distanze con ",
+				{ "name": "MathML", "text": "x_0" },
+				" a sinistra e a destra sono diverse. Il più piccolo tra i due è lungo una certa lunghezza ",
+				{ "name": "MathML", "text": "\\delta" },
+				".",
+				"[[br]]",
+				"[[br]]",
+
+				"Quindi uno dei due varrà ",
+				{ "name": "MathML", "text": "x_0 - \\delta" },
+				", mentre dall'altra parte ricaviamo ",
+				{ "name": "MathML", "text": "x_0 + \\delta" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				" All'interno dell'intero intervallo, qualsiasi ",
+				{ "name": "MathML", "text": "x" },
+				" avrà il valore della sua funzione ",
+				{ "name": "MathML", "text": "f(x)" },
+				" :Bold[sicuramente compreso all'interno dell'intervallo] tra ",
+				{ "name": "MathML", "text": "l - \\varepsilon" },
+				" e ",
+				{ "name": "MathML", "text": "l + \\varepsilon" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				" In altre parole, il segmento ",
+				{ "name": "MathML", "text": "f(x) - l" },
+				" :Bold[è sempre più corto] di quell'intervallo."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/LimFinito_xFinita.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+				}
+			},
+			"Definizione",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\forall \\varepsilon > 0, \\exists \\delta > 0 : \\forall x \\in D \\setminus \\{x_0\\}, 0 < |x - x_0| < \\delta \\implies |f(x) - l| < \\varepsilon"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+				}
+			},
+			"Come si legge?",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"\"Per ogni ",
+				{ "name": "MathML", "text": "\\varepsilon > 0" },
+				" (arbitrariamente piccolo), esiste un numero ",
+				{ "name": "MathML", "text": "\\delta > 0" },
+				" tale che, per ogni ",
+				{ "name": "MathML", "text": "x" },
+				" appartenente al dominio, escluso ",
+				{ "name": "MathML", "text": "x_0" },
+				", ogniqualvolta ",
+				{ "name": "MathML", "text": "0 < |x - x_0| < \\delta" },
+				", si ha che",
+				{ "name": "MathML", "text": "|f(x) - l| < \\varepsilon" },
+				"\""
+			],
+			{ "name": "P", "type": "close" },
+			{ "name": "Box", "type": "close" },
+			{ "name": "P", "type": "open" },
+			[
+				"Attenzione a non dare per scontato che il limite esista sempre. Il limite esiste esclusivamente se il risultato è lo stesso sia provenendo da sinistra che provenendo da destra (si dice che :Bold[il limite sinistro è uguale al limite destro]). Altrimenti, se i valori sono diversi, il limite non esiste."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "Box",
+				"type": "open",
+				"props": { "variant": "theory" }
+			},
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Teorema di esistenza del limite",
+				{ "name": "P", "type": "close" },
+				{ "name": "P", "type": "open" },
+				["Il limite esiste se e solo se il limite destro e il limite sinistro coincidono:"],
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "\\lim_{x \\to x_0} f(x) = l \\iff \\lim_{x \\to x_0^-} f(x) = \\lim_{x \\to x_0^+} f(x) = l"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{ "name": "P", "type": "open" },
+				["Se il limite destro e il limite sinistro sono diversi, allora il limite non esiste:"],
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": " \\lim_{x \\to x_0^-} f(x) \\neq \\lim_{x \\to x_0^+} f(x) \\implies\\nexists \\lim_{x \\to x_0} f(x) "
+				}
+			],
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "B - Limite Infinito per x finito"
+				},
+				"Quando ",
+				{ "name": "MathML", "text": "x" },
+				" tende al valore ",
+				{ "name": "MathML", "text": "x_0" },
+				" la curva segue l'asintoto verticale, andando quindi all'infinito.",
+				"[[br]]",
+				"[[br]]",
+				"La definizione dice che scegliendo un qualsiasi valore ",
+				{ "name": "MathML", "text": "M" },
+				" grande a piacere sull'asse ",
+				{ "name": "MathML", "text": "y" },
+				", la sua ",
+				{ "name": "MathML", "text": "x" },
+				" corrispondente definirà un certo intervallo con ",
+				{ "name": "MathML", "text": "x_0" },
+				" lungo ",
+				{ "name": "MathML", "text": "\\delta" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				":Bold[Qualsiasi] ",
+				{ "name": "MathML", "text": "x" },
+				" dentro questo intervallo avrà sicuramente il suo valore ",
+				{ "name": "MathML", "text": "f(x)" },
+				":Bold[maggiore] in modulo di ",
+				{ "name": "MathML", "text": "M" },
+				"."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/LimINFINITO_xFinita.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+				}
+			},
+			"Definizione",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\forall M > 0, \\exists \\delta > 0 : \\forall x \\in D \\setminus \\{x_0\\}, 0 < |x - x_0| < \\delta \\implies |f(x)| > M"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+				}
+			},
+			"Come si legge?",
+			{ "name": "P", "type": "close" },
+			{ "name": "P", "type": "open" },
+			"\"Per ogni ",
+			{ "name": "MathML", "text": "M > 0" },
+			" (arbitrariamente grande), esiste un numero ",
+			{ "name": "MathML", "text": "\\delta > 0" },
+			" tale che, per ogni ",
+			{ "name": "MathML", "text": "x" },
+			" appartenente al dominio, escluso ",
+			{ "name": "MathML", "text": "x_0" },
+			", ogniqualvolta ",
+			{ "name": "MathML", "text": "0 < |x - x_0| < \\delta" },
+			", si ha che",
+			{ "name": "MathML", "text": "|f(x)| > M" },
+			"\"",
+			{ "name": "P", "type": "close" },
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "C - Limite Finito per x che tende all'Infinito"
+				},
+				"Immaginiamo di avere una curva che quando ",
+				{ "name": "MathML", "text": "x \\to +\\infty" },
+				" tende a un certo valore ",
+				{ "name": "MathML", "text": "l" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				"Possiamo scegliere sull'asse ",
+				{ "name": "MathML", "text": "y" },
+				" un ",
+				{ "name": "MathML", "text": "\\varepsilon" },
+				" piccolo a piacere, per il quale si definisce un intervallo tra ",
+				{ "name": "MathML", "text": "l - \\varepsilon" },
+				" e ",
+				{ "name": "MathML", "text": "l + \\varepsilon" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				"L'ascissa corrispondente al valore ",
+				{ "name": "MathML", "text": "l - \\varepsilon" },
+				" è ",
+				{ "name": "MathML", "text": "N" },
+				". La definizione dice che :Bold[qualsiasi] ",
+				{ "name": "MathML", "text": "x > N" },
+				" avrà il suo valore ",
+				{ "name": "MathML", "text": "f(x)" },
+				" :Bold[compreso nell'intervallo] definito da ",
+				{ "name": "MathML", "text": "\\varepsilon" },
+				"."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/LimFinito_xINFINITA.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+				}
+			},
+			"Definizione",
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\forall \\varepsilon > 0, \\exists N > 0 : \\forall x \\in D, |x| > N \\implies |f(x) - l| < \\varepsilon"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+				}
+			},
+			"Come si legge?",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"\"Per ogni ",
+				{ "name": "MathML", "text": "\\varepsilon > 0" },
+				" (arbitrariamente piccolo), esiste un numero ",
+				{ "name": "MathML", "text": "N > 0" },
+				" tale che, per ogni ",
+				{ "name": "MathML", "text": "x" },
+				" appartenente al dominio, ogniqualvolta ",
+				{ "name": "MathML", "text": "|x| > N" },
+				", si ha che ",
+				{ "name": "MathML", "text": "|f(x) - l| < \\varepsilon" },
+				"\""
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "D - Limite Infinito per x che tende all'Infinito"
+				},
+				"In quest'ultimo caso, mentre ",
+				{ "name": "MathML", "text": "x \\to +\\infty" },
+				" la curva non si assesta su nessun valore finito di ",
+				{ "name": "MathML", "text": "y" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				"La definizione dice che, scelta una ",
+				{ "name": "MathML", "text": "M" },
+				" grande a piacere sull'asse ",
+				{ "name": "MathML", "text": "y" },
+				", la sua ",
+				{ "name": "MathML", "text": "x" },
+				" corrispondente definisce un certo valore ",
+				{ "name": "MathML", "text": "N" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				"Sicuramente, se scegliamo una ",
+				{ "name": "MathML", "text": "x > N" },
+				" allora anche il suo valore ",
+				{ "name": "MathML", "text": "f(x)" },
+				"in modulo sarà :Bold[maggiore] di ",
+				{ "name": "MathML", "text": "M" },
+				"."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/LimINFINITO_xINFINITA.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+				}
+			},
+			"Definizione",
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\forall M > 0, \\exists N > 0 : \\forall x \\in D, |x| > N \\implies |f(x)| > M"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+				}
+			},
+			"Come si legge?",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"\"Per ogni ",
+				{ "name": "MathML", "text": "M > 0" },
+				" (arbitrariamente grande), esiste un numero ",
+				{ "name": "MathML", "text": "N > 0" },
+				" tale che, per ogni ",
+				{ "name": "MathML", "text": "x" },
+				" appartenente al dominio, ogniqualvolta ",
+				{ "name": "MathML", "text": "|x| > N" },
+				", si ha che ",
+				{ "name": "MathML", "text": "|f(x)| > M" },
+				"\""
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "limiti-notevoli-tabella-formule",
+		"title": "Limiti Notevoli: Tabella Completa, Formule e Esempi",
+		"excerpt": "La guida definitiva ai Limiti Notevoli: tabella riassuntiva (trigonometrici, esponenziali, logaritmici), spiegazione del metodo di generalizzazione ed esercizi svolti.",
+		"category": "lezioni",
+		"school": "liceo",
+		"class": "5",
+		"course": "analisi-1",
+		"argument": "limiti",
+		"featuredImage": "/limiti_notevoli_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Limiti Notevoli: Tabella Completa e Metodo di Risoluzione]\n:P[Cosa sono i Limiti Notevoli? I limiti notevoli sono limiti specifici, solitamente forme indeterminate ]:MathML[\\frac{0}{0}]:P[ oppure ]:MathML[1^\\infty]:P[, di cui già si conosce il loro risultato. Sono delle \"formule già pronte\" che possiamo usare come dei mattoncini. Basta soltanto capire come riconoscere ed utilizzare questi mattoncini!]\n",
+		"content": [
+			{ "name": "Shell", "type": "open" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella dei Limiti Notevoli" },
+				"Questa tabella riassume tutti i limiti notevoli utili per risolvere gli esercizi."
+			],
+			{ "name": "P", "type": "close" },
+
+			[
+				{ "name": "Slide", "type": "open" },
+				[
+					{
+						"name": "Box",
+						"type": "open",
+						"props": { "className": "pt-0 pb-3", "variant": "intro" }
+					},
+					[
+						{
+							"name": "Table",
+							"type": "open",
+							"props": { "className": "mt-7" }
+						},
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"type": "open",
+								"props": {
+									"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+								}
+							},
+							"Funzione",
+							{ "name": "P", "type": "close" },
+							{
+								"name": "P",
+								"type": "open",
+								"props": {
+									"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+								}
+							},
+							"Limite Notevole",
+							{ "name": "P", "type": "close" }
+						],
+						{ "name": "Row", "type": "close" },
+						{ "name": "Table", "type": "close" },
+						"::YSeparator[]{className='my-4'}",
+						{ "name": "Table", "type": "open" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Seno",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Tangente",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{\\tan x}{x} = 1",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Coseno (1)",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{1 - \\cos x}{x} = 0",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Coseno (2)",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2} = \\frac{1}{2}",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Nepero",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to \\infty} (1 + \\frac{1}{x}) ^x = e",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Esponenziale (base e)",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Esponenziale (base a)",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Logaritmo",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x} = 1",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{
+							"name": "Row",
+							"type": "open",
+							"props": {
+								"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+							}
+						},
+						[
+							{
+								"name": "P",
+								"text": "Binomiale",
+								"props": { "className": "text-xl" }
+							},
+							{
+								"name": "MathML",
+								"text": "\\lim_{x \\to 0} \\frac{(1+x)^k - 1}{x} = k",
+								"props": { "className": "text-xl" }
+							}
+						],
+						{ "name": "Row", "type": "close" },
+
+						{ "name": "Table", "type": "close" },
+
+						{ "name": "Table", "type": "open" }
+					],
+					{ "name": "Box", "type": "close" }
+				],
+				{ "name": "Slide", "type": "close" }
+			],
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Come applicare i limiti notevoli" },
+				"Ora che abbiamo visto la tabella dei limiti notevoli, vediamo come usarli per risolvere gli esercizi.",
+				"[[br]]",
+				"[[br]]",
+				"Tuttavia, i limiti notevoli non si possono applicare in modo diretto in qualsiasi situazione. È necessario in primis manipolare l'espressione, e solo a quel punto possiamo sostituire con il valore noto."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "type": "open" },
+				["Metodo"],
+				{ "name": "H3", "type": "close" },
+
+				"Risolviamo insieme questo esercizio, in modo da capire il metodo di applicazione dei limiti notevoli:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\lim_{x\\to 0}\\frac{e^{x^2}-1}{\\sin x^2}"
+			},
+
+			{ "name": "P", "type": "open" },
+			[
+				"Applicando il limite direttamente, otteniamo la forma indeterminata ",
+				{ "name": "MathML", "text": "\\frac{0}{0}" },
+				", perciò l'idea è di applicare i limiti notevoli.",
+				"[[br]]",
+				"[[br]]",
+				"Possiamo notare che il numeratore ci suggerisce di applicare il limite notevole esponenziale, che ci dice che"
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1,"
+			},
+
+			{ "name": "P", "type": "open" },
+			["mentre il denominatore ci suggerisce di usare il limite notevole trigonometrico, che ci dice che"],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1."
+			},
+
+			{ "name": "P", "type": "open" },
+			["Tuttavia, per due ragioni distinte, non possiamo ancora applicarli direttamente: "],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Attenzione",
+				{ "name": "P", "type": "close" },
+				{ "name": "UL", "type": "open" },
+				[
+					{ "name": "P", "text": "Non abbiamo " },
+					{ "name": "MathML", "text": "x" },
+					{ "name": "P", "text": ", ma" },
+					{ "name": "MathML", "text": "x^2." }
+				],
+				{ "name": "UL", "type": "close" },
+				{ "name": "UL", "type": "open" },
+				[
+					{
+						"name": "P",
+						"text": "I limiti notevoli ancora :Bold[\"non esistono\"] nella frazione"
+					}
+				],
+				{ "name": "UL", "type": "close" }
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+
+			[
+				"Per prima cosa, moltiplichiamo per",
+				{ "name": "MathML", "text": "\\frac{x^2}{x^2}" },
+				"la frazione, in modo da riscriverla in modo equivalente."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\lim_{x\\to 0}\\frac{e^{x^2}-1}{\\sin x^2}\\cdot\\frac{x^2}{x^2}=\\lim_{x\\to 0}\\frac{\\displaystyle\\frac{e^{x^2}-1}{x^2}}{\\displaystyle\\frac{\\sin x^2}{x^2}}"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Ricordiamoci che, per applicare il limite notevole, :Bold[anche l'argomento della funzione deve tendere allo stesso valore] a cui tende la ",
+				{ "name": "MathML", "text": "x." },
+				"[[br]]",
+				"[[br]]",
+
+				"In questo caso, ",
+				{ "name": "MathML", "text": "x^2\\to 0" },
+				"quando ",
+				{ "name": "MathML", "text": "x\\to 0" },
+				"? Si! e quindi si può applicare!"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Regola di generalizzazione dei limiti notevoli",
+				{ "name": "P", "type": "close" },
+				{ "name": "P", "type": "open" },
+				["In questo stiamo applicando questa regola per entrambi i limiti notevoli:"],
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "\\lim_{\\red{f(x)} \\to 0} \\frac{e^{\\red{f(x)}} - 1}{\\red{f(x)}} = 1"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{
+					"name": "MathML",
+					"text": "\\lim_{\\red{f(x)} \\to 0} \\frac{\\sin \\red{f(x)}}{\\red{f(x)}} = 1"
+				},
+				{ "name": "P", "type": "open" },
+				[
+					"Ricordati che i :Bold[\"pezzi rossi\"] devono essere uguali per applicare il limite notevole! Questa regola vale per :Bold[qualsiasi] limite notevole e per qualsiasi funzione."
+				],
+				{ "name": "P", "type": "close" }
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Grazie a questa regola, possiamo applicare i limiti notevoli, ottenendo che il :Bold[numeratore tende a 1] e il :Bold[denominatore tende a 1]."
+			],
+
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\lim_{\\red{x^2} \\to 0} \\frac{\\overbrace{\\displaystyle\\frac{e^{\\red{x^2}}-1}{\\red{x^2}}}^{\\to 1 }}{\\underbrace{\\displaystyle\\frac{\\sin(\\red{x^2})}{\\red{x^2}}}_{\\to 1 }} = \\frac{1}{1} = 1"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/limiti_notevoli_grafico_esempio.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+					}
+				},
+				"Risultato Finale",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "\\lim_{x\\to 0}\\frac{e^{x^2}-1}{\\sin x^2}=1"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "calore-specifico-acqua-legge-calorimetria",
+		"title": "Calore Specifico e Legge della Calorimetria: Spiegazione ed Esempi",
+		"excerpt": "Guida completa al calore specifico dell'acqua e alla Legge della Calorimetria. Scopri le unità di misura (Joule e Calorie), le formule e un esempio pratico di calcolo.",
+		"category": "Fisica",
+		"school": "Liceo",
+		"class": "Terzo",
+		"course": "Termodinamica",
+		"argument": "Calorimetria",
+		"featuredImage": "/calore_specifico_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Calore Specifico e Legge della Calorimetria]\n:P[Il calore specifico dell'acqua è la quantità di calore necessaria per far aumentare di ]:MathML[1°C]:P[(oppure di ]:MathML[1K]:P[) un grammo di acqua. Il suo valore è di ]:MathML[c=4186\\frac{J}{kg\\cdot K}]:P[. Il calore specifico si applica nella legge della calorimetria:]:MathML[Q=m \\cdot c \\cdot\\Delta T]\n",
+
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella dei valori del Calore Specifico" },
+				"Vediamo in questa tabella tutti i possibili valori del calore specifico, a seconda del contesto e delle unità di misura. ",
+				"[[br]]",
+				"[[br]]",
+				"Le unità di misura più comuni per il calore specifico sono i Joule (Sistema Internazionale - S.I.) e le Calorie (unità di misura più usata in ambito alimentare)"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			[
+				{
+					"name": "Box",
+					"type": "open",
+					"props": { "className": "pt-0 pb-3", "variant": "intro" }
+				},
+				[
+					{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"In Joule (S.I.)",
+						{ "name": "P", "type": "close" },
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"In Calorie",
+						{ "name": "P", "type": "close" }
+					],
+					{ "name": "Row", "type": "close" },
+					{ "name": "Table", "type": "close" },
+					"::YSeparator[]{className='my-4'}",
+					{ "name": "Table", "type": "open" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "c = 4186 \\frac{J}{kg\\cdot K}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "c = 1 \\frac{kcal}{kg\\cdot K}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "c = 4,186 \\frac{J}{g\\cdot K}",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "c = 1 \\frac{cal}{g\\cdot K}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{ "name": "Table", "type": "close" }
+				],
+				{ "name": "Box", "type": "close" }
+			],
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Significato di Calore Specifico" },
+				"Leggiamo insieme la definizione di calore specifico, per capire cosa rappresenta e come si usa nella pratica.",
+				"[[br]]",
+				"[[br]]",
+				"Il calore specifico è una grandezza fisica che indica quanto :Bold[calore] è necessario per far aumentare la :Bold[temperatura] di un certo materiale.",
+				"[[br]]",
+				"[[br]]",
+				"In particolare, il calore specifico dell'acqua è molto alto, e questo è il motivo per cui l'acqua viene usata come refrigerante in molti processi industriali: :Bold[assorbe molto calore senza aumentare troppo la sua temperatura]."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Definizione",
+			{ "name": "P", "type": "close" },
+			{ "name": "P", "type": "open" },
+			[
+				"Il calore specifico è :Bold[la quantità di calore] necessaria per far aumentare la temperatura di ",
+				{ "name": "MathML", "text": "1K" },
+				"(o di",
+				{ "name": "MathML", "text": "1 ^\\circ C" },
+				") ad",
+				{ "name": "MathML", "text": "1 kg" },
+				"d'acqua."
+			],
+			{ "name": "P", "type": "close" },
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#FFB703] text-[#FFB703] bg-transparent"
+				}
+			},
+			"Significato pratico",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Se abbiamo in una pentola esattamente ",
+				{ "name": "MathML", "text": "1kg" },
+				"di acqua e misuriamo  con un termometro che la sua temperatura sta a ",
+				{ "name": "MathML", "text": "25 ^\\circ" },
+				", se gli forniamo",
+				{ "name": "MathML", "text": "4186J" },
+				"di calore, vedremo che il termometro arriverà a ",
+				{ "name": "MathML", "text": "26 ^\\circ" },
+				". La temperatura si è innalzata di",
+				{ "name": "MathML", "text": "1 ^\\circ." }
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Nella seguente griglia vediamo i valori di calore specifico per diversi materiali: come possiamo notare, il calore specifico dell'acqua è molto più alto rispetto a quello di tanti altri materiali.",
+				"[[br]]",
+				"[[br]]",
+				"Tutti i valori sono espressi in ",
+				{ "name": "MathML", "text": "\\frac{J}{kg\\cdot K}" },
+				"."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/calore_specifico_griglia_materiali.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Il calore specifico è una grandezza fondamentale per applicare la :Bold[Legge della Calorimetria], che ci permette di calcolare la quantità di calore necessaria per far compiere una certa variazione di temperatura ad una certa massa di materiale."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Formula della Calorimetria",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "Q = m\\cdot c \\cdot \\Delta T" },
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#FFB703] text-[#FFB703] bg-transparent"
+				}
+			},
+			"Significato pratico",
+			{ "name": "P", "type": "close" },
+			{ "name": "P", "type": "open" },
+			[
+				"\"Quanto calore",
+				{ "name": "MathML", "text": "Q" },
+				"è necessario per far compiere un salto di temperatura",
+				{ "name": "MathML", "text": "\\Delta T" },
+				"ad una massa",
+				{ "name": "MathML", "text": "m" },
+				"di materiale?\""
+			],
+			{ "name": "P", "type": "close" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+
+			[
+				{
+					"name": "H3",
+					"text": "Esempio: ebollizione dell'acqua"
+				},
+				"Calcoliamo quanto calore è necessario per portare ad ebollizione ",
+				{ "name": "MathML", "text": "(100 ^\\circ C)" },
+				"una quantità d'acqua di",
+				{ "name": "MathML", "text": "2kg" },
+				"che sta a temperatura ambiente",
+				{ "name": "MathML", "text": "(25 ^\\circ C)" },
+				"."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/calore_specifico_esercizio.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"In primis, calcoliamo il",
+				{ "name": "MathML", "text": "\\Delta T" },
+				", la quale è definita come la :Bold[differenza tra la temperatura finale e la temperatura iniziale]:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\Delta T =T_2 - T_1 =100^\\circ C - 25 ^\\circ C = 75 ^\\circ C"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Adesso che conosciamo la differenza di temperatura, possiamo applicare la :Bold[Legge della Calorimetria], dato che il testo ci fornisce direttamente i valori di massa, calore specifico:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "Q = m\\cdot c\\cdot \\Delta T = 2kg\\cdot4186 \\frac{J}{kg\\cdot ^\\circ C   }\\cdot75 ^\\circ C= 627,9kJ"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "Q = 627,9kJ" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "disequazioni-secondo-grado-tabella-esercizi",
+		"title": "Disequazioni di Secondo Grado: Tabella dei Segni e Risoluzione",
+		"excerpt": "Guida pratica alle disequazioni di secondo grado. Consulta la tabella dei segni in base al Delta e impara a risolverle con i nostri esercizi svolti passo passo.",
+		"category": "Matematica",
+		"school": "Liceo",
+		"class": "Secondo",
+		"course": "Algebra",
+		"argument": "Disequazioni",
+		"featuredImage": "/diseq_II_grado_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Disequazioni di Secondo Grado: Guida Pratica e Tabella Completa]:P[Le disequazioni di secondo grado sono uno strumento matematico fondamentale per studiare il segno di un polinomio in cui l'incognita ha come grado massimo il] :MathML[2] :P[.]:P[La forma normale del trinomio è] :MathML[ax^2 + bx + c] :P[, e la disequazione ci permette di scoprire per quali valori esso risulta maggiore o minore di] :MathML[0] :P[.]",
+
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella delle Disequazioni di Secondo Grado" },
+				"Il numero di soluzioni che può ammettere una disequazione dipende unicamente dal :Bold[segno del discriminante], che è definito come: "
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\Delta = b^2 -4ac" },
+
+			{ "name": "Slide", "type": "open" },
+			[
+				{
+					"name": "Box",
+					"type": "open",
+					"props": { "className": "pt-0 pb-3", "variant": "intro" }
+				},
+				[
+					{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": "grid grid-cols-4 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Disequazione",
+						{ "name": "P", "type": "close" },
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Δ > 0",
+						{ "name": "P", "type": "close" },
+
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Δ = 0",
+						{ "name": "P", "type": "close" },
+
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Δ < 0",
+						{ "name": "P", "type": "close" }
+					],
+					{ "name": "Row", "type": "close" },
+					{ "name": "Table", "type": "close" },
+					"::YSeparator[]{className='my-4'}",
+					{ "name": "Table", "type": "open" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "ax^2 + bx + c>0",
+							"props": { "className": "text-xl" }
+						},
+
+						{
+							"name": "P",
+							"text": "Valori esterni",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "x \\neq x_1",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Sempre",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "ax^2 + bx + c\\geq 0",
+							"props": { "className": "text-xl" }
+						},
+
+						{
+							"name": "P",
+							"text": "Valori esterni (inclusi)",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Sempre",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Sempre",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "ax^2 + bx + c<0",
+							"props": { "className": "text-xl" }
+						},
+
+						{
+							"name": "P",
+							"text": "Valori interni",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Mai",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "P",
+							"text": "Mai",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-4 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "MathML",
+							"text": "ax^2 + bx + c\\leq0",
+							"props": { "className": "text-xl" }
+						},
+
+						{
+							"name": "P",
+							"text": "Valori interni (inclusi)",
+							"props": { "className": "text-xl" }
+						},
+
+						{
+							"name": "MathML",
+							"text": "x = x_1",
+							"props": { "className": "text-xl" }
+						},
+
+						{
+							"name": "P",
+							"text": "Mai",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{ "name": "Table", "type": "close" }
+				],
+				{ "name": "Box", "type": "close" },
+
+				{ "name": "P", "type": "open" },
+				[
+					"Questo criterio di classificazione risiede nella :Bold[formula risolutiva delle equazioni]. Ogni disequazione ha la propria :Bold[EQUAZIONE ASSOCIATA] che si ottiene semplicemente sostituendo il segno di disuguaglianza presente con il simbolo di UGUALE ",
+					{ "name": "MathML", "text": "(=)" },
+					"."
+				],
+				{ "name": "P", "type": "close" },
+				{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+					}
+				},
+				"Formula Risolutiva",
+				{ "name": "P", "type": "close" },
+				{ "name": "P", "type": "open" },
+				["Avendo l'equazione ", { "name": "MathML", "text": "ax^2 + bx + c = 0" }, "si può applicare la formula:"],
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "x_{1,2} = \\frac{-b\\pm\\sqrt{\\Delta}}{2a}"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{ "name": "P", "type": "open" },
+				["dove ", { "name": "MathML", "text": "\\Delta = b^2 -4ac" }, "."],
+				{ "name": "P", "type": "close" },
+				{ "name": "Box", "type": "close" },
+
+				{ "name": "P", "type": "open" },
+				[
+					"Come possiamo vedere, la formula prevede il segno di",
+					{ "name": "MathML", "text": "(\\pm)" },
+					", ciò vuol dire che se",
+					{ "name": "MathML", "text": "\\Delta > 0" },
+					"il risultato si sdoppia in due valori distinti. ",
+					"[[br]]",
+					"[[br]]",
+					"Se invece ",
+					{ "name": "MathML", "text": "\\Delta = 0" },
+					"è come se il simbolo",
+					{ "name": "MathML", "text": "(\\pm)" },
+					"perdesse di significato, e quindi quel \"doppio\" valore in realtà è uno solo (due soluzioni coincidenti). ",
+					"[[br]]",
+					"[[br]]",
+					"Infine, se ",
+					{ "name": "MathML", "text": "\\Delta < 0" },
+					", dato che sta sotto radice quadrata, non si può fare la radice di un numero negativo, altrimenti non siamo più nell'insieme dei numeri reali",
+					{ "name": "MathML", "text": "(\\mathbb{R})" },
+					"ma entriamo nel campo dei numeri complessi",
+					{ "name": "MathML", "text": "(\\mathbb{C})" },
+					". Quindi in questo caso :Bold[non esistono] soluzioni reali.",
+					"[[br]]",
+					"[[br]]",
+
+					"Possiamo meglio visualizzare questi concetti con il :Bold[METODO DELLA PARABOLA]."
+				],
+				{ "name": "P", "type": "close" },
+
+				{
+					"name": "div",
+					"type": "open",
+					"props": { "className": "w-full h-auto" }
+				},
+				[
+					{
+						"name": "Image",
+						"src": "/diseq_II_grado_metodo_parabola.webp"
+					}
+				],
+				{ "name": "div", "type": "close" },
+
+				{ "name": "P", "type": "open" },
+				[
+					"[[br]]",
+					"[[br]]",
+					"Nel primo caso vediamo che la parabola interseca :Bold[DUE] volte l'asse ",
+					{ "name": "MathML", "text": "x" },
+					", nel secondo caso lo interseca solo :Bold[UNA] volta, mentre nel terzo caso la parabola :Bold[NESSUNA].",
+					"[[br]]",
+					"[[br]]",
+					"Come interpretiamo il risultato? Dipende dal :Bold[segno della disequazione].",
+					"[[br]]",
+					"[[br]]",
+					"A questo punto, se il segno è ",
+					{ "name": "MathML", "text": "(>)" },
+					"dobbiamo scegliere tutte le parti di parabola che stanno :Bold[SOLO SOPRA] l'asse delle",
+					{ "name": "MathML", "text": "x" },
+					", quindi è verificata per valori esterni a quelli trovati nell'equazione associata.",
+					"[[br]]",
+					"[[br]]",
+					"Se il segno invece è ",
+					{ "name": "MathML", "text": "(<)" },
+					" scegliamo tutte le porzioni di parabola che stanno ",
+					{ "name": "Bold", "text": "SOLO SOTTO" },
+					", quindi la disequazione è verificata per valori interni.",
+					"[[br]]",
+					"[[br]]",
+					"Se i simboli sono invece ",
+					{ "name": "MathML", "text": "(\\geq)" },
+					" o ",
+					{ "name": "MathML", "text": "(\\leq)" },
+					" il discorso si può ripetere allo stesso modo, soltanto che :Bold[si devono includere anche gli estremi degli intervalli], ovvero le soluzioni dell'equazione associata."
+				],
+				{ "name": "P", "type": "close" }
+			],
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Risoluzione" },
+				"Risolviamo insieme una disequazione che comprenda tutti i possibili passaggi che potrebbero capitare durante un compito in classe."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\frac{15}{2}-3x<\\frac{x^2}{2}-2x" },
+
+			{ "name": "Slide", "type": "open" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "Passo 1: Eliminare tutte le frazioni" },
+				"Per prima cosa possiamo eliminare tutti i fastidiosi denominatori facendo il :Bold[m.c.m.] tra i denominatori a sinistra e a destra:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			{ "name": "MathML", "text": "\\frac{15 -6x}{2}<\\frac{x^2 - 4x}{2}" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Per evitare di commettere errori dobbiamo assicurarci che IL :Bold[NUMERO AL DENOMINATORE SIA POSITIVO], perché altrimenti, dato che stiamo risolvendo una disequazione, dovremmo invertire il segno della disuguaglianza.",
+				"[[br]]",
+				"[[br]]",
+
+				"Per sicurezza lavoriamo soltanto con numeri positivi. In questo caso possiamo semplificare senza problemi."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[{ "name": "MathML", "text": "15-6x < x^2 - 4x" }],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H3",
+					"text": "Passo 2: Portare a sinistra tutti i termini"
+				},
+				"Per applicare la formula dobbiamo avere :Bold[tutti i termini a sinistra]. Invece, a destra non deve esserci nulla. Portiamo quindi",
+				{ "name": "MathML", "text": "x^2 - 4x" },
+				"a sinistra cambiando i segni:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[{ "name": "MathML", "text": "15-6x -x^2 + 4x < 0" }],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "Passo 3: Unire tutti i termini simili" },
+				"Come possiamo vedere",
+				{ "name": "MathML", "text": "-6x" },
+				"e",
+				{ "name": "MathML", "text": "+4x" },
+				"sono simili, perché hanno la :Bold[stessa parte letterale]. Quindi possiamo sommarli"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			{ "name": "MathML", "text": "15-2x -x^2 < 0" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "Passo 4: Riordinare la disequazione" },
+				"Scritta in questo modo potrebbe indurci nuovamente in errore. Perciò, per nostra comodità è sempre bene scrivere i termini in :Bold[questo ordine]:",
+				{ "name": "MathML", "text": "ax^2" },
+				",",
+				{ "name": "MathML", "text": "bx" },
+				"e poi",
+				{ "name": "MathML", "text": "c." }
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[{ "name": "MathML", "text": "-x^2 -2x + 15<0" }],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+
+			[
+				{
+					"name": "H3",
+					"text": "Passo 5: Rendere positivo il termine quadratico"
+				},
+				"Sicuramente la disequazione è risolvibile anche così, ma per ulteriore comodità è opportuno far si che il termine in ",
+				{ "name": "MathML", "text": "x^2" },
+				"sia positivo. Quindi :Bold[cambiamo segno a tutti i termini], ma [ATTENZIONE!] Per poterlo fare dobbiamo ricordarci di :Bold[GIRARE IL SEGNO DI DISUGUAGLIANZA!]"
+			],
+			{ "name": "P", "props": { "type": "close" } },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			{ "name": "MathML", "text": "x^2 +2x - 15>0" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "Passo 6: Calcolare il Delta" },
+				"Finalmente siamo arrivati alla forma che ci interessa. Notiamo che",
+				{ "name": "MathML", "text": "a=1" },
+				", ",
+				{ "name": "MathML", "text": "b=2" },
+				"e",
+				{ "name": "MathML", "text": "c=-15." },
+				"Possiamo applicare la :Bold[formula del Delta]."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[{ "name": "MathML", "text": "\\Delta = (2)^2-4(1)(-15) = 4+60 = 64" }],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "Passo 7: Applicare la formula risolutiva" },
+
+				"Adesso che abbiamo trovato il Delta possiamo applicare la formula risolutiva come se fosse un'equazione normale.",
+				"[[br]]",
+				"[[br]]",
+
+				"Applichiamo la formula risolutiva alla nostra :Bold[equazione associata]:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "x_{1,2} = \\frac{-2\\pm\\sqrt{64}}{2\\cdot 1} = \\frac{-2\\pm8}{2}"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "P",
+					"text": "Quindi le :Bold[due soluzioni reali e distinte] sono:"
+				}
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			{ "name": "MathML", "text": "x_1=\\frac{-2+8}{2} = \\frac{6}{2} = 3" },
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "MathML", "text": "x_2=\\frac{-2-8}{2} = \\frac{-10}{2} = -5" },
+			{ "name": "box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Ora che abbiamo trovato le radici, dobbiamo determinare l'intervallo delle soluzioni. Poiché il segno della disequazione è :Bold[maggiore] di zero",
+				{ "name": "MathML", "text": "(>)" },
+				", dobbiamo prendere :Bold[i valori esterni] alle soluzioni trovate:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "x < -5 \\land x > 3." },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Questo significa che la disequazione è verificata per tutti i numeri più piccoli di ",
+				{ "name": "MathML", "text": "-5" },
+				"e per tutti i numeri più grandi di ",
+				{ "name": "MathML", "text": "3" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				"Visualizziamo il risultato finale con il metodo della parabola."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/diseq_II_grado_metodo_parabola_esempio.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			[
+				{
+					"name": "P",
+					"type": "open",
+					"props": {
+						"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+					}
+				},
+				"Risultato Finale",
+				{ "name": "P", "type": "close" },
+				{
+					"name": "MathML",
+					"text": "\\frac{15}{2}-3x<\\frac{x^2}{2}-2x \\implies x < -5 \\land x > 3"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "distanza-due-punti-piano-cartesiano-formule",
+		"title": "Distanza Tra Due Punti: Formule ed Esercizi Svolti",
+		"excerpt": "Impara a calcolare la distanza tra due punti nel piano cartesiano. Consulta la tabella delle formule per segmenti obliqui, orizzontali e verticali con esempi pratici.",
+		"category": "Matematica",
+		"school": "Liceo",
+		"class": "Terzo",
+		"course": "Geometria Analitica",
+		"argument": "Il Piano Cartesiano",
+		"featuredImage": "/distanza_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Distanza Tra Due Punti nel Piano Cartesiano]\n:P[La distanza tra due punti] :MathML[A]:P[e]:MathML[B] :P[in un piano cartesiano è la lunghezza del segmento]:MathML[\\overline{AB}]:P[che unisce i due punti. Ogni punto che vogliamo disegnare sul piano cartesiano possiede una coordinata ]:MathML[x]:P[e una coordinata ]:MathML[y]:P[. Per trovare il valore del segmento si utilizza la formula]:MathML[\\overline{AB}=\\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}]:P[.]\n",
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella: Formule Distanza Tra Due Punti" },
+				"In questa tabella sono riportate le formule per calcolare la distanza tra due punti in un piano cartesiano:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+
+			{
+				"name": "Box",
+				"type": "open",
+				"props": { "className": "pt-0 pb-3", "variant": "intro" }
+			},
+
+			{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+				}
+			},
+			"Segmento",
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+				}
+			},
+			"Formula",
+			{ "name": "P", "type": "close" },
+			{ "name": "Row", "type": "close" },
+			{ "name": "Table", "type": "close" },
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "Table", "type": "open" },
+
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+
+			{
+				"name": "P",
+				"text": "Obliquo",
+				"props": { "className": "text-xl" }
+			},
+
+			{
+				"name": "MathML",
+				"text": "\\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}",
+				"props": { "className": "text-xl" }
+			},
+			{ "name": "Row", "type": "close" },
+
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+
+			{
+				"name": "P",
+				"text": "Orizzontale",
+				"props": { "className": "text-xl" }
+			},
+
+			{
+				"name": "MathML",
+				"text": "\\vert x_B - x_A \\rvert",
+				"props": { "className": "text-xl" }
+			},
+			{ "name": "Row", "type": "close" },
+
+			{
+				"name": "Row",
+				"type": "open",
+				"props": {
+					"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+				}
+			},
+
+			{
+				"name": "P",
+				"text": "Verticale",
+				"props": { "className": "text-xl" }
+			},
+
+			{
+				"name": "MathML",
+				"text": "\\vert y_B - y_A \\rvert",
+				"props": { "className": "text-xl" }
+			},
+			{ "name": "Row", "type": "close" },
+
+			{ "name": "Table", "type": "close" },
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H2",
+					"text": "Segmento Obliquo"
+				},
+				"Consideriamo un piano cartesiano e fissiamo due punti",
+
+				{ "name": "MathML", "text": "A" },
+				"e",
+				{ "name": "MathML", "text": "B." },
+				"Immaginiamo di collegare questi due punti da un segmento.",
+
+				"La formula che si utilizza per trovare la distanza tra due punti non è altro che il conosciutissimo :Bold[Teorema di Pitagora]: "
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": " c = \\sqrt{a^{2} + b^{2}}. " },
+
+			{ "name": "P", "type": "open" },
+			[
+				"I cateti sono",
+				{ "name": "MathML", "text": "a" },
+				"e",
+				{ "name": "MathML", "text": "b" },
+				", mentre",
+				{ "name": "MathML", "text": "c" },
+				"è l'ipotenusa del triangolo rettangolo.",
+				"[[br]]",
+				"[[br]]",
+				" Calcoliamo ad esempio la distanza tra i punti",
+
+				{ "name": "MathML", "text": "A(-2, 1)" },
+				"e",
+				{ "name": "MathML", "text": "B(1, 5)." }
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/distanza_esempio_obliquo.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{
+				"name": "Slide",
+				"type": "open"
+			},
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Formula Principale",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "P",
+					"text": "Applichiamo subito la nostra formula, ma :Bold[occhio ai segni meno!]"
+				}
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(1 - (-2))^2+(5 - 1)^2} = \\sqrt{(1 + 2)^2+(5 - 1)^2}"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(3)^2+(4)^2} = \\sqrt{9+16}"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "MathML", "text": "\\sqrt{25}=5" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "\\overline{AB} = 5" },
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H2",
+					"text": "Segmento Orizzontale"
+				},
+				"Quando un segmento è orizzontale entrambi i punti sono :Bold[alla stessa altezza], quindi la loro coordinata",
+				{ "name": "MathML", "text": "y" },
+				"è uguale.",
+				"[[br]]",
+				"[[br]]",
+				"La formula che si utilizza in questo caso sembra completamente diversa dalla principale, ma in realtà è soltanto una sua semplificazione.",
+				"[[br]]",
+				"[[br]]",
+				"Dato che i punti sono alla stessa altezza, vuol dire che è sufficiente :Bold[sottrarre le rispettive coordinate]",
+				{ "name": "MathML", "text": "x" },
+				".",
+				"[[br]]",
+				"[[br]]",
+				"Ricaviamo la formula ridotta partendo dalla principale:"
+			],
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}"
+			},
+			{ "name": "P", "type": "open" },
+			["In questo caso, ", { "name": "MathML", "text": "y_B = y_A," }, " quindi ", { "name": "MathML", "text": "y_B - y_A = 0" }],
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2} = \\vert x_B - x_A\\rvert"
+			},
+
+			{ "name": "P", "type": "open" },
+			[
+				"Quindi, invece di dover calcolare la distanza con il teorema di Pitagora, possiamo semplicemente :Bold[sottrarre le ascisse dei due punti] e prendere il :Bold[valore assoluto] del risultato."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Formula Ridotta",
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\vert x_B - x_A\\rvert"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Troviamo la distanza tra i punti ",
+				{ "name": "MathML", "text": "A(2,3)" },
+				"e",
+				{ "name": "MathML", "text": "B(-4,3)." },
+				"Risolviamo questo esercizio con entrambi i metodi. Vedremo che il risultato sarà lo stesso."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/distanza_esempio_orizzontale.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{
+				"name": "Slide",
+				"type": "open"
+			},
+
+			{ "name": "P", "type": "open" },
+			[{ "name": "H3", "text": "Metodo 1: Formula Principale" }, "Applichiamo la formula principale ai nostri punti."],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(-4-2)^2 + (3-3)^2}=\\sqrt{(-6)^2+0^2}"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "MathML", "text": "\\sqrt{36+0} = \\sqrt{36} =6" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[{ "name": "H3", "text": "Metodo 2: Formula Ridotta" }, "Lo stesso esercizio è risolvibile anche con la formula ridotta."],
+			{ "name": "P", "type": "close" },
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\vert -4 -2 \\vert = \\vert -6 \\vert=6"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			["In ogni caso, il risultato finale è:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "\\overline{AB} = 6" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{
+					"name": "H2",
+					"text": "Segmento Verticale"
+				},
+				"Quando un segmento è :Bold[verticale] la loro coordinata ",
+				{ "name": "MathML", "text": "x" },
+				" è uguale.",
+				"[[br]]",
+				"[[br]]",
+				"Esattamente come accade per il segmento orizzontale, anche in questo caso si può ricavare la formula ridotta a partire dalla principale:"
+			],
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}"
+			},
+			{ "name": "P", "type": "open" },
+			["In questo caso, ", { "name": "MathML", "text": "x_B = x_A," }, " quindi ", { "name": "MathML", "text": "x_B - x_A = 0" }],
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(y_B - y_A)^2} = \\vert y_B - y_A \\rvert"
+			},
+
+			{ "name": "Box", "type": "open", "props": { "variant": "theory" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Formula Ridotta",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\vert y_B - y_A \\rvert"
+			},
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Troviamo la distanza tra i punti ",
+				{ "name": "MathML", "text": "A(2,3)" },
+				" e ",
+				{ "name": "MathML", "text": "B(2,-2)." },
+				" Risolviamo anche questo esercizio con entrambi i metodi. Vedremo che il risultato sarà lo stesso."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/distanza_esempio_verticale.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+
+			{ "name": "P", "type": "open" },
+			[{ "name": "H3", "text": "Metodo 1: Formula Principale" }, "Possiamo applicare la formula principale ai punti assegnati."],
+
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+
+			{
+				"name": "MathML",
+				"text": "\\overline{AB} = \\sqrt{(2-2)^2 + (-2-3)^2}=\\sqrt{0^2+(-5)^2}"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "MathML", "text": "\\sqrt{0+25} = \\sqrt{25} = 5" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[{ "name": "H3", "text": "Metodo 2: Formula Ridotta" }, "Applichiamo invece la formula ridotta."],
+
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\vert -2 - 3 \\rvert = \\vert -5 \\rvert = 5"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{ "name": "MathML", "text": "\\overline{AB} = 5" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "proprieta-dei-logaritmi-tabella-esercizi",
+		"title": "Proprietà dei Logaritmi: Tabella, Formule ed Esercizi Svolti",
+		"excerpt": "Scopri tutte le proprietà dei logaritmi con la nostra tabella riassuntiva. Impara la definizione, le formule principali e come semplificare le espressioni passo dopo passo.",
+		"category": "Matematica",
+		"school": "Scuola Secondaria di Secondo Grado",
+		"class": "Terzo Anno",
+		"course": "Algebra",
+		"argument": "Esponenziali e Logaritmi",
+		"featuredImage": "/prop_logaritmi_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Proprietà dei Logaritmi]\n:P[Le proprietà dei Logaritmi sono delle regole molto utili per semplificare tantissimo un logaritmo molto complesso. Applicando queste semplici proprietà si arriva ad una scrittura molto sintetica e facile da calcolare.]\n",
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Tabella delle Proprietà dei Logaritmi" },
+				"Vediamo in questa tabella tutte le proprietà di cui godono i logaritmi e le relative formule. "
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			[
+				{
+					"name": "Box",
+					"type": "open",
+					"props": { "className": "pt-0 pb-3", "variant": "intro" }
+				},
+				[
+					{ "name": "Table", "type": "open", "props": { "className": "mt-7" } },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Proprietà",
+						{ "name": "P", "type": "close" },
+						{
+							"name": "P",
+							"type": "open",
+							"props": {
+								"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+							}
+						},
+						"Formula",
+						{ "name": "P", "type": "close" }
+					],
+					{ "name": "Row", "type": "close" },
+					{ "name": "Table", "type": "close" },
+					"::YSeparator[]{className='my-4'}",
+					{ "name": "Table", "type": "open" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Prodotto",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\log_{a}{(b\\cdot c)} = \\log_{a}{(b)} + \\log_{a}{(c)}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Rapporto",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\log_{a}{(\\frac{b}{c})} = \\log_{a}{(b)} - \\log_{a}{(c)}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Esponenziale",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\log_{a}{(b^c)} = c\\cdot\\log_{a}{(b)}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Inversione dei Logaritmi",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\log_{a}{(b)} = \\frac{1}{\\log_{b}{(a)}}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Cambiamento di Base",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\log_{a}{(b)} = \\frac{\\log_{c}{(b)}}{\\log_{c}{(a)}}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{
+						"name": "Row",
+						"type": "open",
+						"props": {
+							"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+						}
+					},
+					[
+						{
+							"name": "P",
+							"text": "Radice",
+							"props": { "className": "text-xl" }
+						},
+						{
+							"name": "MathML",
+							"text": "\\log_{a}{(\\root{n}{b})} = (\\frac{1}{n})\\log_{a}{(b)}",
+							"props": { "className": "text-xl" }
+						}
+					],
+					{ "name": "Row", "type": "close" },
+
+					{ "name": "Table", "type": "close" }
+				],
+				{ "name": "Box", "type": "close" }
+			],
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Definizione di Logaritmo" },
+
+				"Il risultato del logaritmo",
+				{ "name": "MathML", "text": "x" },
+				" è l'esponente che dobbiamo dare alla base",
+				{ "name": "MathML", "text": "a" },
+				"per ottenere l'argomento ",
+				{ "name": "MathML", "text": "b." },
+				"Il logaritmo è quindi un'operazione che ci permette di risalire all'esponente a partire dalla base e dall'argomento."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{
+				"name": "Box",
+				"type": "open",
+				"props": { "variant": "theory" }
+			},
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Definizione",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\log_a(b) = x \\iff a^x = b" },
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Esistono alcuni logaritmi il cui risultati è facilissimo e immediato. Non importa quale sia la base, se la base è maggiore di 1, se è minore di 1, se è un numero intero o un numero decimale, se è un numero razionale o irrazionale. Questi logaritmi sono sono sempre veri e il loro risultato è sempre lo stesso."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+
+			{
+				"name": "Box",
+				"type": "open",
+				"props": { "variant": "theory" }
+			},
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Risultati Immediati",
+			{ "name": "P", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				"Indipendentemente dalla base, il logaritmo di",
+				{ "name": "MathML", "text": "1" },
+				"fa sempre",
+				{ "name": "MathML", "text": "0" },
+				":"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\log_{a}{(1)} = 0" },
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "P", "type": "open" },
+			[
+				"Anche in questo caso, indipendentemente dalla base, se la base del logaritmo e il suo argomento sono uguali, il risultato è sempre ",
+				{ "name": "MathML", "text": "1" },
+				":"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "\\log_{a}{(a)} = 1" },
+			"::YSeparator[]{className='my-4'}",
+			{ "name": "P", "type": "open" },
+			[
+				"Se abbiamo un logaritmo di un numero con una certa base, se mettiamo tutto il logaritmo a esponente della stessa base, otteniamo il numero stesso. In pratica, stiamo facendo due operazioni che sono opposte nello stesso momento:"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "MathML", "text": "a^{\\log_{a}{(x)}} = x" },
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Esempio Completo" },
+				"Risolviamo un'espressione applicando le proprietà una alla volta per smontarla in pezzi molto semplici. Calcoliamo il valore di questo logaritmo:"
+			],
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\log_5 ( \\frac{125 \\cdot \\sqrt{5}}{25} )"
+			},
+
+			{ "name": "Slide", "type": "open" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "Passo 1: Prodotto e Quoziente" },
+
+				"In questo caso, il logaritmo del prodotto si trasforma in una somma tra i logaritmi dei singoli fattori, mentre il logaritmo del quoziente si trasforma in una sottrazione tra i logaritmi del numeratore e del denominatore."
+			],
+			{ "name": "P", "props": { "type": "close" } },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "\\log_5 (125) + \\log_5 (\\sqrt{5}) - \\log_5 (25)"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "props": { "type": "open" } },
+			[
+				{ "name": "H3", "text": "Passo 2: Gli Esponenti" },
+				"Tutti e tre i logaritmi che abbiamo ottenuto hanno un argomento che è una potenza di 5:",
+
+				" all'esponente. "
+			],
+
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "125 = 5^3 \\quad\\vert\\quad  \\sqrt{5} = 5^{\\frac{1}{2}}  \\quad\\vert\\quad   25 = 5^2"
+			},
+			{ "name": "P", "type": "open" },
+			["Quindi, presi singolarmente, i tre logaritmi diventano:"],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\log_5 (125) = \\log_5 (5^3)    \\quad\\vert\\quad \\log_5 (\\sqrt{5}) = \\log_5 (5)^{\\frac{1}{2}}  \\quad\\vert\\quad   \\log_5 (25) = \\log_5 (5^2)"
+			},
+
+			{ "name": "P", "type": "open" },
+			[
+				"Ora, possiamo applicare la proprietà dell'esponenziale, che ci dice che il logaritmo di un numero elevato a una potenza è uguale a quella potenza moltiplicata per il logaritmo del numero stesso."
+			],
+			{ "name": "P", "type": "close" },
+
+			{
+				"name": "MathML",
+				"text": "\\log_5 (5)^3 = 3\\log_5 (5) \\quad\\vert\\quad   \\log_5 (5)^{\\frac{1}{2}} = \\frac{1}{2}\\log_5 (5) \\quad\\vert\\quad  \\log_5 (5)^2 = 2\\log_5 (5)  "
+			},
+
+			{ "name": "P", "type": "open" },
+			["Quindi, complessivamente otteniamo:"],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "3\\log_5 (5) + \\frac{1}{2}\\log_5 (5) - 2\\log_5 (5)"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H3", "text": "Passo 3: Calcolo Finale" },
+
+				"Possiamo notare adesso che il logaritmo ha base e argomento uguali. Sostituendo tutti e tre i logaritmi con ",
+				{
+					"name": "MathML",
+					"text": "1"
+				},
+				" otteniamo un'espressione molto semplice da calcolare."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "step" } },
+			[
+				{
+					"name": "MathML",
+					"text": "3 + \\frac{1}{2} - 2 = \\frac{6 + 1 -4}{2} = \\frac{3}{2}"
+				}
+			],
+			{ "name": "Box", "type": "close" },
+
+			{ "name": "Box", "type": "open", "props": { "variant": "result" } },
+
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+				}
+			},
+			"Risultato Finale",
+			{ "name": "P", "type": "close" },
+			{
+				"name": "MathML",
+				"text": "\\log_5 ( \\frac{125 \\cdot \\sqrt{5}}{25} ) = \\frac{3}{2}"
+			},
+			{ "name": "Box", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	},
+	{
+		"slug": "come-fare-parentesi-graffe-tastiera-windows-mac",
+		"title": "Come Fare le Parentesi Graffe sulla Tastiera: Windows, Mac e Linux",
+		"excerpt": "Guida rapida alle scorciatoie da tastiera per fare le parentesi graffe { }. Scopri tutte le combinazioni di tasti corrette per Windows, macOS e Linux.",
+		"category": "Informatica",
+		"school": "Liceo",
+		"class": "Primo",
+		"course": "Informatica",
+		"argument": "Basi del Computer e Programmazione",
+		"featuredImage": "/parentesi_graffe_island1.webp",
+		"has_pdf_resource": true,
+		"heading": "\n:H1[Come Fare le Parentesi Graffe sulla Tastiera]\n:P[Tutte le combinazioni di tasti e le scorciatoie veloci per aprire e chiudere le parentesi graffe su Windows, macOS e Linux.]\n",
+		"content": [
+			{ "name": "Shell", "props": { "type": "open" } },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Parentesi graffa su Windows e Linux." },
+				"Vediamo nel dettaglio quali sono le combinazioni di tasti da utilizzare per aprire e chiudere le parentesi graffe sui sistemi operativi Windows e Linux."
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{
+				"name": "Box",
+				"type": "open",
+				"props": { "variant": "step" }
+			},
+			[
+				{
+					"name": "div",
+					"type": "open",
+					"props": { "className": "inline-block relative mx-auto *:m-0!" }
+				},
+				{
+					"name": "P",
+					"text": "Alt Gr",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "Shift",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "è",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{ "name": "div", "type": "close" },
+				{
+					"name": "div",
+					"type": "open",
+					"props": { "className": "inline-block relative mx-auto *:m-0!" }
+				},
+				{
+					"name": "P",
+					"text": "Alt Gr",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "Shift",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "+",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{ "name": "div", "type": "close" }
+			],
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/tastiera_windows_GRAFFA.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "P", "type": "open" },
+			[
+				{ "name": "H2", "text": "Parentesi graffa su Mac" },
+				"Invece, su Mac la combinazione di tasti è anche più semplice, perché la graffa è direttamente visibile anche sul tasto! ;)"
+			],
+			{ "name": "P", "type": "close" },
+
+			{ "name": "Slide", "type": "open" },
+			{
+				"name": "Box",
+				"type": "open",
+				"props": { "variant": "step" }
+			},
+			[
+				{
+					"name": "div",
+					"type": "open",
+					"props": { "className": "inline-block relative mx-auto *:m-0!" }
+				},
+				{
+					"name": "P",
+					"text": "Alt",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "Shift",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "\\[",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{ "name": "div", "type": "close" },
+				{
+					"name": "div",
+					"type": "open",
+					"props": { "className": "inline-block relative mx-auto *:m-0!" }
+				},
+				{
+					"name": "P",
+					"text": "Alt",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "Shift",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{
+					"name": "P",
+					"text": " + ",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl "
+					}
+				},
+				{
+					"name": "P",
+					"text": "\\]",
+					"props": {
+						"className": "relative  contrast-110 text-foreground! opacity-100! drop-shadow-[1px_1px_1px] drop-shadow-foreground/65 mx-auto *:m-0! text-xl rounded-xl border-[0.05rem] px-3 py-1 border-black-500 bg-gradient-to-b from-slate-50 to-blue-50 shadow shadow-indigo-100/40 animate-pulse"
+					}
+				},
+				{ "name": "div", "type": "close" }
+			],
+			{ "name": "Box", "type": "close" },
+
+			{
+				"name": "div",
+				"type": "open",
+				"props": { "className": "w-full h-auto" }
+			},
+			[
+				{
+					"name": "Image",
+					"src": "/tastiera_mac_GRAFFA.webp"
+				}
+			],
+			{ "name": "div", "type": "close" },
+			{ "name": "Slide", "type": "close" },
+
+			{ "name": "Shell", "type": "close" }
+		]
+	}
+]

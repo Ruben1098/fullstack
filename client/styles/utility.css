@@ -1,0 +1,51 @@
+/* Creaiamo lutility group */
+
+@layer utilities {
+    
+	.span-1 {
+		@apply row-span-1 col-span-1;
+	}
+}
+
+@theme {
+      
+	--color-primary: var(--logo-primary);
+	--color-secondary: var(--logo-secondary);
+      --font-logo: "Instanswer";
+	--font-round: "round";
+ 
+	--sidebar-p: calc(var(--p) / 2);
+	--external-p: calc(var(--p) / 2);
+	--radius-round: var(--round);
+
+	--spacing-maxwidth: var(--_maxwidth, var(--maxwidth));
+	--spacing-p: var(--p);
+
+	--text-responsive: clamp(1.2rem, 1.5vw, 1.5rem);
+
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+
+      --color-shell: var(--_shell, hsl(var(--shell)));
+	--color-background: var(--_background, hsl(var(--background)));
+	--color-foreground: var(--_foreground, hsl(var(--foreground)));
+
+
+      --color-boxintro: color-mix(in oklab, var(--color-boxintro-border) 15%, transparent);
+      --color-boxintro-border: #6285e7;
+
+      --color-step: #e0f2fe;
+      --color-step-border: #0ea5e9;
+
+      --color-theory: #fffbeb;
+      --color-theory-border: #d5b47b;
+
+      --color-alert: #fff7ed;
+      --color-alert-border: #f97316;
+
+      --color-result: #ecfdf5;
+      --color-result-border: #10b981;
+
+}

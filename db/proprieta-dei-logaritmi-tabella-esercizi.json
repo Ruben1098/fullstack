@@ -1,0 +1,657 @@
+{
+	"slug": "proprieta-dei-logaritmi-tabella-esercizi",
+	"title": "Proprietà dei Logaritmi: Tabella, Formule ed Esercizi Svolti",
+	"excerpt": "Scopri tutte le proprietà dei logaritmi con la nostra tabella riassuntiva. Impara la definizione, le formule principali e come semplificare le espressioni passo dopo passo.",
+	"category": "Matematica",
+	"school": "Scuola Secondaria di Secondo Grado",
+	"class": "Terzo Anno",
+	"course": "Algebra",
+	"argument": "Esponenziali e Logaritmi",
+	"featuredImage": "/prop_logaritmi_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Proprietà dei Logaritmi]\n:P[Le proprietà dei Logaritmi sono delle regole molto utili per semplificare tantissimo un logaritmo molto complesso. Applicando queste semplici proprietà si arriva ad una scrittura molto sintetica e facile da calcolare.]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella delle Proprietà dei Logaritmi"
+			},
+			"Vediamo in questa tabella tutte le proprietà di cui godono i logaritmi e le relative formule. "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		[
+			{
+				"name": "Box",
+				"type": "open",
+				"props": {
+					"className": "pt-0 pb-3",
+					"variant": "intro"
+				}
+			},
+			[
+				{
+					"name": "Table",
+					"type": "open",
+					"props": {
+						"className": "mt-7"
+					}
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Proprietà",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Formula",
+					{
+						"name": "P",
+						"type": "close"
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{
+					"name": "Table",
+					"type": "open"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"text": "Prodotto",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\log_{a}{(b\\cdot c)} = \\log_{a}{(b)} + \\log_{a}{(c)}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"text": "Rapporto",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\log_{a}{(\\frac{b}{c})} = \\log_{a}{(b)} - \\log_{a}{(c)}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"text": "Esponenziale",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\log_{a}{(b^c)} = c\\cdot\\log_{a}{(b)}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"text": "Inversione dei Logaritmi",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\log_{a}{(b)} = \\frac{1}{\\log_{b}{(a)}}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"text": "Cambiamento di Base",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\log_{a}{(b)} = \\frac{\\log_{c}{(b)}}{\\log_{c}{(a)}}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"text": "Radice",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "MathML",
+						"text": "\\log_{a}{(\\root{n}{b})} = (\\frac{1}{n})\\log_{a}{(b)}",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				}
+			],
+			{
+				"name": "Box",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Definizione di Logaritmo"
+			},
+			"Il risultato del logaritmo",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" è l'esponente che dobbiamo dare alla base",
+			{
+				"name": "MathML",
+				"text": "a"
+			},
+			"per ottenere l'argomento ",
+			{
+				"name": "MathML",
+				"text": "b."
+			},
+			"Il logaritmo è quindi un'operazione che ci permette di risalire all'esponente a partire dalla base e dall'argomento."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Definizione",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\log_a(b) = x \\iff a^x = b"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Esistono alcuni logaritmi il cui risultati è facilissimo e immediato. Non importa quale sia la base, se la base è maggiore di 1, se è minore di 1, se è un numero intero o un numero decimale, se è un numero razionale o irrazionale. Questi logaritmi sono sono sempre veri e il loro risultato è sempre lo stesso."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Risultati Immediati",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Indipendentemente dalla base, il logaritmo di",
+			{
+				"name": "MathML",
+				"text": "1"
+			},
+			"fa sempre",
+			{
+				"name": "MathML",
+				"text": "0"
+			},
+			":"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\log_{a}{(1)} = 0"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Anche in questo caso, indipendentemente dalla base, se la base del logaritmo e il suo argomento sono uguali, il risultato è sempre ",
+			{
+				"name": "MathML",
+				"text": "1"
+			},
+			":"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\log_{a}{(a)} = 1"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Se abbiamo un logaritmo di un numero con una certa base, se mettiamo tutto il logaritmo a esponente della stessa base, otteniamo il numero stesso. In pratica, stiamo facendo due operazioni che sono opposte nello stesso momento:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "a^{\\log_{a}{(x)}} = x"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Esempio Completo"
+			},
+			"Risolviamo un'espressione applicando le proprietà una alla volta per smontarla in pezzi molto semplici. Calcoliamo il valore di questo logaritmo:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\log_5 ( \\frac{125 \\cdot \\sqrt{5}}{25} )"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 1: Prodotto e Quoziente"
+			},
+			"In questo caso, il logaritmo del prodotto si trasforma in una somma tra i logaritmi dei singoli fattori, mentre il logaritmo del quoziente si trasforma in una sottrazione tra i logaritmi del numeratore e del denominatore."
+		],
+		{
+			"name": "P",
+			"props": {
+				"type": "close"
+			}
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\log_5 (125) + \\log_5 (\\sqrt{5}) - \\log_5 (25)"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"props": {
+				"type": "open"
+			}
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 2: Gli Esponenti"
+			},
+			"Tutti e tre i logaritmi che abbiamo ottenuto hanno un argomento che è una potenza di 5:",
+			" all'esponente. "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "125 = 5^3 \\quad\\vert\\quad  \\sqrt{5} = 5^{\\frac{1}{2}}  \\quad\\vert\\quad   25 = 5^2"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Quindi, presi singolarmente, i tre logaritmi diventano:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\log_5 (125) = \\log_5 (5^3)    \\quad\\vert\\quad \\log_5 (\\sqrt{5}) = \\log_5 (5)^{\\frac{1}{2}}  \\quad\\vert\\quad   \\log_5 (25) = \\log_5 (5^2)"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Ora, possiamo applicare la proprietà dell'esponenziale, che ci dice che il logaritmo di un numero elevato a una potenza è uguale a quella potenza moltiplicata per il logaritmo del numero stesso."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\log_5 (5)^3 = 3\\log_5 (5) \\quad\\vert\\quad   \\log_5 (5)^{\\frac{1}{2}} = \\frac{1}{2}\\log_5 (5) \\quad\\vert\\quad  \\log_5 (5)^2 = 2\\log_5 (5)  "
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Quindi, complessivamente otteniamo:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "3\\log_5 (5) + \\frac{1}{2}\\log_5 (5) - 2\\log_5 (5)"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Passo 3: Calcolo Finale"
+			},
+			"Possiamo notare adesso che il logaritmo ha base e argomento uguali. Sostituendo tutti e tre i logaritmi con ",
+			{
+				"name": "MathML",
+				"text": "1"
+			},
+			" otteniamo un'espressione molto semplice da calcolare."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "3 + \\frac{1}{2} - 2 = \\frac{6 + 1 -4}{2} = \\frac{3}{2}"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\log_5 ( \\frac{125 \\cdot \\sqrt{5}}{25} ) = \\frac{3}{2}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

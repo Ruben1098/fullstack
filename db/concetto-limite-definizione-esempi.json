@@ -1,0 +1,1029 @@
+{
+	"slug": "concetto-limite-definizione-esempi",
+	"title": "Il Concetto di Limite: Spiegazione Completa, Definizioni ed Esempi",
+	"excerpt": "Guida introduttiva ai limiti in Analisi Matematica: i 4 casi di limite (finito e infinito), teoria semplice e come capire se un limite esiste o meno.",
+	"category": "Analisi1",
+	"school": "liceo",
+	"class": "5",
+	"course": "Matematica",
+	"argument": "Limiti",
+	"featuredImage": "/limiti_definizione_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Introduzione ai Limiti: Cos'è un Limite, i 4 Casi Possibili e le Condizioni di Esistenza]\n:P[Il limite è un'operazione che descrive il comportamento di una funzione quando la variabile ]:MathML[x]:P[ si avvicina a un certo valore ]:MathML[x_0]:P[ Calcolare un limite significa rispondere alla domanda: \"A quale valore si avvicina la y mentre la x si avvicina a un certo punto?\"]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella dei tipi di Limite"
+			},
+			{
+				"name": "P",
+				"text": "Nella tabella seguente sono riportati i 4 casi principali di limite."
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		[
+			{
+				"name": "Box",
+				"type": "open",
+				"props": {
+					"className": "pt-0 pb-3",
+					"variant": "intro"
+				}
+			},
+			[
+				{
+					"name": "Table",
+					"type": "open",
+					"props": {
+						"className": "mt-7"
+					}
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Limite",
+					{
+						"name": "P",
+						"type": "close"
+					},
+					{
+						"name": "P",
+						"type": "open",
+						"props": {
+							"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+						}
+					},
+					"Grafico",
+					{
+						"name": "P",
+						"type": "close"
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				},
+				"::YSeparator[]{className='my-4'}",
+				{
+					"name": "Table",
+					"type": "open"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\lim_{x \\to x_0} f(x) = l",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Continuità o \"buco\".",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\lim_{x \\to x_0} f(x) = \\infty",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Asintoto Verticale.",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\lim_{x \\to \\infty} f(x) = l",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Asintoto Orizzontale.",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Row",
+					"type": "open",
+					"props": {
+						"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+					}
+				},
+				[
+					{
+						"name": "MathML",
+						"text": "\\lim_{x \\to \\infty} f(x) = \\infty",
+						"props": {
+							"className": "text-xl"
+						}
+					},
+					{
+						"name": "P",
+						"text": "Crescita illimitata.",
+						"props": {
+							"className": "text-xl"
+						}
+					}
+				],
+				{
+					"name": "Row",
+					"type": "close"
+				},
+				{
+					"name": "Table",
+					"type": "close"
+				}
+			],
+			{
+				"name": "Box",
+				"type": "close"
+			}
+		],
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "A - Limite Finito per x finita"
+			},
+			"Immaginiamo di scegliere un ",
+			{
+				"name": "MathML",
+				"text": "\\varepsilon"
+			},
+			" piccolo a piacere, che definisce un intervallo attorno a ",
+			{
+				"name": "MathML",
+				"text": "l"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			" Sull'asse ",
+			{
+				"name": "MathML",
+				"text": "y"
+			},
+			" si definisce un intervallo che va da ",
+			{
+				"name": "MathML",
+				"text": "l - \\varepsilon"
+			},
+			" a ",
+			{
+				"name": "MathML",
+				"text": "l + \\varepsilon"
+			},
+			". Ricaviamo i corrispettivi valori di ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			" In generale, le distanze con ",
+			{
+				"name": "MathML",
+				"text": "x_0"
+			},
+			" a sinistra e a destra sono diverse. Il più piccolo tra i due è lungo una certa lunghezza ",
+			{
+				"name": "MathML",
+				"text": "\\delta"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			"Quindi uno dei due varrà ",
+			{
+				"name": "MathML",
+				"text": "x_0 - \\delta"
+			},
+			", mentre dall'altra parte ricaviamo ",
+			{
+				"name": "MathML",
+				"text": "x_0 + \\delta"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			" All'interno dell'intero intervallo, qualsiasi ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" avrà il valore della sua funzione ",
+			{
+				"name": "MathML",
+				"text": "f(x)"
+			},
+			" :Bold[sicuramente compreso all'interno dell'intervallo] tra ",
+			{
+				"name": "MathML",
+				"text": "l - \\varepsilon"
+			},
+			" e ",
+			{
+				"name": "MathML",
+				"text": "l + \\varepsilon"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			" In altre parole, il segmento ",
+			{
+				"name": "MathML",
+				"text": "f(x) - l"
+			},
+			" :Bold[è sempre più corto] di quell'intervallo."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/LimFinito_xFinita.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+			}
+		},
+		"Definizione",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\forall \\varepsilon > 0, \\exists \\delta > 0 : \\forall x \\in D \\setminus \\{x_0\\}, 0 < |x - x_0| < \\delta \\implies |f(x) - l| < \\varepsilon"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+			}
+		},
+		"Come si legge?",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"\"Per ogni ",
+			{
+				"name": "MathML",
+				"text": "\\varepsilon > 0"
+			},
+			" (arbitrariamente piccolo), esiste un numero ",
+			{
+				"name": "MathML",
+				"text": "\\delta > 0"
+			},
+			" tale che, per ogni ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" appartenente al dominio, escluso ",
+			{
+				"name": "MathML",
+				"text": "x_0"
+			},
+			", ogniqualvolta ",
+			{
+				"name": "MathML",
+				"text": "0 < |x - x_0| < \\delta"
+			},
+			", si ha che",
+			{
+				"name": "MathML",
+				"text": "|f(x) - l| < \\varepsilon"
+			},
+			"\""
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Attenzione a non dare per scontato che il limite esista sempre. Il limite esiste esclusivamente se il risultato è lo stesso sia provenendo da sinistra che provenendo da destra (si dice che :Bold[il limite sinistro è uguale al limite destro]). Altrimenti, se i valori sono diversi, il limite non esiste."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		[
+			{
+				"name": "P",
+				"type": "open",
+				"props": {
+					"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+				}
+			},
+			"Teorema di esistenza del limite",
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"Il limite esiste se e solo se il limite destro e il limite sinistro coincidono:"
+			],
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": "\\lim_{x \\to x_0} f(x) = l \\iff \\lim_{x \\to x_0^-} f(x) = \\lim_{x \\to x_0^+} f(x) = l"
+			},
+			"::YSeparator[]{className='my-4'}",
+			{
+				"name": "P",
+				"type": "open"
+			},
+			[
+				"Se il limite destro e il limite sinistro sono diversi, allora il limite non esiste:"
+			],
+			{
+				"name": "P",
+				"type": "close"
+			},
+			{
+				"name": "MathML",
+				"text": " \\lim_{x \\to x_0^-} f(x) \\neq \\lim_{x \\to x_0^+} f(x) \\implies\\nexists \\lim_{x \\to x_0} f(x) "
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "B - Limite Infinito per x finito"
+			},
+			"Quando ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" tende al valore ",
+			{
+				"name": "MathML",
+				"text": "x_0"
+			},
+			" la curva segue l'asintoto verticale, andando quindi all'infinito.",
+			"[[br]]",
+			"[[br]]",
+			"La definizione dice che scegliendo un qualsiasi valore ",
+			{
+				"name": "MathML",
+				"text": "M"
+			},
+			" grande a piacere sull'asse ",
+			{
+				"name": "MathML",
+				"text": "y"
+			},
+			", la sua ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" corrispondente definirà un certo intervallo con ",
+			{
+				"name": "MathML",
+				"text": "x_0"
+			},
+			" lungo ",
+			{
+				"name": "MathML",
+				"text": "\\delta"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			":Bold[Qualsiasi] ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" dentro questo intervallo avrà sicuramente il suo valore ",
+			{
+				"name": "MathML",
+				"text": "f(x)"
+			},
+			":Bold[maggiore] in modulo di ",
+			{
+				"name": "MathML",
+				"text": "M"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/LimINFINITO_xFinita.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+			}
+		},
+		"Definizione",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\forall M > 0, \\exists \\delta > 0 : \\forall x \\in D \\setminus \\{x_0\\}, 0 < |x - x_0| < \\delta \\implies |f(x)| > M"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+			}
+		},
+		"Come si legge?",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		"\"Per ogni ",
+		{
+			"name": "MathML",
+			"text": "M > 0"
+		},
+		" (arbitrariamente grande), esiste un numero ",
+		{
+			"name": "MathML",
+			"text": "\\delta > 0"
+		},
+		" tale che, per ogni ",
+		{
+			"name": "MathML",
+			"text": "x"
+		},
+		" appartenente al dominio, escluso ",
+		{
+			"name": "MathML",
+			"text": "x_0"
+		},
+		", ogniqualvolta ",
+		{
+			"name": "MathML",
+			"text": "0 < |x - x_0| < \\delta"
+		},
+		", si ha che",
+		{
+			"name": "MathML",
+			"text": "|f(x)| > M"
+		},
+		"\"",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "C - Limite Finito per x che tende all'Infinito"
+			},
+			"Immaginiamo di avere una curva che quando ",
+			{
+				"name": "MathML",
+				"text": "x \\to +\\infty"
+			},
+			" tende a un certo valore ",
+			{
+				"name": "MathML",
+				"text": "l"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			"Possiamo scegliere sull'asse ",
+			{
+				"name": "MathML",
+				"text": "y"
+			},
+			" un ",
+			{
+				"name": "MathML",
+				"text": "\\varepsilon"
+			},
+			" piccolo a piacere, per il quale si definisce un intervallo tra ",
+			{
+				"name": "MathML",
+				"text": "l - \\varepsilon"
+			},
+			" e ",
+			{
+				"name": "MathML",
+				"text": "l + \\varepsilon"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			"L'ascissa corrispondente al valore ",
+			{
+				"name": "MathML",
+				"text": "l - \\varepsilon"
+			},
+			" è ",
+			{
+				"name": "MathML",
+				"text": "N"
+			},
+			". La definizione dice che :Bold[qualsiasi] ",
+			{
+				"name": "MathML",
+				"text": "x > N"
+			},
+			" avrà il suo valore ",
+			{
+				"name": "MathML",
+				"text": "f(x)"
+			},
+			" :Bold[compreso nell'intervallo] definito da ",
+			{
+				"name": "MathML",
+				"text": "\\varepsilon"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/LimFinito_xINFINITA.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+			}
+		},
+		"Definizione",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\forall \\varepsilon > 0, \\exists N > 0 : \\forall x \\in D, |x| > N \\implies |f(x) - l| < \\varepsilon"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+			}
+		},
+		"Come si legge?",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"\"Per ogni ",
+			{
+				"name": "MathML",
+				"text": "\\varepsilon > 0"
+			},
+			" (arbitrariamente piccolo), esiste un numero ",
+			{
+				"name": "MathML",
+				"text": "N > 0"
+			},
+			" tale che, per ogni ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" appartenente al dominio, ogniqualvolta ",
+			{
+				"name": "MathML",
+				"text": "|x| > N"
+			},
+			", si ha che ",
+			{
+				"name": "MathML",
+				"text": "|f(x) - l| < \\varepsilon"
+			},
+			"\""
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "D - Limite Infinito per x che tende all'Infinito"
+			},
+			"In quest'ultimo caso, mentre ",
+			{
+				"name": "MathML",
+				"text": "x \\to +\\infty"
+			},
+			" la curva non si assesta su nessun valore finito di ",
+			{
+				"name": "MathML",
+				"text": "y"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			"La definizione dice che, scelta una ",
+			{
+				"name": "MathML",
+				"text": "M"
+			},
+			" grande a piacere sull'asse ",
+			{
+				"name": "MathML",
+				"text": "y"
+			},
+			", la sua ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" corrispondente definisce un certo valore ",
+			{
+				"name": "MathML",
+				"text": "N"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			"Sicuramente, se scegliamo una ",
+			{
+				"name": "MathML",
+				"text": "x > N"
+			},
+			" allora anche il suo valore ",
+			{
+				"name": "MathML",
+				"text": "f(x)"
+			},
+			"in modulo sarà :Bold[maggiore] di ",
+			{
+				"name": "MathML",
+				"text": "M"
+			},
+			"."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/LimINFINITO_xINFINITA.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#4A90E2]"
+			}
+		},
+		"Definizione",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\forall M > 0, \\exists N > 0 : \\forall x \\in D, |x| > N \\implies |f(x)| > M"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-sm w-fit px-3 py-0.5 rounded-l-full mx-auto rounded-r-full border-2 border-[#4A90E2] text-[#4A90E2] bg-transparent"
+			}
+		},
+		"Come si legge?",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"\"Per ogni ",
+			{
+				"name": "MathML",
+				"text": "M > 0"
+			},
+			" (arbitrariamente grande), esiste un numero ",
+			{
+				"name": "MathML",
+				"text": "N > 0"
+			},
+			" tale che, per ogni ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" appartenente al dominio, ogniqualvolta ",
+			{
+				"name": "MathML",
+				"text": "|x| > N"
+			},
+			", si ha che ",
+			{
+				"name": "MathML",
+				"text": "|f(x)| > M"
+			},
+			"\""
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}

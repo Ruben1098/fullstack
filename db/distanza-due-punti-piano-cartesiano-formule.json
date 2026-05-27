@@ -1,0 +1,845 @@
+{
+	"slug": "distanza-due-punti-piano-cartesiano-formule",
+	"title": "Distanza Tra Due Punti: Formule ed Esercizi Svolti",
+	"excerpt": "Impara a calcolare la distanza tra due punti nel piano cartesiano. Consulta la tabella delle formule per segmenti obliqui, orizzontali e verticali con esempi pratici.",
+	"category": "Matematica",
+	"school": "Liceo",
+	"class": "Terzo",
+	"course": "Geometria Analitica",
+	"argument": "Il Piano Cartesiano",
+	"featuredImage": "/distanza_island1.webp",
+	"has_pdf_resource": true,
+	"heading": "\n:H1[Distanza Tra Due Punti nel Piano Cartesiano]\n:P[La distanza tra due punti] :MathML[A]:P[e]:MathML[B] :P[in un piano cartesiano è la lunghezza del segmento]:MathML[\\overline{AB}]:P[che unisce i due punti. Ogni punto che vogliamo disegnare sul piano cartesiano possiede una coordinata ]:MathML[x]:P[e una coordinata ]:MathML[y]:P[. Per trovare il valore del segmento si utilizza la formula]:MathML[\\overline{AB}=\\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}]:P[.]\n",
+	"content": [
+		{
+			"name": "Shell",
+			"props": {
+				"type": "open"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Tabella: Formule Distanza Tra Due Punti"
+			},
+			"In questa tabella sono riportate le formule per calcolare la distanza tra due punti in un piano cartesiano:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"className": "pt-0 pb-3",
+				"variant": "intro"
+			}
+		},
+		{
+			"name": "Table",
+			"type": "open",
+			"props": {
+				"className": "mt-7"
+			}
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": "grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+			}
+		},
+		"Segmento",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-lg mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#004890] opacity-100"
+			}
+		},
+		"Formula",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Table",
+			"type": "close"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "Table",
+			"type": "open"
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		{
+			"name": "P",
+			"text": "Obliquo",
+			"props": {
+				"className": "text-xl"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}",
+			"props": {
+				"className": "text-xl"
+			}
+		},
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		{
+			"name": "P",
+			"text": "Orizzontale",
+			"props": {
+				"className": "text-xl"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\vert x_B - x_A \\rvert",
+			"props": {
+				"className": "text-xl"
+			}
+		},
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Row",
+			"type": "open",
+			"props": {
+				"className": " grid grid-cols-2 items-center w-full px-6 text-center"
+			}
+		},
+		{
+			"name": "P",
+			"text": "Verticale",
+			"props": {
+				"className": "text-xl"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\vert y_B - y_A \\rvert",
+			"props": {
+				"className": "text-xl"
+			}
+		},
+		{
+			"name": "Row",
+			"type": "close"
+		},
+		{
+			"name": "Table",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Segmento Obliquo"
+			},
+			"Consideriamo un piano cartesiano e fissiamo due punti",
+			{
+				"name": "MathML",
+				"text": "A"
+			},
+			"e",
+			{
+				"name": "MathML",
+				"text": "B."
+			},
+			"Immaginiamo di collegare questi due punti da un segmento.",
+			"La formula che si utilizza per trovare la distanza tra due punti non è altro che il conosciutissimo :Bold[Teorema di Pitagora]: "
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": " c = \\sqrt{a^{2} + b^{2}}. "
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"I cateti sono",
+			{
+				"name": "MathML",
+				"text": "a"
+			},
+			"e",
+			{
+				"name": "MathML",
+				"text": "b"
+			},
+			", mentre",
+			{
+				"name": "MathML",
+				"text": "c"
+			},
+			"è l'ipotenusa del triangolo rettangolo.",
+			"[[br]]",
+			"[[br]]",
+			" Calcoliamo ad esempio la distanza tra i punti",
+			{
+				"name": "MathML",
+				"text": "A(-2, 1)"
+			},
+			"e",
+			{
+				"name": "MathML",
+				"text": "B(1, 5)."
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/distanza_esempio_obliquo.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Formula Principale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "P",
+				"text": "Applichiamo subito la nostra formula, ma :Bold[occhio ai segni meno!]"
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(1 - (-2))^2+(5 - 1)^2} = \\sqrt{(1 + 2)^2+(5 - 1)^2}"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(3)^2+(4)^2} = \\sqrt{9+16}"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": "\\sqrt{25}=5"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = 5"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Segmento Orizzontale"
+			},
+			"Quando un segmento è orizzontale entrambi i punti sono :Bold[alla stessa altezza], quindi la loro coordinata",
+			{
+				"name": "MathML",
+				"text": "y"
+			},
+			"è uguale.",
+			"[[br]]",
+			"[[br]]",
+			"La formula che si utilizza in questo caso sembra completamente diversa dalla principale, ma in realtà è soltanto una sua semplificazione.",
+			"[[br]]",
+			"[[br]]",
+			"Dato che i punti sono alla stessa altezza, vuol dire che è sufficiente :Bold[sottrarre le rispettive coordinate]",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			".",
+			"[[br]]",
+			"[[br]]",
+			"Ricaviamo la formula ridotta partendo dalla principale:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In questo caso, ",
+			{
+				"name": "MathML",
+				"text": "y_B = y_A,"
+			},
+			" quindi ",
+			{
+				"name": "MathML",
+				"text": "y_B - y_A = 0"
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2} = \\vert x_B - x_A\\rvert"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Quindi, invece di dover calcolare la distanza con il teorema di Pitagora, possiamo semplicemente :Bold[sottrarre le ascisse dei due punti] e prendere il :Bold[valore assoluto] del risultato."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Formula Ridotta",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\vert x_B - x_A\\rvert"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Troviamo la distanza tra i punti ",
+			{
+				"name": "MathML",
+				"text": "A(2,3)"
+			},
+			"e",
+			{
+				"name": "MathML",
+				"text": "B(-4,3)."
+			},
+			"Risolviamo questo esercizio con entrambi i metodi. Vedremo che il risultato sarà lo stesso."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/distanza_esempio_orizzontale.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Metodo 1: Formula Principale"
+			},
+			"Applichiamo la formula principale ai nostri punti."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(-4-2)^2 + (3-3)^2}=\\sqrt{(-6)^2+0^2}"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": "\\sqrt{36+0} = \\sqrt{36} =6"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Metodo 2: Formula Ridotta"
+			},
+			"Lo stesso esercizio è risolvibile anche con la formula ridotta."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\vert -4 -2 \\vert = \\vert -6 \\vert=6"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In ogni caso, il risultato finale è:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = 6"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H2",
+				"text": "Segmento Verticale"
+			},
+			"Quando un segmento è :Bold[verticale] la loro coordinata ",
+			{
+				"name": "MathML",
+				"text": "x"
+			},
+			" è uguale.",
+			"[[br]]",
+			"[[br]]",
+			"Esattamente come accade per il segmento orizzontale, anche in questo caso si può ricavare la formula ridotta a partire dalla principale:"
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(x_B - x_A)^2+(y_B - y_A)^2}"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"In questo caso, ",
+			{
+				"name": "MathML",
+				"text": "x_B = x_A,"
+			},
+			" quindi ",
+			{
+				"name": "MathML",
+				"text": "x_B - x_A = 0"
+			}
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(y_B - y_A)^2} = \\vert y_B - y_A \\rvert"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "theory"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-black rounded-l-full rounded-r-full bg-[#FFB703] opacity-100"
+			}
+		},
+		"Formula Ridotta",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\vert y_B - y_A \\rvert"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			"Troviamo la distanza tra i punti ",
+			{
+				"name": "MathML",
+				"text": "A(2,3)"
+			},
+			" e ",
+			{
+				"name": "MathML",
+				"text": "B(2,-2)."
+			},
+			" Risolviamo anche questo esercizio con entrambi i metodi. Vedremo che il risultato sarà lo stesso."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "div",
+			"type": "open",
+			"props": {
+				"className": "w-full h-auto"
+			}
+		},
+		[
+			{
+				"name": "Image",
+				"src": "/distanza_esempio_verticale.webp"
+			}
+		],
+		{
+			"name": "div",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "open"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Metodo 1: Formula Principale"
+			},
+			"Possiamo applicare la formula principale ai punti assegnati."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = \\sqrt{(2-2)^2 + (-2-3)^2}=\\sqrt{0^2+(-5)^2}"
+		},
+		"::YSeparator[]{className='my-4'}",
+		{
+			"name": "MathML",
+			"text": "\\sqrt{0+25} = \\sqrt{25} = 5"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "P",
+			"type": "open"
+		},
+		[
+			{
+				"name": "H3",
+				"text": "Metodo 2: Formula Ridotta"
+			},
+			"Applichiamo invece la formula ridotta."
+		],
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "step"
+			}
+		},
+		[
+			{
+				"name": "MathML",
+				"text": "\\vert -2 - 3 \\rvert = \\vert -5 \\rvert = 5"
+			}
+		],
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Box",
+			"type": "open",
+			"props": {
+				"variant": "result"
+			}
+		},
+		{
+			"name": "P",
+			"type": "open",
+			"props": {
+				"className": "text-base mx-auto px-4 py-1 text-white rounded-l-full rounded-r-full bg-[#06D6A0] opacity-100"
+			}
+		},
+		"Risultato Finale",
+		{
+			"name": "P",
+			"type": "close"
+		},
+		{
+			"name": "MathML",
+			"text": "\\overline{AB} = 5"
+		},
+		{
+			"name": "Box",
+			"type": "close"
+		},
+		{
+			"name": "Slide",
+			"type": "close"
+		},
+		{
+			"name": "Shell",
+			"type": "close"
+		}
+	]
+}
